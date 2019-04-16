@@ -4,14 +4,14 @@ Documentation and examples for using the Streem SDK on Android.
 
 **Important**: The published SDK is currently just a stub of the API.  Actual implementation coming soon
 
-### Company/App Setup
+## Company/App Setup
 
-* Obtain your `company_id` from Streem
+* Obtain your `companyId` from Streem
 * Provide your Android app `package` for any apps you are going to use the Streem SDK in (later you will be able to do this from a self-service portal)
 * Streem will provide you with an `appId` and `appSecret` for each of your Android apps
 
 
-### Installation
+## Installation
 
 Add the Streem repository to your `build.gradle` file:
 
@@ -36,12 +36,14 @@ dependencies {
 ```
 
 
+## Using the SDK in Your Code
+
 ### Initialization
 
 Initialize the SDK by calling `Streem.initialize` with your App ID.  This should be done in your `Application.onCreate` method:
 
 ```java
-public class MyApplication extends MultiDexApplication {
+public class MyApplication extends Application {
     private static final String TAG = MyApplication.class.getSimpleName();
     private static final String MY_APP_ID = "APP_ID";
 
@@ -98,7 +100,7 @@ When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `
 
 ### Streem Exit Codes
 
-There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state.  You can check the exit code (and kick off a Help Chat experience, for example) by listening for the `Activity` or `Fragment` result.
+There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state.  You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
 
 ```java
     @Override
@@ -111,3 +113,7 @@ There are a few different ways that Streem can exit, including the user pressing
         }
     }
 ```
+
+## Further Documentation
+
+* [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/)
