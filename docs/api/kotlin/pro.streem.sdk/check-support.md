@@ -12,5 +12,5 @@ Checks if the requested [feature](check-support.html#pro.streem.sdk$checkSupport
 asynchronously with the result.
 
 The callback will be called on the same thread that [checkSupport](./check-support.html) was called from if that
-thread is a [HandlerThread](#), or on the main thread otherwise.
+thread is a [android.os.HandlerThread](https://developer.android.com/reference/android/os/HandlerThread.html), or on the main thread otherwise.
 

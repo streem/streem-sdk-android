@@ -8,9 +8,7 @@ title: pro.streem.sdk -
 
 ### Types
 
-| [BuildConfig](-build-config/index.html) | `class BuildConfig`<br>`class BuildConfig` |
 | [Streem](-streem/index.html) | `abstract class Streem` |
-| [StreemRoomActivity](-streem-room-activity/index.html) | `class StreemRoomActivity : FragmentActivity` |
 
 ### Functions
 
@@ -18,5 +16,5 @@ title: pro.streem.sdk -
 
 ### Companion Object Functions
 
-| [initialize](initialize.html) | `fun Streem.Companion.initialize(application: Application, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Streem`](-streem/index.html)<br>Initializes the Streem SDK. Should be called in the Application's `onCreate` method.`fun Streem.Companion.initialize(application: Application, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Streem`](-streem/index.html)<br>Initializes the Streem SDK with an optional [appSecret](initialize.html#pro.streem.sdk$initialize(pro.streem.sdk.Streem.Companion, android.app.Application, kotlin.CharSequence, kotlin.CharSequence, kotlin.Function1((kotlin.Throwable, kotlin.Unit)))/appSecret). Check the SDK documentation for when this overload of `initialize` is needed. |
+| [initialize](initialize.html) | `fun Streem.Companion.initialize(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Streem`](-streem/index.html)<br>Initializes the Streem SDK. Should be called in the Application's `onCreate` method.`fun Streem.Companion.initialize(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Streem`](-streem/index.html)<br>Initializes the Streem SDK with an optional [appSecret](initialize.html#pro.streem.sdk$initialize(pro.streem.sdk.Streem.Companion, android.app.Application, kotlin.CharSequence, kotlin.CharSequence, kotlin.Function1((kotlin.Throwable, kotlin.Unit)))/appSecret). Check the SDK documentation for when this overload of `initialize` is needed. |
 
