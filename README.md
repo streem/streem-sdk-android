@@ -2,6 +2,7 @@
 
 Documentation and examples for using the Streem SDK on Android.
 
+**Important**: The published SDK is currently just a stub of the API.  Actual implementation coming soon
 
 ### Company/App Setup
 
