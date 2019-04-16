@@ -42,15 +42,20 @@ Initialize the SDK by calling `Streem.initialize` with your App ID.  This should
 ```java
 public class MyApplication extends MultiDexApplication {
     private static final String TAG = MyApplication.class.getSimpleName();
-    private static final String MY_APP_ID = "APP_ID"
+    private static final String MY_APP_ID = "APP_ID";
 
     @Override
     public void onCreate() {
         super.onCreate();
         Streem.initialize(
-            this,
-            MY_APP_ID,
-            (error) -> Log.e(TAG, "Error from Streem", error);
+                this,
+                MY_APP_ID,
+                new Consumer<Throwable>() {
+                    @Override
+                    public void accept(Throwable t) {
+                        Log.e(TAG, "Error from Streem", t);
+                    }
+                }
         );
     }
 }
