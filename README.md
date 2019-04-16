@@ -116,4 +116,5 @@ There are a few different ways that Streem can exit, including the user pressing
 
 ## Further Documentation
 
-* [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/)
+* [Java API docs](https://streem.github.io/streem-sdk-android/api/java/)
+* [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/kotlin/)
