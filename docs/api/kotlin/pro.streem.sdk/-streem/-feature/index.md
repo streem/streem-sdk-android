@@ -11,5 +11,5 @@ title: Streem.Feature -
 ### Enum Values
 
 | [AR](-a-r.html) |  |
-| [TUTORIAL](-t-u-t-o-r-i-a-l.html) | Support for displaying AR tutorials. Implies the [AR](-a-r.html) feature. |
+| [TUTORIAL](-t-u-t-o-r-i-a-l.html) | Support for displaying AR tutorials. Implies the `AR` feature. |
 

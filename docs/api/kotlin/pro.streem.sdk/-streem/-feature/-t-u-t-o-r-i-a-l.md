@@ -8,5 +8,5 @@ title: Streem.Feature.TUTORIAL -
 
 `TUTORIAL`
 
-Support for displaying AR tutorials. Implies the [AR](-a-r.html) feature.
+Support for displaying AR tutorials. Implies the `AR` feature.
 

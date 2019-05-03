@@ -1,0 +1,39 @@
+---
+title: StreemBeta - 
+---
+
+[pro.streem.sdk](../index.html) / [StreemBeta](./index.html)
+
+# StreemBeta
+
+`abstract class StreemBeta : `[`Streem`](../-streem/index.html)
+
+### Types
+
+| [ParticipantRequest](-participant-request/index.html) | `data class ParticipantRequest : `[`Parcelable`](https://developer.android.com/reference/android/os/Parcelable.html) |
+| [SessionConfig](-session-config/index.html) | `class SessionConfig : `[`Parcelable`](https://developer.android.com/reference/android/os/Parcelable.html) |
+
+### Constructors
+
+| [&lt;init&gt;](-init-.html) | `StreemBeta()` |
+
+### Functions
+
+| [startStreemActivity](start-streem-activity.html) | `abstract fun startStreemActivity(participants: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`StreemBeta.ParticipantRequest`](-participant-request/index.html)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html) |
+
+### Inherited Functions
+
+| [checkSupport](../-streem/check-support.html) | `abstract fun checkSupport(resultCallback: `[`Consumer`](https://developer.android.com/reference/android/support/v4/util/Consumer.html)`<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>, vararg feature: `[`Streem.Feature`](../-streem/-feature/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Checks if the requested [feature](../-streem/check-support.html#pro.streem.sdk.Streem$checkSupport(android.support.v4.util.Consumer((kotlin.Boolean)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/feature)s are supported on this device. Calls [resultCallback](../-streem/check-support.html#pro.streem.sdk.Streem$checkSupport(android.support.v4.util.Consumer((kotlin.Boolean)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/resultCallback) asynchronously with the result. |
+| [clearUser](../-streem/clear-user.html) | `abstract fun clearUser(): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Clears the user that was last [identify](../-streem/identify.html)ed. This should be used whenever the user logs out from the app. |
+| [getExitCode](../-streem/get-exit-code.html) | `abstract fun getExitCode(requestCode: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, resultCode: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`, data: `[`Intent`](https://developer.android.com/reference/android/content/Intent.html)`?): `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`?`<br>Returns the exit code from the Streem experience if [requestCode](../-streem/get-exit-code.html#pro.streem.sdk.Streem$getExitCode(kotlin.Int, kotlin.Int, android.content.Intent)/requestCode) represents an Activity that was started by the Streem SDK. Otherwise returns `null`. This method should be called from [Activity.onActivityResult](https://developer.android.com/reference/android/app/Activity.html#onActivityResult(int, int, android.content.Intent)) or [Fragment.onActivityResult](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onActivityResult(int, int, android.content.Intent)). |
+| [identify](../-streem/identify.html) | `abstract fun identify(userProfile: `[`Streem.UserProfile`](../-streem/-user-profile/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Identifies the current user to the Streem SDK. New users are automatically provisioned on first use. Existing users will have their profile information updated to match [userProfile](../-streem/identify.html#pro.streem.sdk.Streem$identify(pro.streem.sdk.Streem.UserProfile)/userProfile). |
+| [openTutorial](../-streem/open-tutorial.html) | `abstract fun openTutorial(currentActivity: `[`Activity`](https://developer.android.com/reference/android/app/Activity.html)`, tutorials: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`abstract fun openTutorial(currentFragment: `[`Fragment`](https://developer.android.com/reference/android/support/v4/app/Fragment.html)`, tutorials: `[`List`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)`<`[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`>): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Opens the provided AR [tutorials](../-streem/open-tutorial.html#pro.streem.sdk.Streem$openTutorial(android.app.Activity, kotlin.collections.List((kotlin.ByteArray)))/tutorials) in a new full-screen Activity. The first tutorial in the list will be the starting tutorial.`fun openTutorial(currentActivity: `[`Activity`](https://developer.android.com/reference/android/app/Activity.html)`, vararg tutorial: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun openTutorial(currentFragment: `[`Fragment`](https://developer.android.com/reference/android/support/v4/app/Fragment.html)`, vararg tutorial: `[`ByteArray`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-byte-array/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Opens the provided AR [tutorial](../-streem/open-tutorial.html#pro.streem.sdk.Streem$openTutorial(android.app.Activity, kotlin.Array((kotlin.ByteArray)))/tutorial)s in a new full-screen Activity. The first tutorial in the list will be the starting tutorial.`fun openTutorial(currentActivity: `[`Activity`](https://developer.android.com/reference/android/app/Activity.html)`, vararg resourceId: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>`fun openTutorial(currentFragment: `[`Fragment`](https://developer.android.com/reference/android/support/v4/app/Fragment.html)`, vararg resourceId: `[`Int`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Opens the AR tutorials from the provided raw [resourceId](../-streem/open-tutorial.html#pro.streem.sdk.Streem$openTutorial(android.app.Activity, kotlin.IntArray)/resourceId)s in a new full-screen Activity. The first tutorial in the list will be the starting tutorial. |
+
+### Companion Object Functions
+
+| [get](get.html) | `fun get(): `[`StreemBeta`](./index.html)<br>Returns the shared [StreemBeta](./index.html) instance. [Streem.initialize](../-streem/initialize.html) *MUST* have been called before calling this method. |
+
+### Extension Functions
+
+| [checkSupport](../check-support.html) | `fun `[`Streem`](../-streem/index.html)`.checkSupport(vararg feature: `[`Streem.Feature`](../-streem/-feature/index.html)`, resultCallback: (`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>Checks if the requested [feature](../check-support.html#pro.streem.sdk$checkSupport(pro.streem.sdk.Streem, kotlin.Array((pro.streem.sdk.Streem.Feature)), kotlin.Function1((kotlin.Boolean, kotlin.Unit)))/feature)s are supported on this device. Calls [resultCallback](../check-support.html#pro.streem.sdk$checkSupport(pro.streem.sdk.Streem, kotlin.Array((pro.streem.sdk.Streem.Feature)), kotlin.Function1((kotlin.Boolean, kotlin.Unit)))/resultCallback) asynchronously with the result. |
+

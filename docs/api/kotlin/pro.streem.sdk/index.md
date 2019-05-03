@@ -9,6 +9,7 @@ title: pro.streem.sdk -
 ### Types
 
 | [Streem](-streem/index.html) | `abstract class Streem` |
+| [StreemBeta](-streem-beta/index.html) | `abstract class StreemBeta : `[`Streem`](-streem/index.html) |
 
 ### Functions
 
