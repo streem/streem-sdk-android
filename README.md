@@ -2,8 +2,6 @@
 
 Documentation and examples for using the Streem SDK on Android.
 
-**Important**: The published SDK is currently just a stub of the API.  Actual implementation coming soon
-
 ## Company/App Setup
 
 * Obtain your `companyId` from Streem
@@ -30,7 +28,7 @@ Add `streem-sdk` to your dependencies:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.1.0"
+    implementation "pro.streem:streem-sdk:0.2.0"
     ...
 }
 ```
