@@ -2,11 +2,10 @@
 
 Documentation and examples for using the Streem SDK on Android.
 
-## Company/App Setup
+## App ID
 
-* Obtain your `companyId` from Streem
 * Provide your Android app `package` for any apps you are going to use the Streem SDK in (later you will be able to do this from a self-service portal)
-* Streem will provide you with an `appId` and `appSecret` for each of your Android apps
+* Streem will provide you with an `appId` for each of your Android apps
 
 
 ## Installation
