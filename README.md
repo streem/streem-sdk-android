@@ -32,6 +32,18 @@ dependencies {
 }
 ```
 
+Make sure your app is configured for Java 8 (see https://developer.android.com/studio/write/java8-support for more details):
+
+```gradle
+android {
+    ...
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+```
+
 
 ## Using the SDK in Your Code
 
