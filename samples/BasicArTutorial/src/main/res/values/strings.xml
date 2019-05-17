@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Streem Samples</string>
+    <string name="app_name">Streem Basic AR Tutorial</string>
     <string name="startArTutorial">Run Example Tutorial</string>
     <string name="checking_tutorial_support">Checking tutorial support…</string>
     <string name="tutorials_not_supported">Tutorials not supported on this device</string>
