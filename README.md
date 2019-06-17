@@ -4,9 +4,8 @@ Documentation and examples for using the Streem SDK on Android.
 
 ## App ID
 
-* Provide your Android app `package` for any apps you are going to use the Streem SDK in (later you will be able to do this from a self-service portal)
-* Streem will provide you with an `appId` for each of your Android apps
-
+-   Provide your Android app `package` for any apps you are going to use the Streem SDK in (later you will be able to do this from a self-service portal)
+-   Streem will provide you with an `appId` for each of your Android apps
 
 ## Installation
 
@@ -27,7 +26,7 @@ Add `streem-sdk` to your dependencies:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.4.1"
+    implementation "pro.streem:streem-sdk:0.4.2"
     ...
 }
 ```
@@ -44,12 +43,11 @@ android {
 }
 ```
 
-
 ## Using the SDK in Your Code
 
 ### Initialization
 
-Initialize the SDK by calling `Streem.initialize` with your App ID.  This should be done in your `Application.onCreate` method:
+Initialize the SDK by calling `Streem.initialize` with your App ID. This should be done in your `Application.onCreate` method:
 
 ```java
 public class MyApplication extends Application {
@@ -87,10 +85,9 @@ Once the user has logged into your app, inform Streem they are logged in by call
     );
 ```
 
-
 ### AR Tutorials
 
-Check Tutorial support using the `Streem.checkSupport` method.  
+Check Tutorial support using the `Streem.checkSupport` method.
 
 ```java
     Streem.get().checkSupport((supported -> {
@@ -98,7 +95,7 @@ Check Tutorial support using the `Streem.checkSupport` method.
     }), Streem.Feature.TUTORIAL);
 ```
 
-This checks whether the device has the necessary components to run Tutorials, including ARCore and SceneForm support.  If the above check returns `true`, show whatever UI makes sense for your app to indicate AR Tutorial support.
+This checks whether the device has the necessary components to run Tutorials, including ARCore and SceneForm support. If the above check returns `true`, show whatever UI makes sense for your app to indicate AR Tutorial support.
 
 When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `tutorial` resource you received from Streem, and the current activity or fragment.
 
@@ -106,10 +103,9 @@ When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `
     Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
 ```
 
-
 ### Streem Exit Codes
 
-There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state.  You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
+There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state. You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
 
 ```java
     @Override
@@ -125,5 +121,5 @@ There are a few different ways that Streem can exit, including the user pressing
 
 ## Further Documentation
 
-* [Java API docs](https://streem.github.io/streem-sdk-android/api/java/)
-* [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/kotlin/)
+-   [Java API docs](https://streem.github.io/streem-sdk-android/api/java/)
+-   [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/kotlin/)
