@@ -73,7 +73,7 @@ public class MyApplication extends Application {
 
 ### Logging In
 
-Once the user has logged into your app, inform Streem they are logged in by calling `Streem.identify` with the necessary user information:
+Once the user has logged into your app, inform Streem they are logged in by calling `Streem.identify` with the necessary user information. Here Streem uses the `userId` as the identifier for your user in Streem's system. The associated information you supply can be updated at any time by calling identify again. The identify call looks like:
 
 ```java
     Streem.get().identify(Streem.UserProfile.builder()
@@ -85,7 +85,24 @@ Once the user has logged into your app, inform Streem they are logged in by call
     );
 ```
 
+### Remote Streems
+
+To start a remote streem, you will need three things: an activity or fragment, the session configuration of the local participant, and the remote participant. Calling a streem from your current activity may look like:
+
+```java
+   String remoteUserId = "some remote userId";
+   final Streem.SessionConfig localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER;
+   final Streem.SessionConfig remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO;
+   final Streem.ParticipantRequest remoteUser = new Streem.ParticipantRequest(remoteUserId, remoteSessionConfig);
+   
+   Streem.get().startStreemActivity(requireActivity(), localSessionConfig, remoteUser);
+```
+
+To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
+
 ### AR Tutorials
+
+_NOTE: AR Tutorials are a work in progress. If you're interested in using them please contact product@streem.pro_
 
 Check Tutorial support using the `Streem.checkSupport` method.
 
