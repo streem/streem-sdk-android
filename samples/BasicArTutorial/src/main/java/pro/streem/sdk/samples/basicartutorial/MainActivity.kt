@@ -1,5 +1,6 @@
 package pro.streem.sdk.samples.basicartutorial
 
+import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.RawRes
@@ -34,10 +35,15 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "Got result: requestCode = $requestCode, resultCode = $resultCode")
         super.onActivityResult(requestCode, resultCode, data)
 
-        val streemExitCode = Streem.get().getExitCode(requestCode, resultCode, data)
-        if (streemExitCode != null) {
-            Log.i(TAG, "Streem exit code: $streemExitCode")
-            Snackbar.make(container, streemExitCode, Snackbar.LENGTH_SHORT).show()
+        if (resultCode == Activity.RESULT_OK) {
+            val streemExitCode = Streem.get().getExitCode(requestCode, resultCode, data)
+            if (streemExitCode != null) {
+                Log.i(TAG, "Streem exit code: $streemExitCode")
+                Snackbar.make(container, streemExitCode, Snackbar.LENGTH_SHORT).show()
+            }
+        } else {
+            Snackbar.make(container, R.string.streem_activity_exited_unexpectedly, Snackbar.LENGTH_SHORT)
+                .show()
         }
     }
 
@@ -57,5 +63,4 @@ class MainActivity : AppCompatActivity() {
     companion object {
         private val TAG = MainActivity::class.java.simpleName
     }
-
 }

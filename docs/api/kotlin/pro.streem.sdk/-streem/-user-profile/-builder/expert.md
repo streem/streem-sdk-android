@@ -6,5 +6,4 @@ title: Streem.UserProfile.Builder.expert -
 
 # expert
 
-`var expert: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
-`fun expert(expert: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Streem.UserProfile.Builder`](index.html)
+`val expert: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)

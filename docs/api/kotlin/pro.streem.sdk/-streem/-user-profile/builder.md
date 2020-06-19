@@ -6,4 +6,4 @@ title: Streem.UserProfile.builder -
 
 # builder
 
-`@JvmStatic fun builder(): `[`Streem.UserProfile.Builder`](-builder/index.html)
+`@JvmStatic fun builder(user: `[`Streem.User`](../-user/index.html)`, expert: `[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`): `[`Streem.UserProfile.Builder`](-builder/index.html)

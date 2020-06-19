@@ -26,7 +26,7 @@ Add `streem-sdk` to your dependencies:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.4.5"
+    implementation "pro.streem:streem-sdk:0.5.0"
     ...
 }
 ```
@@ -47,7 +47,9 @@ android {
 
 ### Initialization
 
-Initialize the SDK by calling `Streem.initialize` with your App ID. This should be done in your `Application.onCreate` method:
+Initialize the SDK by calling `Streem.initialize` with a Streem Configuration. This should be done in your `Application.onCreate` method:
+
+Java:
 
 ```java
 public class MyApplication extends Application {
@@ -57,37 +59,105 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Streem.initialize(
-                this,
-                MY_APP_ID,
-                new Consumer<Throwable>() {
-                    @Override
-                    public void accept(Throwable t) {
-                        Log.e(TAG, "Error from Streem", t);
-                    }
+
+        final Streem.Configuration configuration = Streem.Configuration.builder(
+            this,
+            MY_APP_ID,
+            new Consumer<Throwable>() {
+                @Override
+                public void accept(Throwable t) {
+                    Log.e(TAG, "Error from Streem", t);
                 }
-        );
+            }).build();
+        Streem.initialize(configuration);
+    }
+}
+```
+
+Kotlin:
+
+```kotlin
+class MyApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+
+        val configuration = Streem.Configuration(
+            application = this,
+            appId = MY_APP_ID,
+            errorListener = { error -> Log.e(TAG, "Error from Streem", error) }
+        )
+        Streem.initialize(configuration)
+    }
+
+    companion object {
+        private val TAG = MyApplication::class.java.simpleName
+        private const val MY_APP_ID = "APP_ID"
     }
 }
 ```
 
 ### Logging In
 
-Once the user has logged into your app, inform Streem they are logged in by calling `Streem.identify` with the necessary user information:
+Once the user has logged into your app, inform Streem they are logged in by calling `Streem.identify` with the necessary user information. Here Streem uses the `userId` as the identifier for your user in Streem's system. The associated information you supply can be updated at any time by calling `identify` again. User and expert status are required. The `identify` call looks like:
+
+Java:
 
 ```java
-    Streem.get().identify(Streem.UserProfile.builder()
-        .user(Streem.User.withUserId("alice"))
-        .expert(false)
+    Streem.get().identify(Streem.UserProfile.builder(Streem.User.withUserId("alice"), false)
         .name("Alice Smith")
         .avatarUrl("https://robohash.org/alice.png")
         .build()
     );
 ```
 
+Kotlin:
+
+```kotlin
+Streem.get().identify(
+    Streem.UserProfile(
+        user = Streem.User.withUserId("alice"),
+        expert = false,
+        name = "Alice Smith",
+        avatarUrl = "https://robohash.org/alice.png"
+    )
+)
+```
+
+### Remote Streems
+
+To start a remote streem, you will need three things: an activity or fragment, the session configuration of the local participant, and the remote participant. Calling a streem from your current activity or fragment may look like:
+
+Java:
+
+```java
+    String remoteUserId = "some remote userId";
+    final Streem.SessionConfig localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER;
+    final Streem.SessionConfig remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO;
+    final Streem.ParticipantRequest remoteUser = new Streem.ParticipantRequest(remoteUserId, remoteSessionConfig);
+
+    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser);
+```
+
+Kotlin:
+
+```kotlin
+    val remoteUserId = "some remote userId"
+    val localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER
+    val remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO
+    val remoteUser = Streem.ParticipantRequest(remoteUserId, remoteSessionConfig)
+
+    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser)
+```
+
+To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
+
 ### AR Tutorials
 
+_NOTE: AR Tutorials are a work in progress. If you're interested in using them please contact product@streem.pro_
+
 Check Tutorial support using the `Streem.checkSupport` method.
+
+Java:
 
 ```java
     Streem.get().checkSupport((supported -> {
@@ -95,11 +165,27 @@ Check Tutorial support using the `Streem.checkSupport` method.
     }), Streem.Feature.TUTORIAL);
 ```
 
+Kotlin:
+
+```kotlin
+    Streem.get().checkSupport(Streem.Feature.TUTORIAL) { supported -> {
+        // Show tutorial button when supported == true
+    }
+```
+
 This checks whether the device has the necessary components to run Tutorials, including ARCore and SceneForm support. If the above check returns `true`, show whatever UI makes sense for your app to indicate AR Tutorial support.
 
 When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `tutorial` resource you received from Streem, and the current activity or fragment.
 
+Java:
+
 ```java
+    Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
+```
+
+Kotlin:
+
+```kotlin
     Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
 ```
 
@@ -107,14 +193,33 @@ When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `
 
 There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state. You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
 
+Java:
+
 ```java
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        String exitCode = Streem.get().getExitCode(requestCode, resultCode, data);
-        if (Streem.EXIT_CODE_HELP.equals(exitCode)) {
-            // Kick off Help experience
+        if (resultCode == Activity.RESULT_OK) {
+            String exitCode = Streem.get().getExitCode(requestCode, resultCode, data);
+            if (Streem.EXIT_CODE_HELP.equals(exitCode)) {
+                // Kick off Help experience
+            }
+        }
+    }
+```
+
+Kotlin:
+
+```kotlin
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (resultCode == Activity.RESULT_OK) {
+            val exitCode = Streem.get().getExitCode(requestCode, resultCode, data)
+            if (Streem.EXIT_CODE_HELP == exitCode) {
+                // Kick off Help experience
+            }
         }
     }
 ```

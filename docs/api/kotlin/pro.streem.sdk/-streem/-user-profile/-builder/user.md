@@ -6,5 +6,4 @@ title: Streem.UserProfile.Builder.user -
 
 # user
 
-`var user: `[`Streem.User`](../../-user/index.html)
-`fun user(user: `[`Streem.User`](../../-user/index.html)`): `[`Streem.UserProfile.Builder`](index.html)
+`val user: `[`Streem.User`](../../-user/index.html)

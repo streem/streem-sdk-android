@@ -14,11 +14,15 @@ class BasicArTutorialApplication : MultiDexApplication() {
 
     override fun onCreate() {
         super.onCreate()
-
-        Streem.initialize(this, getString(R.string.streemAppId)) {
-            Log.e(TAG, "Error while Streeming", it)
-            Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
-        }
+        Streem.initialize(
+                Streem.Configuration(
+                        application = this,
+                        appId = getString(R.string.streemAppId)
+                ) {
+                    Log.e(TAG, "Error while Streeming", it)
+                    Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
+                }
+        )
     }
 
     companion object {

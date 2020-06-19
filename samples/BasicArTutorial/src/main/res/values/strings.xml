@@ -3,4 +3,5 @@
     <string name="startArTutorial">Run Example Tutorial</string>
     <string name="checking_tutorial_support">Checking tutorial support…</string>
     <string name="tutorials_not_supported">Tutorials not supported on this device</string>
+    <string name="streem_activity_exited_unexpectedly">Streem activity exited unexpectedly</string>
 </resources>
