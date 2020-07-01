@@ -8,20 +8,20 @@ import android.support.multidex.MultiDexApplication
 import android.util.Log
 import android.widget.Toast
 import pro.streem.sdk.Streem
-import pro.streem.sdk.initialize
 
 class BasicArTutorialApplication : MultiDexApplication() {
-
     override fun onCreate() {
         super.onCreate()
         Streem.initialize(
-                Streem.Configuration(
-                        application = this,
-                        appId = getString(R.string.streemAppId)
-                ) {
-                    Log.e(TAG, "Error while Streeming", it)
-                    Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
-                }
+            Streem.Configuration(
+                application = this,
+                appId = getString(R.string.streemAppId),
+                appSecret = getString(R.string.streemAppSecret),
+                environment = Streem.Environment.PROD_US
+            ) {
+                Log.e(TAG, "Error while Streeming", it)
+                Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
+            }
         )
     }
 

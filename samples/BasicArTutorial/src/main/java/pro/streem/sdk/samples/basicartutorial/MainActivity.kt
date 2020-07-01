@@ -5,20 +5,30 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.annotation.RawRes
 import android.support.design.widget.Snackbar
+import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
+import com.vanniktech.rxpermission.Permission
+import com.vanniktech.rxpermission.RealRxPermission
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.rxkotlin.addTo
+import io.reactivex.rxkotlin.subscribeBy
 import kotlinx.android.synthetic.main.main_activity.*
 import pro.streem.sdk.Streem
 import pro.streem.sdk.checkSupport
 
 class MainActivity : AppCompatActivity() {
 
+    private val compositeDisposable = CompositeDisposable()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
         arTutorialButton.setOnClickListener { runTutorial(R.raw.tutorial_public) }
+
+        checkPermissions()
 
         Streem.get().checkSupport(Streem.Feature.TUTORIAL) { streemSupported ->
             if (streemSupported) {
@@ -44,6 +54,46 @@ class MainActivity : AppCompatActivity() {
         } else {
             Snackbar.make(container, R.string.streem_activity_exited_unexpectedly, Snackbar.LENGTH_SHORT)
                 .show()
+        }
+    }
+
+    override fun onDestroy() {
+        compositeDisposable.clear()
+        super.onDestroy()
+    }
+
+    private fun checkPermissions() {
+        val missingPermissions = Streem.get().getMissingPermissions(this)
+        if (missingPermissions.isNotEmpty()) {
+            RealRxPermission.getInstance(this)
+                .requestEach(*missingPermissions.toTypedArray())
+                .doOnNext { result -> Log.d(TAG, "Permission result: $result") }
+                .filter { result -> result.state() != Permission.State.GRANTED }
+                .toList()
+                .subscribeBy(
+                    onSuccess = { deniedPermissions ->
+                        if (deniedPermissions.isNotEmpty()) {
+                            AlertDialog.Builder(this).apply {
+                                setTitle(R.string.dialog_permission_not_granted_title)
+                                setMessage(
+                                    String.format(
+                                        getString(R.string.dialog_permission_not_granted_message_format),
+                                        deniedPermissions.joinToString { it.name() }
+                                    )
+                                )
+                                setPositiveButton(R.string.dialog_permission_not_granted_button) { dialog, _ ->
+                                    dialog.dismiss()
+                                }
+                                create()
+                                show()
+                            }
+                        }
+                    },
+                    onError = {
+                        Log.e(TAG, "Error requesting permissions", it)
+                    }
+                )
+                .addTo(compositeDisposable)
         }
     }
 
