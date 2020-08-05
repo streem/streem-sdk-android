@@ -4,9 +4,9 @@
 
 package pro.streem.sdk.samples.basicartutorial
 
-import android.support.multidex.MultiDexApplication
 import android.util.Log
 import android.widget.Toast
+import androidx.multidex.MultiDexApplication
 import pro.streem.sdk.Streem
 
 class BasicArTutorialApplication : MultiDexApplication() {

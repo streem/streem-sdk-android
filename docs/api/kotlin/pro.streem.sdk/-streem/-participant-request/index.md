@@ -10,10 +10,10 @@ title: Streem.ParticipantRequest -
 
 ### Constructors
 
-| [&lt;init&gt;](-init-.html) | `ParticipantRequest(userId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, sessionConfig: `[`Streem.SessionConfig`](../-session-config/index.html)`)` |
+| [&lt;init&gt;](-init-.html) | `ParticipantRequest(remoteUserId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, sessionConfig: `[`Streem.SessionConfig`](../-session-config/index.html)`)` |
 
 ### Properties
 
+| [remoteUserId](remote-user-id.html) | `val remoteUserId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 | [sessionConfig](session-config.html) | `val sessionConfig: `[`Streem.SessionConfig`](../-session-config/index.html) |
-| [userId](user-id.html) | `val userId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

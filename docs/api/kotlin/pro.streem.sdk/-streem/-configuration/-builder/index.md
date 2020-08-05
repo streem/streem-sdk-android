@@ -14,7 +14,7 @@ title: Streem.Configuration.Builder -
 | [application](application.html) | `val application: `[`Application`](https://developer.android.com/reference/android/app/Application.html) |
 | [appSecret](app-secret.html) | `var appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`?` |
 | [environment](environment.html) | `var environment: `[`Streem.Environment`](../../-environment/index.html)`?` |
-| [errorListener](error-listener.html) | `val errorListener: `[`Consumer`](https://developer.android.com/reference/android/support/v4/util/Consumer.html)`<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>` |
+| [errorListener](error-listener.html) | `val errorListener: Consumer<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>` |
 
 ### Functions
 

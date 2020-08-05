@@ -10,7 +10,7 @@ title: Streem.getExitCode -
 
 Returns the exit code from the Streem experience if [requestCode](get-exit-code.html#pro.streem.sdk.Streem$getExitCode(kotlin.Int, kotlin.Int, android.content.Intent)/requestCode) represents an Activity that
 was started by the Streem SDK. Otherwise returns `null`. This method should be called from
-[Activity.onActivityResult](https://developer.android.com/reference/android/app/Activity.html#onActivityResult(int, int, android.content.Intent)) or [Fragment.onActivityResult](https://developer.android.com/reference/android/support/v4/app/Fragment.html#onActivityResult(int, int, android.content.Intent)). It should only be called when
+[Activity.onActivityResult](https://developer.android.com/reference/android/app/Activity.html#onActivityResult(int, int, android.content.Intent)) or [Fragment.onActivityResult](#). It should only be called when
 [resultCode](get-exit-code.html#pro.streem.sdk.Streem$getExitCode(kotlin.Int, kotlin.Int, android.content.Intent)/resultCode) == RESULT_OK in order to avoid calling Streem.get() before the Streem SDK has
 been initialized.
 

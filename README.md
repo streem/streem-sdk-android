@@ -9,14 +9,12 @@ Documentation and examples for using the Streem SDK on Android.
 
 ## Installation
 
-Add the Streem repository to your `build.gradle` file:
+Add the JCenter repository to your `build.gradle` file:
 
 ```gradle
 repositories {
     ...
-    maven {
-        url "https://maven.sandbox.streem.cloud/"
-    }
+    jcenter()
     ...
 }
 ```
@@ -26,7 +24,7 @@ Add `streem-sdk` to your dependencies:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.5.2"
+    implementation "pro.streem:streem-sdk:1.0.0"
     ...
 }
 ```
@@ -98,12 +96,12 @@ class MyApplication : Application() {
 
 ### Logging In
 
-Once the user has logged into your app, inform Streem they are logged in by calling `Streem.identify` with the necessary user information. Here Streem uses the `userId` as the identifier for your user in Streem's system. The associated information you supply can be updated at any time by calling `identify` again. User and expert status are required. The `identify` call looks like:
+Once the user has logged into your app, inform Streem they are logged in by calling `Streem.login` with the necessary user information. Here Streem uses the `userId` as the identifier for your user in Streem's system. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
 
 Java:
 
 ```java
-    Streem.get().identify(Streem.UserProfile.builder(Streem.User.withUserId("alice"), false)
+    Streem.get().login(Streem.UserProfile.builder(Streem.User.withUserId("alice"), false)
         .name("Alice Smith")
         .avatarUrl("https://robohash.org/alice.png")
         .build()
@@ -113,7 +111,7 @@ Java:
 Kotlin:
 
 ```kotlin
-Streem.get().identify(
+Streem.get().login(
     Streem.UserProfile(
         user = Streem.User.withUserId("alice"),
         expert = false,

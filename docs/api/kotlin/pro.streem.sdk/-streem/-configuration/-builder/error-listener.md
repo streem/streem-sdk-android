@@ -6,4 +6,4 @@ title: Streem.Configuration.Builder.errorListener -
 
 # errorListener
 
-`val errorListener: `[`Consumer`](https://developer.android.com/reference/android/support/v4/util/Consumer.html)`<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>`
+`val errorListener: Consumer<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>`

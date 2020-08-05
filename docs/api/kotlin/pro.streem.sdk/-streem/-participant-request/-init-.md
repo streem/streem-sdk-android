@@ -6,4 +6,4 @@ title: Streem.ParticipantRequest.<init> -
 
 # &lt;init&gt;
 
-`ParticipantRequest(userId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, sessionConfig: `[`Streem.SessionConfig`](../-session-config/index.html)`)`
+`ParticipantRequest(remoteUserId: `[`String`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)`, sessionConfig: `[`Streem.SessionConfig`](../-session-config/index.html)`)`

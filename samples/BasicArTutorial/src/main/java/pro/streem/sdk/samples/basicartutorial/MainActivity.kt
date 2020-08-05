@@ -3,12 +3,12 @@ package pro.streem.sdk.samples.basicartutorial
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.support.annotation.RawRes
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.View
+import androidx.annotation.RawRes
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.vanniktech.rxpermission.Permission
 import com.vanniktech.rxpermission.RealRxPermission
 import io.reactivex.disposables.CompositeDisposable
@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun runTutorial(@RawRes tutorial: Int) {
-        Streem.get().identify(
+        Streem.get().login(
             Streem.UserProfile(
                 user = Streem.User.withUserId("jstreem"),
                 expert = false,
