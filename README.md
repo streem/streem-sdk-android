@@ -9,17 +9,18 @@ Documentation and examples for using the Streem SDK on Android.
 
 ## Installation
 
-Add the JCenter repository to your `build.gradle` file:
+Add the JCenter and Jitpack repositories to your project `build.gradle` file:
 
 ```gradle
 repositories {
     ...
     jcenter()
+    maven { url 'https://jitpack.io' }
     ...
 }
 ```
 
-Add `streem-sdk` to your dependencies:
+Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 
 ```gradle
 dependencies {
@@ -29,7 +30,7 @@ dependencies {
 }
 ```
 
-Make sure your app is configured for Java 8 (see https://developer.android.com/studio/write/java8-support for more details):
+Check your module `build.gradle` fild to make sure your app is configured for Java 8 (see https://developer.android.com/studio/write/java8-support for more details):
 
 ```gradle
 android {
@@ -39,6 +40,17 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
+```
+
+You will also want to add the following packagingOptions to your module `build.gradle` file: 
+
+```gradle
+android {
+    ...
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        pickFirst 'META-INF/kotlinx-serialization-runtime.kotlin_module'
+    }
 ```
 
 ## Using the SDK in Your Code
@@ -119,6 +131,35 @@ Streem.get().login(
         avatarUrl = "https://robohash.org/alice.png"
     )
 )
+```
+
+### Permissions
+
+There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list required permissions you can call `getRequiredPermission` like so:
+
+Java:
+
+```java
+    Streem.get().getRequiredPermissions();
+```
+
+Kotlin:
+
+```kotlin
+    Streem.get().getRequiredPermissions()
+```
+You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. This can be called like so:
+
+Java: 
+
+```java
+    Streem.get().getMissingPermissions(context);
+```
+
+Kotlin:
+
+```kotlin
+    Streem.get().getMissingPermissions(context);
 ```
 
 ### Remote Streems
