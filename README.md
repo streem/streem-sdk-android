@@ -7,19 +7,24 @@ Documentation and examples for using the Streem SDK on Android.
 -   Provide your Android app `package` for any apps you are going to use the Streem SDK in (later you will be able to do this from a self-service portal)
 -   Streem will provide you with an `appId` for each of your Android apps
 
+#### Note About Android App Links
+
+If you want to use Android App Links in your app you will have to tell Streem when you provide your Android app `package`. You will also need to provide the SHA-256 fingerprint of your app's signing certificate. Streem will then update Streem's Digital Asset Links JSON file to handle your app. You will then need to add two `https` schemes with hosts of `<companyCode>.swac.prod-us.streem.cloud` and `<companyCode>.streem.me` to your app manifest. Details on how to do this can be found at https://developer.android.com/training/app-links/deep-linking. You should also review the information here for more about Android App Links: https://developer.android.com/training/app-links/verify-site-associations#request-verify. Once Streem lets you know that the Digital Asset Link JSON file has been updated, you are ready to start using Android App Links.  
+
 ## Installation
 
-Add the JCenter repository to your `build.gradle` file:
+Add the JCenter and Jitpack repositories to your project `build.gradle` file:
 
 ```gradle
 repositories {
     ...
     jcenter()
+    maven { url 'https://jitpack.io' }
     ...
 }
 ```
 
-Add `streem-sdk` to your dependencies:
+Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 
 ```gradle
 dependencies {
@@ -29,7 +34,7 @@ dependencies {
 }
 ```
 
-Make sure your app is configured for Java 8 (see https://developer.android.com/studio/write/java8-support for more details):
+Check your module `build.gradle` file to make sure your app is configured for Java 8 (see https://developer.android.com/studio/write/java8-support for more details):
 
 ```gradle
 android {
@@ -41,11 +46,22 @@ android {
 }
 ```
 
+You will also want to add the following packagingOptions to your module `build.gradle` file: 
+
+```gradle
+android {
+    ...
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        pickFirst 'META-INF/kotlinx-serialization-runtime.kotlin_module'
+    }
+```
+
 ## Using the SDK in Your Code
 
 ### Initialization
 
-Initialize the SDK by calling `Streem.initialize` with a Streem Configuration. This should be done in your `Application.onCreate` method:
+Initialize the SDK by calling `Streem.initialize` with a Streem Configuration. This should be done in your `Application.onCreate` method. In order to initialize your Streem Configuration you will need an App Id provided to you by Streem:
 
 Java:
 
@@ -66,7 +82,9 @@ public class MyApplication extends Application {
                 public void accept(Throwable t) {
                     Log.e(TAG, "Error from Streem", t);
                 }
-            }).build();
+            })
+        .environment(Streem.Environment.PROD_US)
+        .build();
         Streem.initialize(configuration);
     }
 }
@@ -82,7 +100,8 @@ class MyApplication : Application() {
         val configuration = Streem.Configuration(
             application = this,
             appId = MY_APP_ID,
-            errorListener = { error -> Log.e(TAG, "Error from Streem", error) }
+            errorListener = { error -> Log.e(TAG, "Error from Streem", error) },
+            environment = Streem.Environment.PROD_US
         )
         Streem.initialize(configuration)
     }
@@ -94,15 +113,17 @@ class MyApplication : Application() {
 }
 ```
 
+
 ### Logging In
 
-Once the user has logged into your app, inform Streem they are logged in by calling `Streem.login` with the necessary user information. Here Streem uses the `userId` as the identifier for your user in Streem's system. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
+The next step is to login your user by calling `Streem.login` with the necessary user information.
+First you will want to build a `UserProfile`. Currently, we fully support building a `UserProfile` via an invitation code. Logging in with credentials other than invitation codes is coming soon.
+Here Streem uses the `invitationCode` to look up your user's information to identify them. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
 
 Java:
 
 ```java
-    Streem.get().login(Streem.UserProfile.builder(Streem.User.withUserId("alice"), false)
-        .name("Alice Smith")
+    Streem.get().login(Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
         .avatarUrl("https://robohash.org/alice.png")
         .build()
     );
@@ -113,13 +134,43 @@ Kotlin:
 ```kotlin
 Streem.get().login(
     Streem.UserProfile(
-        user = Streem.User.withUserId("alice"),
+        user = Streem.User.withInvitationCode("yourInviteCode"),
         expert = false,
-        name = "Alice Smith",
         avatarUrl = "https://robohash.org/alice.png"
     )
 )
 ```
+
+
+### Permissions
+
+There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list of required permissions you can call `getRequiredPermissions` like so:
+
+Java:
+
+```java
+    Streem.get().getRequiredPermissions();
+```
+
+Kotlin:
+
+```kotlin
+    Streem.get().getRequiredPermissions()
+```
+You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. This can be called like so:
+
+Java: 
+
+```java
+    Streem.get().getMissingPermissions(context);
+```
+
+Kotlin:
+
+```kotlin
+    Streem.get().getMissingPermissions(context);
+```
+
 
 ### Remote Streems
 
@@ -148,6 +199,43 @@ Kotlin:
 ```
 
 To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
+
+
+### Streem Exit Codes
+
+There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state. You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
+
+Java:
+
+```java
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (resultCode == Activity.RESULT_OK) {
+            String exitCode = Streem.get().getExitCode(requestCode, resultCode, data);
+            if (Streem.EXIT_CODE_HELP.equals(exitCode)) {
+                // Kick off Help experience
+            }
+        }
+    }
+```
+
+Kotlin:
+
+```kotlin
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (resultCode == Activity.RESULT_OK) {
+            val exitCode = Streem.get().getExitCode(requestCode, resultCode, data)
+            if (Streem.EXIT_CODE_HELP == exitCode) {
+                // Kick off Help experience
+            }
+        }
+    }
+```
+
 
 ### AR Tutorials
 
@@ -187,42 +275,7 @@ Kotlin:
     Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
 ```
 
-### Streem Exit Codes
-
-There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state. You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
-
-Java:
-
-```java
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (resultCode == Activity.RESULT_OK) {
-            String exitCode = Streem.get().getExitCode(requestCode, resultCode, data);
-            if (Streem.EXIT_CODE_HELP.equals(exitCode)) {
-                // Kick off Help experience
-            }
-        }
-    }
-```
-
-Kotlin:
-
-```kotlin
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        if (resultCode == Activity.RESULT_OK) {
-            val exitCode = Streem.get().getExitCode(requestCode, resultCode, data)
-            if (Streem.EXIT_CODE_HELP == exitCode) {
-                // Kick off Help experience
-            }
-        }
-    }
-```
 
 ## Further Documentation
-
 -   [Java API docs](https://streem.github.io/streem-sdk-android/api/java/)
 -   [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/kotlin/)
