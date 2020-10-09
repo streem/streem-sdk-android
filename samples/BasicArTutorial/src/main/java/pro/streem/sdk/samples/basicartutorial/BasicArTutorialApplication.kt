@@ -17,7 +17,7 @@ class BasicArTutorialApplication : MultiDexApplication() {
                 application = this,
                 appId = getString(R.string.streemAppId),
                 appSecret = getString(R.string.streemAppSecret),
-                environment = Streem.Environment.PROD_US
+                environment = Streem.Environment.SANDBOX
             ) {
                 Log.e(TAG, "Error while Streeming", it)
                 Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()

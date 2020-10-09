@@ -9,17 +9,16 @@ Documentation and examples for using the Streem SDK on Android.
 
 #### Note About Android App Links
 
-If you want to use Android App Links in your app you will have to tell Streem when you provide your Android app `package`. You will also need to provide the SHA-256 fingerprint of your app's signing certificate. Streem will then update Streem's Digital Asset Links JSON file to handle your app. You will then need to add two `https` schemes with hosts of `<companyCode>.swac.prod-us.streem.cloud` and `<companyCode>.streem.me` to your app manifest. Details on how to do this can be found at https://developer.android.com/training/app-links/deep-linking. You should also review the information here for more about Android App Links: https://developer.android.com/training/app-links/verify-site-associations#request-verify. Once Streem lets you know that the Digital Asset Link JSON file has been updated, you are ready to start using Android App Links.  
+If you want to use Android App Links in your app you will have to tell Streem when you provide your Android app `package`. You will also need to provide the SHA-256 fingerprint of your app's signing certificate. Streem will then update Streem's Digital Asset Links JSON file to handle your app. You will then need to add two `https` schemes with hosts of `<companyCode>.swac.prod-us.streem.cloud` and `<companyCode>.streem.me` to your app manifest. Details on how to do this can be found at https://developer.android.com/training/app-links/deep-linking. You should also review the information here for more about Android App Links: https://developer.android.com/training/app-links/verify-site-associations#request-verify. Once Streem lets you know that the Digital Asset Link JSON file has been updated, you are ready to start using Android App Links.
 
 ## Installation
 
-Add the JCenter and Jitpack repositories to your project `build.gradle` file:
+Add the JCenter repository to your project `build.gradle` file:
 
 ```gradle
 repositories {
     ...
     jcenter()
-    maven { url 'https://jitpack.io' }
     ...
 }
 ```
@@ -29,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.0.1"
+    implementation "pro.streem:streem-sdk:1.0.2"
     ...
 }
 ```
@@ -46,7 +45,7 @@ android {
 }
 ```
 
-You will also want to add the following packagingOptions to your module `build.gradle` file: 
+You will also want to add the following packagingOptions to your module `build.gradle` file:
 
 ```gradle
 android {
@@ -113,7 +112,6 @@ class MyApplication : Application() {
 }
 ```
 
-
 ### Logging In
 
 The next step is to login your user by calling `Streem.login` with the necessary user information.
@@ -141,7 +139,6 @@ Streem.get().login(
 )
 ```
 
-
 ### Permissions
 
 There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list of required permissions you can call `getRequiredPermissions` like so:
@@ -157,9 +154,10 @@ Kotlin:
 ```kotlin
     Streem.get().getRequiredPermissions()
 ```
+
 You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. This can be called like so:
 
-Java: 
+Java:
 
 ```java
     Streem.get().getMissingPermissions(context);
@@ -170,7 +168,6 @@ Kotlin:
 ```kotlin
     Streem.get().getMissingPermissions(context);
 ```
-
 
 ### Remote Streems
 
@@ -199,7 +196,6 @@ Kotlin:
 ```
 
 To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
-
 
 ### Streem Exit Codes
 
@@ -235,7 +231,6 @@ Kotlin:
         }
     }
 ```
-
 
 ### AR Tutorials
 
@@ -275,7 +270,7 @@ Kotlin:
     Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
 ```
 
-
 ## Further Documentation
+
 -   [Java API docs](https://streem.github.io/streem-sdk-android/api/java/)
 -   [Kotlin API docs](https://streem.github.io/streem-sdk-android/api/kotlin/)
