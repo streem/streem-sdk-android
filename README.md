@@ -28,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.0.2"
+    implementation "pro.streem:streem-sdk:1.0.3"
     ...
 }
 ```
@@ -112,6 +112,33 @@ class MyApplication : Application() {
 }
 ```
 
+### Logging In
+
+The next step is to login your user by calling `Streem.login` with the necessary user information.
+First you will want to build a `UserProfile`. Currently, we fully support building a `UserProfile` via an invitation code. Logging in with credentials other than invitation codes is coming soon.
+Here Streem uses the `invitationCode` to look up your user's information to identify them. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
+
+Java:
+
+```java
+    Streem.get().login(Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
+        .avatarUrl("https://robohash.org/alice.png")
+        .build()
+    );
+```
+
+Kotlin:
+
+```kotlin
+Streem.get().login(
+    Streem.UserProfile(
+        user = Streem.User.withInvitationCode("yourInviteCode"),
+        expert = false,
+        avatarUrl = "https://robohash.org/alice.png"
+    )
+)
+```
+
 ### Permissions
 
 There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list of required permissions you can call `getRequiredPermissions` like so:
@@ -144,35 +171,31 @@ Kotlin:
 
 ### Remote Streems
 
-To start a remote streem from an invitation code, you will need three things: 
-1. `invitationCode` - a nine digit invitation code 
-2. `currentActivity` - the activity that launches the Streem Activity (Note: an overload with `currentFragment` is also available)
-3. `localParticipantSessionConfig` - the session configuration of the local participant 
-
-Calling a streem from your current activity or fragment may look like:
+To start a remote streem, you will need three things: an activity or fragment, the session configuration of the local participant, and the remote participant. Calling a streem from your current activity or fragment may look like:
 
 Java:
 
 ```java
+    String remoteUserId = "some remote userId";
     final Streem.SessionConfig localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER;
-    private int invitationCode = "123456789" // your invitation code here
+    final Streem.SessionConfig remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO;
+    final Streem.ParticipantRequest remoteUser = new Streem.ParticipantRequest(remoteUserId, remoteSessionConfig);
 
-    Streem.get().startStreemActivityForInvitation(invitationCode, this, localSessionConfig);
+    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser);
 ```
 
 Kotlin:
 
 ```kotlin
+    val remoteUserId = "some remote userId"
     val localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER
-    val invitationCode = "123456789" // your invitation code here
+    val remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO
+    val remoteUser = Streem.ParticipantRequest(remoteUserId, remoteSessionConfig)
 
-    Streem.get().startStreemActivityForInvitation(
-        invitationCode = invitationCode, 
-        currentActivity = this,    
-        localParticipantSessionConfig = localSessionConfig          
-    )
+    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser)
 ```
 
+To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
 
 ### Streem Exit Codes
 
