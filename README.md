@@ -28,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.0.3"
+    implementation "pro.streem:streem-sdk:1.0.4"
     ...
 }
 ```
