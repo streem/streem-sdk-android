@@ -28,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.0.4"
+    implementation "pro.streem:streem-sdk:1.1.0"
     ...
 }
 ```
@@ -75,13 +75,7 @@ public class MyApplication extends Application {
 
         final Streem.Configuration configuration = Streem.Configuration.builder(
             this,
-            MY_APP_ID,
-            new Consumer<Throwable>() {
-                @Override
-                public void accept(Throwable t) {
-                    Log.e(TAG, "Error from Streem", t);
-                }
-            })
+            MY_APP_ID)
         .environment(Streem.Environment.PROD_US)
         .build();
         Streem.initialize(configuration);
@@ -99,7 +93,6 @@ class MyApplication : Application() {
         val configuration = Streem.Configuration(
             application = this,
             appId = MY_APP_ID,
-            errorListener = { error -> Log.e(TAG, "Error from Streem", error) },
             environment = Streem.Environment.PROD_US
         )
         Streem.initialize(configuration)
@@ -114,6 +107,8 @@ class MyApplication : Application() {
 
 ### Logging In
 
+#### With UserProfile
+
 The next step is to login your user by calling `Streem.login` with the necessary user information.
 First you will want to build a `UserProfile`. Currently, we fully support building a `UserProfile` via an invitation code. Logging in with credentials other than invitation codes is coming soon.
 Here Streem uses the `invitationCode` to look up your user's information to identify them. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
@@ -121,22 +116,62 @@ Here Streem uses the `invitationCode` to look up your user's information to iden
 Java:
 
 ```java
-    Streem.get().login(Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
-        .avatarUrl("https://robohash.org/alice.png")
-        .build()
-    );
+    Streem.get().login(
+            Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
+                .avatarUrl("https://robohash.org/alice.png")
+                .build(),
+            result -> {
+                 if (result instanceof Streem.LoginCompletionResult.LoggedIn) {
+                     // Login was successful
+                 } else {
+                     // Login was not successful
+                 }
+                 return Unit.INSTANCE;
+            });
 ```
 
 Kotlin:
 
 ```kotlin
-Streem.get().login(
-    Streem.UserProfile(
-        user = Streem.User.withInvitationCode("yourInviteCode"),
-        expert = false,
-        avatarUrl = "https://robohash.org/alice.png"
-    )
-)
+    Streem.get().login(Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
+        .avatarUrl("https://robohash.org/alice.png")
+        .build()
+    ) { result ->
+        when(result) {
+            LoginCompletionResult.LoggedIn -> TODO()
+            is LoginCompletionResult.Error -> TODO()
+        }
+    }
+```
+
+#### With Invitation Code
+
+The next step is to login your user by calling `Streem.login` with the invitation code.
+Here Streem uses the `invitationCode` to look up your user's information to identify them and calls back with a `LoginInvitationResult` object. If login is successful, the result will be of type `Streem.LoginInvitationResult.LoggedIn` and will contain a StreemInvitation. This StreemInvitation can be used to create a lobby screen for your application and/or to call `startStreemActivity`.  If there is an error during login, it will be returned as one of the `Streem.LoginInvitationResult.Error` types.
+
+
+Java:
+
+```java
+    Streem.get().login("yourInviteCode", false, result -> {
+        if (result instanceof Streem.LoginInvitationResult.LoggedIn) {
+            // use result.invitation to call startStreemActivity()
+        }
+        return Unit.INSTANCE;
+    });
+```
+
+Kotlin:
+
+```kotlin
+    Streem.get().login("yourInviteCode", false) { result ->
+        when (result) {
+            is Streem.LoginInvitationResult.LoggedIn -> { /* use result.invitation to startStreemActivity()*/ }
+            is Streem.LoginInvitationResult.Error.InvitationConsumed -> TODO()
+            is Streem.LoginInvitationResult.Error.InvitationInvalid -> TODO()
+            is Streem.LoginInvitationResult.Error.UnexpectedError -> TODO()
+        }
+    }
 ```
 
 ### Permissions
