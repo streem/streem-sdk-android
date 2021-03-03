@@ -6,10 +6,15 @@ title: Streem.checkSupport -
 
 # checkSupport
 
-`abstract fun checkSupport(resultCallback: Consumer<`[`Boolean`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)`>, vararg feature: `[`Streem.Feature`](-feature/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`abstract fun checkSupport(resultCallback: Consumer<`[`Streem.FeatureSupportResult`](-feature-support-result/index.html)`>, vararg feature: `[`Streem.Feature`](-feature/index.html)`): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
-Checks if the requested [feature](check-support.html#pro.streem.sdk.Streem$checkSupport(androidx.core.util.Consumer((kotlin.Boolean)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/feature)s are supported on this device. Calls [resultCallback](check-support.html#pro.streem.sdk.Streem$checkSupport(androidx.core.util.Consumer((kotlin.Boolean)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/resultCallback)
+Checks if the requested [feature](check-support.html#pro.streem.sdk.Streem$checkSupport(androidx.core.util.Consumer((pro.streem.sdk.Streem.FeatureSupportResult)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/feature)s are supported on this device. Calls [resultCallback](check-support.html#pro.streem.sdk.Streem$checkSupport(androidx.core.util.Consumer((pro.streem.sdk.Streem.FeatureSupportResult)), kotlin.Array((pro.streem.sdk.Streem.Feature)))/resultCallback)
 asynchronously with the result.
 
 The callback will be called on the Android main thread.
 
+### Parameters
+
+`resultCallback` - the callback called with the [FeatureSupportResult](-feature-support-result/index.html)
+
+`feature` - a list of features to check for support

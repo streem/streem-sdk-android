@@ -10,11 +10,9 @@ title: Streem.Configuration -
 
 ### Parameters
 
-`appId` - application's ID provided by Streem.
+`application` - the calling application
 
-`errorListener` - callback that will be called if an error is encountered by the
-Streem SDK (at any point in the future, not only during initialization). The callback
-will be called on the Android main thread.
+`appId` - application's ID provided by Streem.
 
 ### Types
 
@@ -22,17 +20,17 @@ will be called on the Android main thread.
 
 ### Constructors
 
-| [&lt;init&gt;](-init-.html) | `Configuration(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`? = null, environment: `[`Streem.Environment`](../-environment/index.html)`? = null, errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`)` |
+| [&lt;init&gt;](-init-.html) | `Configuration(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`? = null, environment: `[`Streem.Environment`](../-environment/index.html)`? = null, errorListener: ((`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`)?)`<br>`Configuration(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`? = null, environment: `[`Streem.Environment`](../-environment/index.html)`? = null)` |
 
 ### Properties
 
 | [appId](app-id.html) | `val appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)<br>application's ID provided by Streem. |
-| [application](application.html) | `val application: `[`Application`](https://developer.android.com/reference/android/app/Application.html) |
+| [application](application.html) | `val application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)<br>the calling application |
 | [appSecret](app-secret.html) | `val appSecret: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`?` |
 | [environment](environment.html) | `val environment: `[`Streem.Environment`](../-environment/index.html)`?` |
-| [errorListener](error-listener.html) | `val errorListener: (`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)<br>callback that will be called if an error is encountered by the Streem SDK (at any point in the future, not only during initialization). The callback will be called on the Android main thread. |
+| [globalErrorListener](global-error-listener.html) | `var ~~globalErrorListener~~: ((`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`) -> `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)`)?` |
 
 ### Companion Object Functions
 
-| [builder](builder.html) | `fun builder(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`, errorListener: Consumer<`[`Throwable`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)`>): `[`Streem.Configuration.Builder`](-builder/index.html) |
+| [builder](builder.html) | `fun builder(application: `[`Application`](https://developer.android.com/reference/android/app/Application.html)`, appId: `[`CharSequence`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)`): `[`Streem.Configuration.Builder`](-builder/index.html) |
 

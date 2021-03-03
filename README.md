@@ -28,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.0.4"
+    implementation "pro.streem:streem-sdk:1.1.0"
     ...
 }
 ```
@@ -75,13 +75,7 @@ public class MyApplication extends Application {
 
         final Streem.Configuration configuration = Streem.Configuration.builder(
             this,
-            MY_APP_ID,
-            new Consumer<Throwable>() {
-                @Override
-                public void accept(Throwable t) {
-                    Log.e(TAG, "Error from Streem", t);
-                }
-            })
+            MY_APP_ID)
         .environment(Streem.Environment.PROD_US)
         .build();
         Streem.initialize(configuration);
@@ -99,7 +93,6 @@ class MyApplication : Application() {
         val configuration = Streem.Configuration(
             application = this,
             appId = MY_APP_ID,
-            errorListener = { error -> Log.e(TAG, "Error from Streem", error) },
             environment = Streem.Environment.PROD_US
         )
         Streem.initialize(configuration)
@@ -112,36 +105,9 @@ class MyApplication : Application() {
 }
 ```
 
-### Logging In
-
-The next step is to login your user by calling `Streem.login` with the necessary user information.
-First you will want to build a `UserProfile`. Currently, we fully support building a `UserProfile` via an invitation code. Logging in with credentials other than invitation codes is coming soon.
-Here Streem uses the `invitationCode` to look up your user's information to identify them. The associated information you supply can be updated at any time by calling `login` again. User and expert status are required. The `login` call looks like:
-
-Java:
-
-```java
-    Streem.get().login(Streem.UserProfile.builder(Streem.User.withInvitationCode("yourInviteCode"), false)
-        .avatarUrl("https://robohash.org/alice.png")
-        .build()
-    );
-```
-
-Kotlin:
-
-```kotlin
-Streem.get().login(
-    Streem.UserProfile(
-        user = Streem.User.withInvitationCode("yourInviteCode"),
-        expert = false,
-        avatarUrl = "https://robohash.org/alice.png"
-    )
-)
-```
-
 ### Permissions
 
-There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list of required permissions you can call `getRequiredPermissions` like so:
+There are a few required permissions that must be allowed for Streem to work as expected. At the moment, those are `Camera` and `Audio`. To get a list of required permissions you can call `getRequiredPermissions`
 
 Java:
 
@@ -155,7 +121,7 @@ Kotlin:
     Streem.get().getRequiredPermissions()
 ```
 
-You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. This can be called like so:
+You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. 
 
 Java:
 
@@ -167,35 +133,81 @@ Kotlin:
 
 ```kotlin
     Streem.get().getMissingPermissions(context);
+```
+
+### Logging In
+
+The next step is to login your user by calling `Streem.login` with the invitation code.
+Here Streem uses the `invitationCode` to look up your user's information and identify them and calls back with a `LoginInvitationResult` object.
+
+If login is successful, the result will be of type `Streem.LoginInvitationResult.LoggedIn` and will contain a StreemInvitation. This StreemInvitation contains information about the sender of the invitation and can be used to create a lobby screen for your application. This `StreemInvitation` object also will be used when starting a remote Streem (see below).
+
+If there is an error during login, it will be returned as one of the `Streem.LoginInvitationResult.Error` types.
+
+Java:
+
+```java
+    Streem.get().login("yourInviteCode", false, result -> {
+        if (result instanceof Streem.LoginInvitationResult.LoggedIn) {
+            // you can use the StreemInvitation returned here to build a lobby screen and later to call startStreemActivity() (see below)
+            Log.i(TAG, String.format("Received invitation from: %s", result.invitation.fromName));
+        } else if (result instanceof Streem.LoginInvitationResult.Error) {
+            // todo handle errors
+        }
+        return Unit.INSTANCE;
+    });
+```
+
+Kotlin:
+
+```kotlin
+Streem.get().login(
+    invitationCode = "yourInviteCode", 
+    isExpert = false) { result ->
+        when (result) {
+            is Streem.LoginInvitationResult.LoggedIn -> {
+                /* you can use the StreemInvitation returned here to build a lobby screen and later to call startStreemActivity() (see below)*/
+                Log.i(TAG, "Received invitation from: ${result.invitation.fromName}")
+            }
+            is Streem.LoginInvitationResult.Error.InvitationConsumed -> TODO()
+            is Streem.LoginInvitationResult.Error.InvitationInvalid -> TODO()
+            is Streem.LoginInvitationResult.Error.UnexpectedError -> TODO()
+        }
+    }
 ```
 
 ### Remote Streems
 
-To start a remote streem, you will need three things: an activity or fragment, the session configuration of the local participant, and the remote participant. Calling a streem from your current activity or fragment may look like:
+Starting a Streem will require a current activity or fragment and the `StreemInvitation` object returned from your call to `login`.
 
 Java:
 
 ```java
-    String remoteUserId = "some remote userId";
     final Streem.SessionConfig localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER;
-    final Streem.SessionConfig remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO;
-    final Streem.ParticipantRequest remoteUser = new Streem.ParticipantRequest(remoteUserId, remoteSessionConfig);
 
-    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser);
+    Streem.get().startStreemActivity(
+        this,
+        streemInvitation,   // this object should be returned from your call to login (see above)
+        localSessionConfig,
+        error -> {
+            //todo Add error handling to your app here
+            return Unit.INSTANCE;
+         });
 ```
 
 Kotlin:
 
 ```kotlin
-    val remoteUserId = "some remote userId"
     val localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER
-    val remoteSessionConfig = Streem.SessionConfig.REMOTE_PRO
-    val remoteUser = Streem.ParticipantRequest(remoteUserId, remoteSessionConfig)
 
-    Streem.get().startStreemActivity(this, localSessionConfig, remoteUser)
+    Streem.get().startStreemActivity(
+        currentActivity = this,
+        invitation = streemInvitation,   // this object should be returned from your call to login (see above)
+        localParticipantSessionConfig = localSessionConfig
+    ) { error ->
+        //todo Add error handling to your app here
+    }
 ```
-
-To get a `remoteUserId` you will want your backend to communicate with Streem via our REST API. For more details on setting that up, please contact product@streem.pro.
 
 ### Streem Exit Codes
 
