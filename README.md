@@ -28,7 +28,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.1.0"
+    implementation "pro.streem:streem-sdk:1.1.1"
     ...
 }
 ```
@@ -121,7 +121,7 @@ Kotlin:
     Streem.get().getRequiredPermissions()
 ```
 
-You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected. 
+You can also input your application's `context` to `getMissingPermissions` and it will return only the permissions that you are missing in order for Streem to work as expected.
 
 Java:
 
@@ -162,7 +162,7 @@ Kotlin:
 
 ```kotlin
 Streem.get().login(
-    invitationCode = "yourInviteCode", 
+    invitationCode = "yourInviteCode",
     isExpert = false) { result ->
         when (result) {
             is Streem.LoginInvitationResult.LoggedIn -> {
