@@ -18,6 +18,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "https://streem.bintray.com/sceneform-android-sdk" }
+        maven { url "https://streem.bintray.com/maven" }
     }
 }
 
