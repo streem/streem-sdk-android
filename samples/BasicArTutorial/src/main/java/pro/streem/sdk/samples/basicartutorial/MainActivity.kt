@@ -30,13 +30,19 @@ class MainActivity : AppCompatActivity() {
 
         checkPermissions()
 
-        Streem.get().checkSupport(Streem.Feature.TUTORIAL) { streemSupported ->
-            if (streemSupported) {
-                checkSupportProgress.visibility = View.GONE
-                arTutorialButton.isEnabled = true
-            } else {
-                checkSupportProgressText.setText(R.string.tutorials_not_supported)
-                checkSupportProgressSpinner.visibility = View.GONE
+        Streem.get().checkSupport(Streem.Feature.TUTORIAL) { result ->
+            when (result) {
+                is Streem.FeatureSupportResult.IsSupported -> {
+                    checkSupportProgress.visibility = View.GONE
+                    arTutorialButton.isEnabled = true
+                }
+                is Streem.FeatureSupportResult.NotSupported -> {
+                    checkSupportProgressText.setText(R.string.tutorials_not_supported)
+                    checkSupportProgressSpinner.visibility = View.GONE
+                }
+                is Streem.FeatureSupportResult.Error -> {
+                    Log.e(TAG, "Error checking for tutorial support", result.error)
+                }
             }
         }
     }

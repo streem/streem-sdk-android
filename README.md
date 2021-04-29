@@ -13,14 +13,14 @@ If you want to use Android App Links in your app you will have to tell Streem wh
 
 ## Installation
 
-Add the JCenter, Streem Sceneform, and Streem Maven repositories to your project `build.gradle` file:
+Add Streem's Maven repository to your project `build.gradle` file:
 
 ```gradle
 repositories {
     ...
+    maven { url "https://maven.streem.com/" }
     jcenter()
     maven { url "https://streem.bintray.com/sceneform-android-sdk" }
-    maven { url "https://streem.bintray.com/maven" }
     ...
 }
 ```
@@ -30,7 +30,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:1.1.2"
+    implementation "pro.streem:streem-sdk:0.10.0"
     ...
 }
 ```
