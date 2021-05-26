@@ -1,12 +1,6 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.AcceptTermsResult.Error.html
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Success///PointingToDeclaration/pro/streem/sdk/Streem.AcceptTermsResult.Success.html
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult///PointingToDeclaration/pro/streem/sdk/Streem.AcceptTermsResult.html
 $dokka.location:pro.streem.sdk/Streem.Companion///PointingToDeclaration/pro/streem/sdk/Streem.Companion.html
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.CompanySettingsResult.Error.html
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Success///PointingToDeclaration/pro/streem/sdk/Streem.CompanySettingsResult.Success.html
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult///PointingToDeclaration/pro/streem/sdk/Streem.CompanySettingsResult.html
 $dokka.location:pro.streem.sdk/Streem.Configuration.Builder///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.Builder.html
 $dokka.location:pro.streem.sdk/Streem.Configuration.Companion///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.Companion.html
 $dokka.location:pro.streem.sdk/Streem.Configuration///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.html
@@ -41,9 +35,7 @@ $dokka.location:pro.streem.sdk/Streem.LoginInvitationResult///PointingToDeclarat
 $dokka.location:pro.streem.sdk/Streem.ParticipantRequest///PointingToDeclaration/pro/streem/sdk/Streem.ParticipantRequest.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.Companion.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.html
-$dokka.location:pro.streem.sdk/Streem.StreemCompanySettings///PointingToDeclaration/pro/streem/sdk/Streem.StreemCompanySettings.html
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation///PointingToDeclaration/pro/streem/sdk/Streem.StreemInvitation.html
-$dokka.location:pro.streem.sdk/Streem.StreemUserAgreement///PointingToDeclaration/pro/streem/sdk/Streem.StreemUserAgreement.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.SupportedCountries.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.html
@@ -52,9 +44,5 @@ $dokka.location:pro.streem.sdk/Streem.User///PointingToDeclaration/pro/streem/s
 $dokka.location:pro.streem.sdk/Streem.UserProfile.Builder///PointingToDeclaration/pro/streem/sdk/Streem.UserProfile.Builder.html
 $dokka.location:pro.streem.sdk/Streem.UserProfile.Companion///PointingToDeclaration/pro/streem/sdk/Streem.UserProfile.Companion.html
 $dokka.location:pro.streem.sdk/Streem.UserProfile///PointingToDeclaration/pro/streem/sdk/Streem.UserProfile.html
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.VerifyTermsResult.Error.html
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.UserTermsAccepted///PointingToDeclaration/pro/streem/sdk/Streem.VerifyTermsResult.UserTermsAccepted.html
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.UserTermsNotAccepted///PointingToDeclaration/pro/streem/sdk/Streem.VerifyTermsResult.UserTermsNotAccepted.html
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult///PointingToDeclaration/pro/streem/sdk/Streem.VerifyTermsResult.html
 pro.streem.sdk
 

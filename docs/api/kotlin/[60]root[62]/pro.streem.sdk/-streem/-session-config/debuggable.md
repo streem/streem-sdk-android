@@ -8,7 +8,7 @@ title: debuggable -
 # debuggable  
 [androidJvm]  
 Content  
-fun [debuggable](debuggable.md)(): [Streem.SessionConfig](index.md)  
+fun [debuggable](debuggable.md)(isDebug: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)): [Streem.SessionConfig](index.md)  
 
 
 

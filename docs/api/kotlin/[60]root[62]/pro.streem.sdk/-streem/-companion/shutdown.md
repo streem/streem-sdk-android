@@ -14,7 +14,7 @@ fun [shutdown](shutdown.md)()
 More info  
 
 
-Shuts down the Streem SDK. [Streem.initialize](initialize.md)*MUST* have been called before calling this method.
+Shuts down the Streem SDK.
 
   
 

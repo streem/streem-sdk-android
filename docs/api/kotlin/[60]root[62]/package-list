@@ -2,11 +2,8 @@ $dokka.format:jekyll-v1
 $dokka.linkExtension:md
 $dokka.location:pro.streem.sdk////PointingToDeclaration/[60]root[62]/pro.streem.sdk/index.md
 $dokka.location:pro.streem.sdk//checkSupport/pro.streem.sdk.Streem#kotlin.Array[pro.streem.sdk.Streem.Feature]#kotlin.Function1[pro.streem.sdk.Streem.FeatureSupportResult,kotlin.Unit]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/check-support.md
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Error///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-accept-terms-result/-error/index.md
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Error/Error/#kotlin.Throwable/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-accept-terms-result/-error/-error.md
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Error/error/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-accept-terms-result/-error/error.md
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult.Success///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-accept-terms-result/-success/index.md
-$dokka.location:pro.streem.sdk/Streem.AcceptTermsResult///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-accept-terms-result/index.md
+$dokka.location:pro.streem.sdk/InternalStreemApi///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-internal-streem-api/index.md
+$dokka.location:pro.streem.sdk/InternalStreemApi/InternalStreemApi/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-internal-streem-api/-internal-streem-api.md
 $dokka.location:pro.streem.sdk/Streem.Companion///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/index.md
 $dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_ERROR/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-e-r-r-o-r.md
 $dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_EXIT/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-e-x-i-t.md
@@ -15,13 +12,6 @@ $dokka.location:pro.streem.sdk/Streem.Companion/EXTRA_EXIT_CODE/#/PointingToDecl
 $dokka.location:pro.streem.sdk/Streem.Companion/get/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/get.md
 $dokka.location:pro.streem.sdk/Streem.Companion/initialize/#pro.streem.sdk.Streem.Configuration/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/initialize.md
 $dokka.location:pro.streem.sdk/Streem.Companion/shutdown/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/shutdown.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Error///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-error/index.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Error/Error/#kotlin.Throwable/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-error/-error.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Error/error/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-error/error.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Success///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-success/index.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Success/Success/#pro.streem.sdk.Streem.StreemCompanySettings/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-success/-success.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult.Success/companySettings/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/-success/company-settings.md
-$dokka.location:pro.streem.sdk/Streem.CompanySettingsResult///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-company-settings-result/index.md
 $dokka.location:pro.streem.sdk/Streem.Configuration.Builder///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-configuration/-builder/index.md
 $dokka.location:pro.streem.sdk/Streem.Configuration.Builder/appId/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-configuration/-builder/app-id.md
 $dokka.location:pro.streem.sdk/Streem.Configuration.Builder/appSecret/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-configuration/-builder/app-secret.md
@@ -120,13 +110,10 @@ $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion/ONSITE_CUSTOMER/#/
 $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion/ONSITE_PRO/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/-companion/-o-n-s-i-t-e_-p-r-o.md
 $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion/REMOTE_PRO/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/-companion/-r-e-m-o-t-e_-p-r-o.md
 $dokka.location:pro.streem.sdk/Streem.SessionConfig///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/index.md
-$dokka.location:pro.streem.sdk/Streem.SessionConfig/debuggable/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/debuggable.md
+$dokka.location:pro.streem.sdk/Streem.SessionConfig/debuggable/#kotlin.Boolean/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/debuggable.md
 $dokka.location:pro.streem.sdk/Streem.SessionConfig/equals/#kotlin.Any?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/equals.md
 $dokka.location:pro.streem.sdk/Streem.SessionConfig/hashCode/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/hash-code.md
 $dokka.location:pro.streem.sdk/Streem.SessionConfig/toString/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/to-string.md
-$dokka.location:pro.streem.sdk/Streem.StreemCompanySettings///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-company-settings/index.md
-$dokka.location:pro.streem.sdk/Streem.StreemCompanySettings/StreemCompanySettings/#pro.streem.sdk.Streem.StreemUserAgreement/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-company-settings/-streem-company-settings.md
-$dokka.location:pro.streem.sdk/Streem.StreemCompanySettings/userAgreement/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-company-settings/user-agreement.md
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/index.md
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation/StreemInvitation/#kotlin.String#kotlin.String#kotlin.String#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String?#kotlin.String#kotlin.String?#java.util.Date?#pro.streem.sdk.Streem.InvitationType?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/-streem-invitation.md
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation/expiresAt/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/expires-at.md
@@ -141,10 +128,6 @@ $dokka.location:pro.streem.sdk/Streem.StreemInvitation/invitationType/#/Pointing
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation/toName/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/to-name.md
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation/toPhone/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/to-phone.md
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation/url/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-invitation/url.md
-$dokka.location:pro.streem.sdk/Streem.StreemUserAgreement///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-user-agreement/index.md
-$dokka.location:pro.streem.sdk/Streem.StreemUserAgreement/StreemUserAgreement/#kotlin.String?#kotlin.String?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-user-agreement/-streem-user-agreement.md
-$dokka.location:pro.streem.sdk/Streem.StreemUserAgreement/privacyPolicyUrl/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-user-agreement/privacy-policy-url.md
-$dokka.location:pro.streem.sdk/Streem.StreemUserAgreement/termsAndConditionsUrl/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-user-agreement/terms-and-conditions-url.md
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-supported-countries-result/-error/index.md
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error/Error/#kotlin.Throwable/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-supported-countries-result/-error/-error.md
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error/error/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-supported-countries-result/-error/error.md
@@ -179,17 +162,9 @@ $dokka.location:pro.streem.sdk/Streem.UserProfile/expert/#/PointingToDeclaration
 $dokka.location:pro.streem.sdk/Streem.UserProfile/name/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user-profile/name.md
 $dokka.location:pro.streem.sdk/Streem.UserProfile/phone/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user-profile/phone.md
 $dokka.location:pro.streem.sdk/Streem.UserProfile/user/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user-profile/user.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.Error///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/-error/index.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.Error/Error/#kotlin.Throwable/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/-error/-error.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.Error/error/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/-error/error.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.UserTermsAccepted///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/-user-terms-accepted/index.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult.UserTermsNotAccepted///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/-user-terms-not-accepted/index.md
-$dokka.location:pro.streem.sdk/Streem.VerifyTermsResult///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-verify-terms-result/index.md
 $dokka.location:pro.streem.sdk/Streem///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/index.md
-$dokka.location:pro.streem.sdk/Streem/acceptTerms/#kotlin.Boolean#kotlin.Function1[pro.streem.sdk.Streem.AcceptTermsResult,kotlin.Unit]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/accept-terms.md
 $dokka.location:pro.streem.sdk/Streem/checkSupport/#androidx.core.util.Consumer[pro.streem.sdk.Streem.FeatureSupportResult]#kotlin.Array[pro.streem.sdk.Streem.Feature]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/check-support.md
 $dokka.location:pro.streem.sdk/Streem/createInvitation/#kotlin.String#kotlin.String?#kotlin.String?#pro.streem.sdk.Streem.InvitationType#kotlin.Function1[pro.streem.sdk.Streem.CreateInvitationResult,kotlin.Unit]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/create-invitation.md
-$dokka.location:pro.streem.sdk/Streem/getCompanySettings/#kotlin.String#kotlin.Function1[pro.streem.sdk.Streem.CompanySettingsResult,kotlin.Unit]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/get-company-settings.md
 $dokka.location:pro.streem.sdk/Streem/getExitCode/#kotlin.Int#kotlin.Int#android.content.Intent?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/get-exit-code.md
 $dokka.location:pro.streem.sdk/Streem/getMissingPermissions/#android.content.Context/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/get-missing-permissions.md
 $dokka.location:pro.streem.sdk/Streem/getRequiredPermissions/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/get-required-permissions.md
@@ -213,10 +188,7 @@ $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.StreemInvitation#pro.streem.sdk.Streem.SessionConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.md
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#android.app.Activity#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.md
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.md
-$dokka.location:pro.streem.sdk/Streem/verifyTerms/#kotlin.Function1[pro.streem.sdk.Streem.VerifyTermsResult,kotlin.Unit]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/verify-terms.md
 $dokka.location:pro.streem.sdk/StreemBeta///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/index.md
 $dokka.location:pro.streem.sdk/StreemBeta/StreemBeta/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/-streem-beta.md
-$dokka.location:pro.streem.sdk/StreemInternal///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-internal/index.md
-$dokka.location:pro.streem.sdk/StreemInternal/StreemInternal/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-internal/-streem-internal.md
 pro.streem.sdk
 
