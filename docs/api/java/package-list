@@ -1,5 +1,9 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
+$dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Completed///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Completed.html
+$dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.InvitationDeclined///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.InvitationDeclined.html
+$dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.UnexpectedError.html
+$dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.Companion///PointingToDeclaration/pro/streem/sdk/Streem.Companion.html
 $dokka.location:pro.streem.sdk/Streem.Configuration.Builder///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.Builder.html
 $dokka.location:pro.streem.sdk/Streem.Configuration.Companion///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.Companion.html

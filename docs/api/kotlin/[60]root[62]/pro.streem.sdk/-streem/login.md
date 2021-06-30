@@ -34,11 +34,7 @@ abstract fun [login](login.md)(invitationCode: [String](https://kotlinlang.org/a
 More info  
 
 
-Logs in the user invited via the invitation code and passes back invitation details (the inviter's name, company, avatar image URL, etc.) through [resultCallback](login.md). This can be used to show the invited user a lobby or waiting room screen with info about the person that invited them, before actually starting a streem. Call [startStreemActivity](start-streem-activity.md) to start the streem after displaying the lobby or waiting room, passing in the [StreemInvitation](-streem-invitation/index.md) received in [resultCallback](login.md).
-
-
-
-See also [showInvitationDialog](show-invitation-dialog.md), which instead uses a default lobby dialog provided by the Streem SDK.
+Logs in the user invited via the invitation code and passes back invitation details (the inviter's name, company, avatar image URL, etc.) through [resultCallback](login.md). With the [StreemInvitation](-streem-invitation/index.md) received in [resultCallback](login.md), launch the Streem experience using [StartStreemFromInvitation](../-start-streem-from-invitation/index.md).
 
 
 

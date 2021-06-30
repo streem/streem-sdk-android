@@ -9,7 +9,7 @@ Documentation and examples for using the Streem SDK on Android.
 
 #### Note About Android App Links
 
-If you want to use Android App Links in your app you will have to tell Streem when you provide your Android app `package`. You will also need to provide the SHA-256 fingerprint of your app's signing certificate. Streem will then update Streem's Digital Asset Links JSON file to handle your app. You will then need to add two `https` schemes with hosts of `<companyCode>.swac.prod-us.streem.cloud` and `<companyCode>.streem.me` to your app manifest. Details on how to do this can be found at https://developer.android.com/training/app-links/deep-linking. You should also review the information here for more about Android App Links: https://developer.android.com/training/app-links/verify-site-associations#request-verify. Once Streem lets you know that the Digital Asset Link JSON file has been updated, you are ready to start using Android App Links.
+If you want to use Android App Links in your app you will have to tell Streem when you provide your Android app `package`. You will also need to provide the SHA-256 fingerprint of your app's signing certificate. Streem will then update Streem's Digital Asset Links JSON file to handle your app. You will then need to add a few `https` schemes with hosts of `<companyCode>.swac.prod-us.streem.cloud`, `<companyCode>.cv.prod-us.streem.cloud`, `<companyCode>.streem.me`, and `<companyCode>.streem.us` to your app manifest. Details on how to do this can be found at https://developer.android.com/training/app-links/deep-linking. You should also review the information here for more about Android App Links: https://developer.android.com/training/app-links/verify-site-associations#request-verify. Once Streem lets you know that the Digital Asset Link JSON file has been updated, you are ready to start using Android App Links.
 
 ## Installation
 
@@ -29,7 +29,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.11.0"
+    implementation "pro.streem:streem-sdk:0.12.0"
     ...
 }
 ```
@@ -141,7 +141,7 @@ Kotlin:
 The next step is to login your user by calling `Streem.login` with the invitation code.
 Here Streem uses the `invitationCode` to look up your user's information and identify them and calls back with a `LoginInvitationResult` object.
 
-If login is successful, the result will be of type `Streem.LoginInvitationResult.LoggedIn` and will contain a StreemInvitation. This StreemInvitation contains information about the sender of the invitation and can be used to create a lobby screen for your application. This `StreemInvitation` object also will be used when starting a remote Streem (see below).
+If login is successful, the result will be of type `Streem.LoginInvitationResult.LoggedIn` and will contain a StreemInvitation. This StreemInvitation contains information about the sender of the invitation and will be used when starting a remote Streem (see below).
 
 If there is an error during login, it will be returned as one of the `Streem.LoginInvitationResult.Error` types.
 
@@ -150,7 +150,7 @@ Java:
 ```java
     Streem.get().login("yourInviteCode", false, result -> {
         if (result instanceof Streem.LoginInvitationResult.LoggedIn) {
-            // you can use the StreemInvitation returned here to build a lobby screen and later to call startStreemActivity() (see below)
+            // you can use the StreemInvitation returned here to start the Streem experience and enter the lobby (see below)
             Log.i(TAG, String.format("Received invitation from: %s", result.invitation.fromName));
         } else if (result instanceof Streem.LoginInvitationResult.Error) {
             // todo handle errors
@@ -167,7 +167,7 @@ Streem.get().login(
     isExpert = false) { result ->
         when (result) {
             is Streem.LoginInvitationResult.LoggedIn -> {
-                /* you can use the StreemInvitation returned here to build a lobby screen and later to call startStreemActivity() (see below)*/
+                /* you can use the StreemInvitation returned here to start the Streem experience and enter the lobby (see below) */
                 Log.i(TAG, "Received invitation from: ${result.invitation.fromName}")
             }
             is Streem.LoginInvitationResult.Error.InvitationConsumed -> TODO()
@@ -179,108 +179,61 @@ Streem.get().login(
 
 ### Remote Streems
 
-Starting a Streem will require a current activity or fragment and the `StreemInvitation` object returned from your call to `login`.
+Starting a Streem involves 3 things:
+
+1. Creating the `ActivityResultLauncher` and registering your Activity or Fragment for Activity results
+2. The `StreemInvitation` object returned from your call to `login`.
+3. Launching the `ActivityResultLauncher` using the `StreemInvitation` mentioned in the previous step
+
+For more information on the Activity Result APIs used here and how you can receive Activity results in classes other than an Activity or Fragment, read the [Android Developers documentation](https://developer.android.com/training/basics/intents/result).
+
+First, declare your `ActivityResultLauncher` as a member variable within your Activity or Fragment. The result of launching the Activity will be returned via the callback registered here.
 
 Java:
 
 ```java
-    final Streem.SessionConfig localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER;
-
-    Streem.get().startStreemActivity(
-        this,
-        streemInvitation,   // this object should be returned from your call to login (see above)
-        localSessionConfig,
-        error -> {
-            //todo Add error handling to your app here
-            return Unit.INSTANCE;
-         });
+    ActivityResultLauncher<StartStreemFromInvitationRequest> startStreem = registerForActivityResult(new StartStreemFromInvitation(),
+            callResult -> {
+                if (callResult instanceof StartStreemFromInvitationResult.Error.UnexpectedError) {
+                    // handle an error that occurred in the lobby or during the call
+                } else if (callResult instanceof StartStreemFromInvitationResult.Error.InvitationDeclined) {
+                    // the user tapped the close button or backed out of the lobby without starting the call
+                } else if (callResult instanceof StartStreemFromInvitationResult.Completed) {
+                    // the call finished without error
+                }
+            });
 ```
 
 Kotlin:
 
 ```kotlin
-    val localSessionConfig = Streem.SessionConfig.LOCAL_CUSTOMER
-
-    Streem.get().startStreemActivity(
-        currentActivity = this,
-        invitation = streemInvitation,   // this object should be returned from your call to login (see above)
-        localParticipantSessionConfig = localSessionConfig
-    ) { error ->
-        //todo Add error handling to your app here
-    }
-```
-
-### Streem Exit Codes
-
-There are a few different ways that Streem can exit, including the user pressing the Cancel or Help button, or by finishing a Tutorial in a certain state. You can check the exit code (and kick off a Help Chat experience, for example) by listening for the result from your `Activity` or `Fragment`.
-
-Java:
-
-```java
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if (resultCode == Activity.RESULT_OK) {
-            String exitCode = Streem.get().getExitCode(requestCode, resultCode, data);
-            if (Streem.EXIT_CODE_HELP.equals(exitCode)) {
-                // Kick off Help experience
+    private val startStreem = registerForActivityResult(StartStreemFromInvitation()) { callResult ->
+        when (callResult) {
+            is StartStreemFromInvitationResult.Error.UnexpectedError -> {
+                /* TODO: handle an error that occurred in the lobby or during the call */
+            }
+            is StartStreemFromInvitationResult.Error.InvitationDeclined -> {
+                /* TODO: the user tapped the close button or backed out of the lobby without starting the call */
+            }
+            is StartStreemFromInvitationResult.Completed -> {
+                /* TODO: the call finished without error */
             }
         }
     }
 ```
 
-Kotlin:
-
-```kotlin
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        if (resultCode == Activity.RESULT_OK) {
-            val exitCode = Streem.get().getExitCode(requestCode, resultCode, data)
-            if (Streem.EXIT_CODE_HELP == exitCode) {
-                // Kick off Help experience
-            }
-        }
-    }
-```
-
-### AR Tutorials
-
-_NOTE: AR Tutorials are a work in progress. If you're interested in using them please contact product@streem.pro_
-
-Check Tutorial support using the `Streem.checkSupport` method.
+Then, use the Activity launcher that was registered earlier to launch the Streem experience and enter the lobby:
 
 Java:
 
 ```java
-    Streem.get().checkSupport((supported -> {
-        // Show tutorial button when supported == true
-    }), Streem.Feature.TUTORIAL);
+    startStreem.launch(new StartStreemFromInvitationRequest(invitation));
 ```
 
 Kotlin:
 
 ```kotlin
-    Streem.get().checkSupport(Streem.Feature.TUTORIAL) { supported -> {
-        // Show tutorial button when supported == true
-    }
-```
-
-This checks whether the device has the necessary components to run Tutorials, including ARCore and SceneForm support. If the above check returns `true`, show whatever UI makes sense for your app to indicate AR Tutorial support.
-
-When you are ready to kick off a Tutorial, call `Streem.openTutorial` with the `tutorial` resource you received from Streem, and the current activity or fragment.
-
-Java:
-
-```java
-    Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
-```
-
-Kotlin:
-
-```kotlin
-    Streem.get().openTutorial(activityOrFragment, R.raw.tutorial);
+    startStreem.launch(StartStreemFromInvitationRequest(invitation))
 ```
 
 ## Further Documentation

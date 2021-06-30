@@ -15,17 +15,16 @@ class BasicArTutorialApplication : MultiDexApplication() {
         Streem.initialize(
             Streem.Configuration(
                 application = this,
-                appId = getString(R.string.streemAppId),
-                appSecret = getString(R.string.streemAppSecret),
-                environment = Streem.Environment.PROD_US
-            ) {
-                Log.e(TAG, "Error while Streeming", it)
-                Toast.makeText(this, it.localizedMessage, Toast.LENGTH_LONG).show()
-            }
+                appId = MY_APP_ID,
+                environment = Streem.Environment.SANDBOX
+            )
         )
     }
 
     companion object {
         private val TAG = BasicArTutorialApplication::class.java.simpleName
+        // You will need an App Id provided to you from somebody at Streem.
+        // More information can be found here: https://github.com/streem/streem-sdk-android
+        private const val MY_APP_ID = "your_app_id_here"
     }
 }

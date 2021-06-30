@@ -4,9 +4,6 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-android-extensions'
 
-def secrets = new Properties()
-file('../secrets.properties').withReader { secrets.load(it) }
-
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -17,9 +14,6 @@ android {
         versionName "1.0"
         multiDexEnabled true
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-
-        resValue("string", "streemAppId", secrets.streemAppId)
-        resValue("string", "streemAppSecret", secrets.streemAppSecret)
     }
     buildTypes {
         release {
@@ -40,7 +34,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation "pro.streem:streem-sdk:0.11.0"
+    implementation "pro.streem:streem-sdk:0.12.0"
 
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
