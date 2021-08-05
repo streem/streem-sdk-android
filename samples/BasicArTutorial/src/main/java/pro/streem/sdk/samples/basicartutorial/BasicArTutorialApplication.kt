@@ -22,7 +22,7 @@ class BasicArTutorialApplication : MultiDexApplication() {
     }
 
     companion object {
-        private val TAG = BasicArTutorialApplication::class.java.simpleName
+        private const val TAG = "BasicArTutorialApp"
         // You will need an App Id provided to you from somebody at Streem.
         // More information can be found here: https://github.com/streem/streem-sdk-android
         private const val MY_APP_ID = "your_app_id_here"

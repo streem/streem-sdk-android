@@ -129,7 +129,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private val TAG = MainActivity::class.java.simpleName
+        private const val TAG = "RSEMainActivity"
         private const val PERMISSION_CODE_STREEM = 1
     }
 }
