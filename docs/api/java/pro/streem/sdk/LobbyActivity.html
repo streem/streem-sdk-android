@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!-- NewPage -->
 <html lang="en"><head>
-    <title>LobbyActivity 0.13.0 API </title>
+    <title>LobbyActivity 0.14.0 API </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="dc.created" content="2020-03-25">
     <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
@@ -210,6 +210,16 @@ var pathtoroot = "../../../";
                             
                             <code>androidx.savedstate.SavedStateRegistryOwner</code>
                             
+                            ,
+                            
+                            
+                            <code>org.koin.core.KoinComponent</code>
+                            
+                            ,
+                            
+                            
+                            <code>pro.streem.sdk.internal.di.StreemKoinComponent</code>
+                            
                             
                         </dd>
                     </dl>
@@ -218,7 +228,7 @@ var pathtoroot = "../../../";
                     <pre class="wrap-overflow">
 
 public final class <span class="typeNameLabel"><a href=LobbyActivity.html>LobbyActivity</a></span>
-extends <a href=https://developer.android.com/reference/kotlin/androidx/appcompat/app/AppCompatActivity.html>AppCompatActivity</a>
+extends <a href=https://developer.android.com/reference/kotlin/androidx/appcompat/app/AppCompatActivity.html>AppCompatActivity</a> implements StreemKoinComponent
                     </pre>
                     <div class="block"></div>
                 </li>
@@ -378,7 +388,7 @@ extends <a href=https://developer.android.com/reference/kotlin/androidx/appcompa
                                             <!--   -->
                                         </a>
                                             <h3>Methods inherited from class&nbsp;pro.streem.sdk.LobbyActivity</h3>
-                                            <code>addContentView, attachBaseContext, closeOptionsMenu, dispatchKeyEvent, findViewById, getDelegate, getDrawerToggleDelegate, getMenuInflater, getResources, getSupportActionBar, getSupportParentActivityIntent, invalidateOptionsMenu, onConfigurationChanged, onContentChanged, onCreateSupportNavigateUpTaskStack, onDestroy, onKeyDown, onMenuItemSelected, onMenuOpened, onNightModeChanged, onPanelClosed, onPostCreate, onPostResume, onPrepareSupportNavigateUpTaskStack, onStart, onStop, onSupportActionModeFinished, onSupportActionModeStarted, onSupportContentChanged, onSupportNavigateUp, onTitleChanged, onWindowStartingSupportActionMode, openOptionsMenu, setContentView, setContentView, setContentView, setSupportActionBar, setSupportProgress, setSupportProgressBarIndeterminate, setSupportProgressBarIndeterminateVisibility, setSupportProgressBarVisibility, setTheme, startSupportActionMode, supportInvalidateOptionsMenu, supportNavigateUpTo, supportRequestWindowFeature, supportShouldUpRecreateTask</code></li>
+                                            <code>addContentView, attachBaseContext, closeKoin, closeOptionsMenu, dispatchKeyEvent, findViewById, getDelegate, getDrawerToggleDelegate, getKoin, getKoinAppOrNull, getMenuInflater, getResources, getSupportActionBar, getSupportParentActivityIntent, invalidateOptionsMenu, onConfigurationChanged, onContentChanged, onCreateSupportNavigateUpTaskStack, onDestroy, onKeyDown, onMenuItemSelected, onMenuOpened, onNightModeChanged, onPanelClosed, onPostCreate, onPostResume, onPrepareSupportNavigateUpTaskStack, onStart, onStop, onSupportActionModeFinished, onSupportActionModeStarted, onSupportContentChanged, onSupportNavigateUp, onTitleChanged, onWindowStartingSupportActionMode, openOptionsMenu, setContentView, setContentView, setContentView, setKoinApp, setSupportActionBar, setSupportProgress, setSupportProgressBarIndeterminate, setSupportProgressBarIndeterminateVisibility, setSupportProgressBarVisibility, setTheme, startSupportActionMode, supportInvalidateOptionsMenu, supportNavigateUpTo, supportRequestWindowFeature, supportShouldUpRecreateTask</code></li>
                                  
                                     <li class="blockList"><a id="methods.inherited.from.class.android.view.ContextThemeWrapper">
                                             <!--   -->
@@ -396,7 +406,7 @@ extends <a href=https://developer.android.com/reference/kotlin/androidx/appcompa
                                             <!--   -->
                                         </a>
                                             <h3>Methods inherited from class&nbsp;androidx.appcompat.app.AppCompatActivity</h3>
-                                            <code>dispatchFragmentsOnCreateView, dump, getSupportFragmentManager, getSupportLoaderManager, markFragmentsCreated, onAttachFragment, onCreatePanelMenu, onCreateView, onCreateView, onLowMemory, onMultiWindowModeChanged, onNewIntent, onPause, onPictureInPictureModeChanged, onPrepareOptionsPanel, onPreparePanel, onRequestPermissionsResult, onResume, onResumeFragments, onStateNotSaved, setEnterSharedElementCallback, setExitSharedElementCallback, startActivityFromFragment, startActivityFromFragment, startIntentSenderFromFragment, supportFinishAfterTransition, supportPostponeEnterTransition, supportStartPostponedEnterTransition, validateRequestPermissionsRequestCode</code></li>
+                                            <code>dispatchFragmentsOnCreateView, dump, getSupportFragmentManager, getSupportLoaderManager, markFragmentsCreated, onAttachFragment, onCreatePanelMenu, onCreateView, onCreateView, onLowMemory, onMultiWindowModeChanged, onNewIntent, onPause, onPictureInPictureModeChanged, onPrepareOptionsPanel, onPreparePanel, onRequestPermissionsResult, onResumeFragments, onStateNotSaved, setEnterSharedElementCallback, setExitSharedElementCallback, startActivityFromFragment, startActivityFromFragment, startIntentSenderFromFragment, supportFinishAfterTransition, supportPostponeEnterTransition, supportStartPostponedEnterTransition, validateRequestPermissionsRequestCode</code></li>
                                  
                                     <li class="blockList"><a id="methods.inherited.from.class.androidx.activity.ComponentActivity">
                                             <!--   -->

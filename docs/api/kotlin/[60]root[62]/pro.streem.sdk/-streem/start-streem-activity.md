@@ -110,7 +110,7 @@ androidJvm
 Content  
 @[MainThread](https://developer.android.com/reference/kotlin/androidx/annotation/MainThread.html)()  
   
-abstract fun [startStreemActivity](start-streem-activity.md)(currentActivity: [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html), invitation: [Streem.StreemInvitation](-streem-invitation/index.md), localParticipantSessionConfig: [Streem.SessionConfig](-session-config/index.md), errorCallback: ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -> [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null)  
+~~abstract~~ ~~fun~~ [~~startStreemActivity~~](start-streem-activity.md)~~(~~~~currentActivity~~~~:~~ [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html)~~,~~ ~~invitation~~~~:~~ [Streem.StreemInvitation](-streem-invitation/index.md)~~,~~ ~~localParticipantSessionConfig~~~~:~~ [Streem.SessionConfig](-session-config/index.md)~~,~~ ~~errorCallback~~~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -> [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? ~~= null~~~~)~~  
 More info  
 
 
@@ -136,7 +136,7 @@ androidJvm
 Content  
 @[MainThread](https://developer.android.com/reference/kotlin/androidx/annotation/MainThread.html)()  
   
-abstract fun [startStreemActivity](start-streem-activity.md)(currentFragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html), invitation: [Streem.StreemInvitation](-streem-invitation/index.md), localParticipantSessionConfig: [Streem.SessionConfig](-session-config/index.md), errorCallback: ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -> [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null)  
+~~abstract~~ ~~fun~~ [~~startStreemActivity~~](start-streem-activity.md)~~(~~~~currentFragment~~~~:~~ [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html)~~,~~ ~~invitation~~~~:~~ [Streem.StreemInvitation](-streem-invitation/index.md)~~,~~ ~~localParticipantSessionConfig~~~~:~~ [Streem.SessionConfig](-session-config/index.md)~~,~~ ~~errorCallback~~~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -> [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? ~~= null~~~~)~~  
 More info  
 
 

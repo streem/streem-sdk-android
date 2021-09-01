@@ -29,7 +29,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.13.0"
+    implementation "pro.streem:streem-sdk:0.14.0"
     ...
 }
 ```
@@ -222,7 +222,7 @@ Kotlin:
     }
 ```
 
-Then, use the Activity launcher that was registered earlier to launch the Streem experience and enter the lobby:
+Then, use the Activity launcher that was registered earlier to launch the Streem experience and enter the lobby. `launch()` will launch a new Activity and should only be called once.
 
 Java:
 
