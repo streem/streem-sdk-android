@@ -1,3 +1,10 @@
+### v0.15.0 - September 29, 2021
+
+-   Minor face-to-face mode UI updates including microphone icon for customer video
+-   Add easier access to call controls by opening when user taps on their face-to-face video
+-   Bug fixes including lifecycle enhancements for system picture in picture mode
+-   Update to newly released Streem Sceneform version to support above lifecycle enhancements
+
 ### v0.14.0 - September 1, 2021
 
 -   Added lobby experience with camera preview to classic Streem and face-to-face experiences
