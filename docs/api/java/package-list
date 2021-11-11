@@ -27,6 +27,8 @@ $dokka.location:pro.streem.sdk/Streem.InvitationDialogResult.InviteAccepted///Po
 $dokka.location:pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined///PointingToDeclaration/pro/streem/sdk/Streem.InvitationDialogResult.InviteDeclined.html
 $dokka.location:pro.streem.sdk/Streem.InvitationDialogResult///PointingToDeclaration/pro/streem/sdk/Streem.InvitationDialogResult.html
 $dokka.location:pro.streem.sdk/Streem.InvitationType///PointingToDeclaration/pro/streem/sdk/Streem.InvitationType.html
+$dokka.location:pro.streem.sdk/Streem.LinkType.Invitation///PointingToDeclaration/pro/streem/sdk/Streem.LinkType.Invitation.html
+$dokka.location:pro.streem.sdk/Streem.LinkType///PointingToDeclaration/pro/streem/sdk/Streem.LinkType.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.LoggedIn.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.html

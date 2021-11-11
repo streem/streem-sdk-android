@@ -29,7 +29,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.15.0"
+    implementation "pro.streem:streem-sdk:0.16.0"
     ...
 }
 ```
@@ -139,7 +139,7 @@ Kotlin:
 ### Logging In
 
 The next step is to login your user by calling `Streem.login` with the invitation code.
-Here Streem uses the `invitationCode` to look up your user's information and identify them and calls back with a `LoginInvitationResult` object.
+Here Streem uses the `invitationCode` or `invitationUri` to look up your user's information and identify them and calls back with a `LoginInvitationResult` object.
 
 If login is successful, the result will be of type `Streem.LoginInvitationResult.LoggedIn` and will contain a StreemInvitation. This StreemInvitation contains information about the sender of the invitation and will be used when starting a remote Streem (see below).
 
@@ -148,15 +148,31 @@ If there is an error during login, it will be returned as one of the `Streem.Log
 Java:
 
 ```java
-    Streem.get().login("yourInviteCode", false, result -> {
+Streem.get().login("yourInviteCode", false, result -> {
+    if (result instanceof Streem.LoginInvitationResult.LoggedIn) {
+        // you can use the StreemInvitation returned here to start the Streem experience and enter the lobby (see below)
+        Log.i(TAG, String.format("Received invitation from: %s", ((Streem.LoginInvitationResult.LoggedIn) result).getInvitation().getFromName()));
+    } else if (result instanceof Streem.LoginInvitationResult.Error) {
+        // todo handle errors
+    }
+    return Unit.INSTANCE;
+});
+```
+
+Or, using invitationUri:
+
+```java
+if (Streem.get().parseUri(uri) instanceof Streem.LinkType.Invitation) {
+    Streem.get().login(uri, false, result -> {
         if (result instanceof Streem.LoginInvitationResult.LoggedIn) {
             // you can use the StreemInvitation returned here to start the Streem experience and enter the lobby (see below)
-            Log.i(TAG, String.format("Received invitation from: %s", result.invitation.fromName));
+            Log.i(TAG, String.format("Received invitation from: %s", ((Streem.LoginInvitationResult.LoggedIn) result).getInvitation().getFromName()));
         } else if (result instanceof Streem.LoginInvitationResult.Error) {
             // todo handle errors
         }
         return Unit.INSTANCE;
     });
+}
 ```
 
 Kotlin:
@@ -175,6 +191,27 @@ Streem.get().login(
             is Streem.LoginInvitationResult.Error.UnexpectedError -> TODO()
         }
     }
+```
+
+Or, using invitationUri:
+
+```kotlin
+if (Streem.get().parseUri(uri) is Streem.LinkType.Invitation) {
+    Streem.get().login(
+        invitationUri = uri,
+        isExpert = false
+    ) { result ->
+        when (result) {
+            is Streem.LoginInvitationResult.LoggedIn -> {
+                /* you can use the StreemInvitation returned here to start the Streem experience and enter the lobby (see below) */
+                Log.i(TAG, "Received invitation from: ${result.invitation.fromName}")
+            }
+            is Streem.LoginInvitationResult.Error.InvitationConsumed -> TODO()
+            is Streem.LoginInvitationResult.Error.InvitationInvalid -> TODO()
+            is Streem.LoginInvitationResult.Error.UnexpectedError -> TODO()
+        }
+    }
+}
 ```
 
 ### Remote Streems
