@@ -3,7 +3,7 @@
 -   Minor face-to-face mode UI updates including microphone icon for pro video and prompt for users when in system PiP and camera swap request comes through
 -   Improvement to system PiP experience when view is in landscape
 -   API endpoint migration for environments to support multi-region work
--   Additional API methods to parse Streem URL on app's behalf (see API and [ReadMe](./README.md#remote-streems) for more info)
+-   Additional API methods to parse Streem URL on app's behalf (see API and [ReadMe](./README.md#logging-in) for more info)
 -   Minor bug fixes including the bug where user name and mic status were not previously appearing on expert web side
 
 ### v0.15.0 - September 29, 2021
