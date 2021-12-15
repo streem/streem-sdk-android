@@ -8,7 +8,7 @@ title: Invitation -
 # Invitation  
 [androidJvm]  
 Content  
-fun [Invitation](-invitation.md)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  
+fun [Invitation](-invitation.md)(companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  
 
 
 

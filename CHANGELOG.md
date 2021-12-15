@@ -1,3 +1,11 @@
+### v0.17.0 - December 15, 2021
+
+-   Fixed bugs related to thread safety to ensure stability
+-   Updated lifecycle handling for AR elements when using face-to-face mode and changing cameras
+-   Improvements to system picture-in-picture to fix content resizing and support orientation changes
+-   Upgrade pbandk library dependency from v0.10.0 to v0.12.1 (see version changes in [pbandk changelog](https://github.com/streem/pbandk/blob/master/CHANGELOG.md#0121---2021-11-11))
+-   Upgraded from Twilio v5.8.1 to Twilio v6.4.0 (see specific upgrades in the [Twilio Video Android Changelog](https://www.twilio.com/docs/video/changelog-twilio-video-android-v6))
+
 ### v0.16.0 - November 10, 2021
 
 -   Minor face-to-face mode UI updates including microphone icon for pro video and prompt for users when in system PiP and camera swap request comes through
