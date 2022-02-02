@@ -1,6 +1,7 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Completed///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Completed.html
+$dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.ClientVersionTooOld.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.InvitationDeclined///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.InvitationDeclined.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.UnexpectedError.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/pro/streem/sdk/StartStreemFromInvitationResult.Error.html
@@ -9,6 +10,8 @@ $dokka.location:pro.streem.sdk/Streem.Configuration.Builder///PointingToDeclarat
 $dokka.location:pro.streem.sdk/Streem.Configuration.Companion///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.Companion.html
 $dokka.location:pro.streem.sdk/Streem.Configuration///PointingToDeclaration/pro/streem/sdk/Streem.Configuration.html
 $dokka.location:pro.streem.sdk/Streem.Country///PointingToDeclaration/pro/streem/sdk/Streem.Country.html
+$dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Companion///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Companion.html
+$dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.ClientVersionTooOld.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.InvalidPhoneNumber///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.InvalidPhoneNumber.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.InvalidUserName///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.InvalidUserName.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.UnexpectedError.html
@@ -29,9 +32,14 @@ $dokka.location:pro.streem.sdk/Streem.InvitationDialogResult///PointingToDeclara
 $dokka.location:pro.streem.sdk/Streem.InvitationType///PointingToDeclaration/pro/streem/sdk/Streem.InvitationType.html
 $dokka.location:pro.streem.sdk/Streem.LinkType.Invitation///PointingToDeclaration/pro/streem/sdk/Streem.LinkType.Invitation.html
 $dokka.location:pro.streem.sdk/Streem.LinkType///PointingToDeclaration/pro/streem/sdk/Streem.LinkType.html
+$dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.Companion///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.Companion.html
+$dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.Error.ClientVersionTooOld.html
+$dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.Error.UnexpectedError.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.LoggedIn.html
 $dokka.location:pro.streem.sdk/Streem.LoginCompletionResult///PointingToDeclaration/pro/streem/sdk/Streem.LoginCompletionResult.html
+$dokka.location:pro.streem.sdk/Streem.LoginInvitationResult.Companion///PointingToDeclaration/pro/streem/sdk/Streem.LoginInvitationResult.Companion.html
+$dokka.location:pro.streem.sdk/Streem.LoginInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.LoginInvitationResult.Error.ClientVersionTooOld.html
 $dokka.location:pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationConsumed///PointingToDeclaration/pro/streem/sdk/Streem.LoginInvitationResult.Error.InvitationConsumed.html
 $dokka.location:pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationInvalid///PointingToDeclaration/pro/streem/sdk/Streem.LoginInvitationResult.Error.InvitationInvalid.html
 $dokka.location:pro.streem.sdk/Streem.LoginInvitationResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/Streem.LoginInvitationResult.Error.UnexpectedError.html
@@ -42,6 +50,9 @@ $dokka.location:pro.streem.sdk/Streem.ParticipantRequest///PointingToDeclaration
 $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.Companion.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.html
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation///PointingToDeclaration/pro/streem/sdk/Streem.StreemInvitation.html
+$dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Companion///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Companion.html
+$dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Error.ClientVersionTooOld.html
+$dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Error.UnexpectedError.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.SupportedCountries.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.html

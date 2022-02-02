@@ -1,3 +1,11 @@
+### v0.18.0 - February 2, 2022
+
+-   Add ability to login using Streem SDK token
+-   Add ClientVersionTooOldException which can be returned if the Streem SDK version is outdated
+-   Fix bug where UploadManagerService failed to unload and remained active in memory
+-   Bug fixes for 3d elements intermittently failing to show
+-   Work on new features that are coming soon
+
 ### v0.17.0 - December 15, 2021
 
 -   Fixed bugs related to thread safety to ensure stability

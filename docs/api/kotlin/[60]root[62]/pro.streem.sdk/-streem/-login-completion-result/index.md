@@ -13,7 +13,8 @@ title: LoginCompletionResult -
   
 |  Name |  Summary | 
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [Error](-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult](index.md)  <br><br><br>|
+| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
+| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>sealed class [Error](-error/index.md) : [Streem.LoginCompletionResult](index.md)  <br><br><br>|
 | <a name="pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/"></a>[LoggedIn](-logged-in/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [LoggedIn](-logged-in/index.md) : [Streem.LoginCompletionResult](index.md)  <br><br><br>|
 
 

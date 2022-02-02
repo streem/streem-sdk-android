@@ -13,7 +13,8 @@ title: SupportedCountriesResult -
   
 |  Name |  Summary | 
 |---|---|
-| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [Error](-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.SupportedCountriesResult](index.md)  <br><br><br>|
+| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Companion///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
+| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>sealed class [Error](-error/index.md) : [Streem.SupportedCountriesResult](index.md)  <br><br><br>|
 | <a name="pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries///PointingToDeclaration/"></a>[SupportedCountries](-supported-countries/index.md)| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [SupportedCountries](-supported-countries/index.md)(**countries**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Streem.Country](../-country/index.md)>) : [Streem.SupportedCountriesResult](index.md)  <br><br><br>|
 
 
