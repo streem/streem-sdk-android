@@ -1,14 +1,17 @@
 ---
-title: expiresAt -
+title: expiresAt
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[expiresAt](expires-at.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[expiresAt](expires-at.html)
 
 
 
-# expiresAt  
-[androidJvm]  
-Content  
-val [expiresAt](expires-at.md): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?  
+# expiresAt
+
+
+
+[androidJvm]\
+val [expiresAt](expires-at.html): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?
+
 
 
 

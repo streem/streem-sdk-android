@@ -1,14 +1,17 @@
 ---
-title: callingCode -
+title: callingCode
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Country](index.md)/[callingCode](calling-code.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Country](index.html)/[callingCode](calling-code.html)
 
 
 
-# callingCode  
-[androidJvm]  
-Content  
-val [callingCode](calling-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# callingCode
+
+
+
+[androidJvm]\
+val [callingCode](calling-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

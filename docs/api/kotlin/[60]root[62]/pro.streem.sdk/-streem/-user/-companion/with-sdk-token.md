@@ -1,16 +1,25 @@
 ---
-title: withSdkToken -
+title: withSdkToken
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[User](../index.md)/[Companion](index.md)/[withSdkToken](with-sdk-token.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[User](../index.html)/[Companion](index.html)/[withSdkToken](with-sdk-token.html)
 
 
 
-# withSdkToken  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [withSdkToken](with-sdk-token.md)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  
+# withSdkToken
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [withSdkToken](with-sdk-token.html)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html)
+
 
 
 

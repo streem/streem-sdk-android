@@ -1,16 +1,25 @@
 ---
-title: SANDBOX -
+title: SANDBOX
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[Environment](../index.md)/[Companion](index.md)/[SANDBOX](-s-a-n-d-b-o-x.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[Environment](../index.html)/[Companion](index.html)/[SANDBOX](-s-a-n-d-b-o-x.html)
 
 
 
-# SANDBOX  
-[androidJvm]  
-Content  
-@[JvmField](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-field/index.html)()  
-  
-val [SANDBOX](-s-a-n-d-b-o-x.md): [Streem.Environment](../index.md)  
+# SANDBOX
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmField](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-field/index.html)
+
+
+
+val [SANDBOX](-s-a-n-d-b-o-x.html): [Streem.Environment](../index.html)
+
 
 
 

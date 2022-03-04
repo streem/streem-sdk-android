@@ -1,16 +1,25 @@
 ---
-title: withInvitationCode -
+title: withInvitationCode
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[User](../index.md)/[Companion](index.md)/[withInvitationCode](with-invitation-code.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[User](../index.html)/[Companion](index.html)/[withInvitationCode](with-invitation-code.html)
 
 
 
-# withInvitationCode  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [withInvitationCode](with-invitation-code.md)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  
+# withInvitationCode
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [withInvitationCode](with-invitation-code.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html)
+
 
 
 

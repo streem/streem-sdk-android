@@ -1,14 +1,17 @@
 ---
-title: environment -
+title: environment
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Configuration](index.md)/[environment](environment.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Configuration](index.html)/[environment](environment.html)
 
 
 
-# environment  
-[androidJvm]  
-Content  
-val [environment](environment.md): [Streem.Environment](../-environment/index.md)? = null  
+# environment
+
+
+
+[androidJvm]\
+val [environment](environment.html): [Streem.Environment](../-environment/index.html)? = null
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: expert -
+title: expert
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[UserProfile](../index.md)/[Builder](index.md)/[expert](expert.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[UserProfile](../index.html)/[Builder](index.html)/[expert](expert.html)
 
 
 
-# expert  
-[androidJvm]  
-Content  
-val [expert](expert.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)  
+# expert
+
+
+
+[androidJvm]\
+val [expert](expert.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+
 
 
 

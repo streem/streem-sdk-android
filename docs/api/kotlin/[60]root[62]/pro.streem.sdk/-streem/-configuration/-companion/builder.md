@@ -1,16 +1,25 @@
 ---
-title: builder -
+title: builder
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[Configuration](../index.md)/[Companion](index.md)/[builder](builder.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[Configuration](../index.html)/[Companion](index.html)/[builder](builder.html)
 
 
 
-# builder  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [builder](builder.md)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)): [Streem.Configuration.Builder](../-builder/index.md)  
+# builder
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [builder](builder.html)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)): [Streem.Configuration.Builder](../-builder/index.html)
+
 
 
 

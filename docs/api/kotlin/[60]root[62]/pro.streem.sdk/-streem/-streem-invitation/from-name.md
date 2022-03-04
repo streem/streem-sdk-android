@@ -1,14 +1,17 @@
 ---
-title: fromName -
+title: fromName
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[fromName](from-name.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[fromName](from-name.html)
 
 
 
-# fromName  
-[androidJvm]  
-Content  
-val [fromName](from-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# fromName
+
+
+
+[androidJvm]\
+val [fromName](from-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

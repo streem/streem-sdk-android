@@ -1,26 +1,33 @@
 ---
-title: InvitationType -
+title: InvitationType
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[InvitationType](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[InvitationType](index.html)
 
 
 
-# InvitationType  
- [androidJvm] enum [InvitationType](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)<[Streem.InvitationType](index.md)>    
+# InvitationType
 
 
-## Entries  
-  
+
+[androidJvm]\
+enum [InvitationType](index.html) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)&lt;[Streem.InvitationType](index.html)&gt;
+
+
+
+## Entries
+
+
 | | |
 |---|---|
-| <a name="pro.streem.sdk/Streem.InvitationType.LINK///PointingToDeclaration/"></a>[LINK](-l-i-n-k/index.md)| <a name="pro.streem.sdk/Streem.InvitationType.LINK///PointingToDeclaration/"></a> [androidJvm] [LINK](-l-i-n-k/index.md)()  <br>   <br>|
-| <a name="pro.streem.sdk/Streem.InvitationType.PHONE///PointingToDeclaration/"></a>[PHONE](-p-h-o-n-e/index.md)| <a name="pro.streem.sdk/Streem.InvitationType.PHONE///PointingToDeclaration/"></a> [androidJvm] [PHONE](-p-h-o-n-e/index.md)()  <br>   <br>|
+| [PHONE](-p-h-o-n-e/index.html) | [androidJvm]<br>[PHONE](-p-h-o-n-e/index.html)() |
+| [LINK](-l-i-n-k/index.html) | [androidJvm]<br>[LINK](-l-i-n-k/index.html)() |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.InvitationType/name/#/PointingToDeclaration/"></a>[name](index.md#%5Bpro.streem.sdk%2FStreem.InvitationType%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/Streem.InvitationType/name/#/PointingToDeclaration/"></a> [androidJvm] val [name](index.md#%5Bpro.streem.sdk%2FStreem.InvitationType%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.InvitationType/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#%5Bpro.streem.sdk%2FStreem.InvitationType%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/Streem.InvitationType/ordinal/#/PointingToDeclaration/"></a> [androidJvm] val [ordinal](index.md#%5Bpro.streem.sdk%2FStreem.InvitationType%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](-l-i-n-k/index.html#-372974862%2FProperties%2F1719228252) | [androidJvm]<br>val [name](-l-i-n-k/index.html#-372974862%2FProperties%2F1719228252): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](-l-i-n-k/index.html#-739389684%2FProperties%2F1719228252) | [androidJvm]<br>val [ordinal](-l-i-n-k/index.html#-739389684%2FProperties%2F1719228252): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

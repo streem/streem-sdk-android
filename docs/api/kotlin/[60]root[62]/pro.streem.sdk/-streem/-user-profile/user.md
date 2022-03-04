@@ -1,14 +1,17 @@
 ---
-title: user -
+title: user
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[UserProfile](index.md)/[user](user.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[UserProfile](index.html)/[user](user.html)
 
 
 
-# user  
-[androidJvm]  
-Content  
-val [user](user.md): [Streem.User](../-user/index.md)  
+# user
+
+
+
+[androidJvm]\
+val [user](user.html): [Streem.User](../-user/index.html)
+
 
 
 

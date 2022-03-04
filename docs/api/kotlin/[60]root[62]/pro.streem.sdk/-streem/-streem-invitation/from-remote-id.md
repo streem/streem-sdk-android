@@ -1,14 +1,17 @@
 ---
-title: fromRemoteId -
+title: fromRemoteId
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[fromRemoteId](from-remote-id.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[fromRemoteId](from-remote-id.html)
 
 
 
-# fromRemoteId  
-[androidJvm]  
-Content  
-val [fromRemoteId](from-remote-id.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null  
+# fromRemoteId
+
+
+
+[androidJvm]\
+val [fromRemoteId](from-remote-id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null
+
 
 
 

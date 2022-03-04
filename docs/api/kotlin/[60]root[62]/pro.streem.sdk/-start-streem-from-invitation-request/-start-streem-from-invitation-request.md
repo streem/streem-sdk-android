@@ -1,14 +1,17 @@
 ---
-title: StartStreemFromInvitationRequest -
+title: StartStreemFromInvitationRequest
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[StartStreemFromInvitationRequest](index.md)/[StartStreemFromInvitationRequest](-start-streem-from-invitation-request.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[StartStreemFromInvitationRequest](index.html)/[StartStreemFromInvitationRequest](-start-streem-from-invitation-request.html)
 
 
 
-# StartStreemFromInvitationRequest  
-[androidJvm]  
-Content  
-fun [StartStreemFromInvitationRequest](-start-streem-from-invitation-request.md)(invitation: [Streem.StreemInvitation](../-streem/-streem-invitation/index.md))  
+# StartStreemFromInvitationRequest
+
+
+
+[androidJvm]\
+fun [StartStreemFromInvitationRequest](-start-streem-from-invitation-request.html)(invitation: [Streem.StreemInvitation](../-streem/-streem-invitation/index.html))
+
 
 
 

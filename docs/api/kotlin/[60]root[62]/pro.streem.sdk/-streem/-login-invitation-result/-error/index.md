@@ -1,30 +1,37 @@
 ---
-title: Error -
+title: Error
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginInvitationResult](../index.md)/[Error](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginInvitationResult](../index.html)/[Error](index.html)
 
 
 
-# Error  
- [androidJvm] sealed class [Error](index.md) : [Streem.LoginInvitationResult](../index.md)   
+# Error
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [Error](index.html) : [Streem.LoginInvitationResult](../index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[ClientVersionTooOld](-client-version-too-old/index.md)| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [ClientVersionTooOld](-client-version-too-old/index.md) : [Streem.LoginInvitationResult.Error](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationConsumed///PointingToDeclaration/"></a>[InvitationConsumed](-invitation-consumed/index.md)| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationConsumed///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [InvitationConsumed](-invitation-consumed/index.md) : [Streem.LoginInvitationResult.Error](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationInvalid///PointingToDeclaration/"></a>[InvitationInvalid](-invitation-invalid/index.md)| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationInvalid///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [InvitationInvalid](-invitation-invalid/index.md) : [Streem.LoginInvitationResult.Error](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.UnexpectedError///PointingToDeclaration/"></a>[UnexpectedError](-unexpected-error/index.md)| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.UnexpectedError///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [UnexpectedError](-unexpected-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginInvitationResult.Error](index.md)  <br><br><br>|
+| [ClientVersionTooOld](-client-version-too-old/index.html) | [androidJvm]<br>object [ClientVersionTooOld](-client-version-too-old/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
+| [InvitationConsumed](-invitation-consumed/index.html) | [androidJvm]<br>object [InvitationConsumed](-invitation-consumed/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
+| [InvitationInvalid](-invitation-invalid/index.html) | [androidJvm]<br>object [InvitationInvalid](-invitation-invalid/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
+| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginInvitationResult.Error](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationConsumed///PointingToDeclaration/"></a>[Streem.LoginInvitationResult.Error](-invitation-consumed/index.md)|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.InvitationInvalid///PointingToDeclaration/"></a>[Streem.LoginInvitationResult.Error](-invitation-invalid/index.md)|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[Streem.LoginInvitationResult.Error](-client-version-too-old/index.md)|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.Error.UnexpectedError///PointingToDeclaration/"></a>[Streem.LoginInvitationResult.Error](-unexpected-error/index.md)|
+| [Streem.LoginInvitationResult.Error](-invitation-consumed/index.html) |
+| [Streem.LoginInvitationResult.Error](-invitation-invalid/index.html) |
+| [Streem.LoginInvitationResult.Error](-client-version-too-old/index.html) |
+| [Streem.LoginInvitationResult.Error](-unexpected-error/index.html) |
 

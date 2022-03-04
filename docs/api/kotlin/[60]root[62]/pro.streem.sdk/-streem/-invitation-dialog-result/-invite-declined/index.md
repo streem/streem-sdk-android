@@ -1,17 +1,23 @@
 ---
-title: InviteDeclined -
+title: InviteDeclined
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[InvitationDialogResult](../index.md)/[InviteDeclined](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[InvitationDialogResult](../index.html)/[InviteDeclined](index.html)
 
 
 
-# InviteDeclined  
- [androidJvm] class [InviteDeclined](index.md)(**invitationCode**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.md)   
+# InviteDeclined
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+class [InviteDeclined](index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined/invitationCode/#/PointingToDeclaration/"></a>[invitationCode](invitation-code.md)| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined/invitationCode/#/PointingToDeclaration/"></a> [androidJvm] val [invitationCode](invitation-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
+| [invitationCode](invitation-code.html) | [androidJvm]<br>val [invitationCode](invitation-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

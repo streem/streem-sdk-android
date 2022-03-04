@@ -1,14 +1,17 @@
 ---
-title: countries -
+title: countries
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[SupportedCountriesResult](../index.md)/[SupportedCountries](index.md)/[countries](countries.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[SupportedCountriesResult](../index.html)/[SupportedCountries](index.html)/[countries](countries.html)
 
 
 
-# countries  
-[androidJvm]  
-Content  
-val [countries](countries.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Streem.Country](../../-country/index.md)>  
+# countries
+
+
+
+[androidJvm]\
+val [countries](countries.html): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;
+
 
 
 

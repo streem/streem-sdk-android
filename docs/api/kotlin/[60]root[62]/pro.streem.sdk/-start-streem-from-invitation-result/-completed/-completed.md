@@ -1,14 +1,17 @@
 ---
-title: Completed -
+title: Completed
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[StartStreemFromInvitationResult](../index.md)/[Completed](index.md)/[Completed](-completed.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[StartStreemFromInvitationResult](../index.html)/[Completed](index.html)/[Completed](-completed.html)
 
 
 
-# Completed  
-[androidJvm]  
-Content  
-fun [Completed](-completed.md)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?)  
+# Completed
+
+
+
+[androidJvm]\
+fun [Completed](-completed.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?)
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: error -
+title: error
 ---
-//[<root>](../../../../../../index.md)/[pro.streem.sdk](../../../../index.md)/[Streem](../../../index.md)/[SupportedCountriesResult](../../index.md)/[Error](../index.md)/[UnexpectedError](index.md)/[error](error.md)
+//[<root>](../../../../../../index.html)/[pro.streem.sdk](../../../../index.html)/[Streem](../../../index.html)/[SupportedCountriesResult](../../index.html)/[Error](../index.html)/[UnexpectedError](index.html)/[error](error.html)
 
 
 
-# error  
-[androidJvm]  
-Content  
-val [error](error.md): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)  
+# error
+
+
+
+[androidJvm]\
+val [error](error.html): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)
+
 
 
 

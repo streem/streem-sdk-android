@@ -1,14 +1,17 @@
 ---
-title: InviteAccepted -
+title: InviteAccepted
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[InvitationDialogResult](../index.md)/[InviteAccepted](index.md)/[InviteAccepted](-invite-accepted.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[InvitationDialogResult](../index.html)/[InviteAccepted](index.html)/[InviteAccepted](-invite-accepted.html)
 
 
 
-# InviteAccepted  
-[androidJvm]  
-Content  
-fun [InviteAccepted](-invite-accepted.md)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  
+# InviteAccepted
+
+
+
+[androidJvm]\
+fun [InviteAccepted](-invite-accepted.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+
 
 
 

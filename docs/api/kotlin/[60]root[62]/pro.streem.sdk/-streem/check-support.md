@@ -1,18 +1,20 @@
 ---
-title: checkSupport -
+title: checkSupport
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[Streem](index.md)/[checkSupport](check-support.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[Streem](index.html)/[checkSupport](check-support.html)
 
 
 
-# checkSupport  
-[androidJvm]  
-Content  
-abstract fun [checkSupport](check-support.md)(resultCallback: [Consumer](https://developer.android.com/reference/kotlin/androidx/core/util/Consumer.html)<[Streem.FeatureSupportResult](-feature-support-result/index.md)>, vararg feature: [Streem.Feature](-feature/index.md))  
-More info  
+# checkSupport
 
 
-Checks if the requested [feature](check-support.md)s are supported on this device. Calls [resultCallback](check-support.md) asynchronously with the result.
+
+[androidJvm]\
+abstract fun [checkSupport](check-support.html)(resultCallback: [Consumer](https://developer.android.com/reference/kotlin/androidx/core/util/Consumer.html)&lt;[Streem.FeatureSupportResult](-feature-support-result/index.html)&gt;, vararg feature: [Streem.Feature](-feature/index.html))
+
+
+
+Checks if the requested [feature](check-support.html)s are supported on this device. Calls [resultCallback](check-support.html) asynchronously with the result.
 
 
 
@@ -20,16 +22,16 @@ The callback will be called on the Android main thread.
 
 
 
-## Parameters  
-  
-androidJvm  
-  
+## Parameters
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="pro.streem.sdk/Streem/checkSupport/#androidx.core.util.Consumer[pro.streem.sdk.Streem.FeatureSupportResult]#kotlin.Array[pro.streem.sdk.Streem.Feature]/PointingToDeclaration/"></a>resultCallback| <a name="pro.streem.sdk/Streem/checkSupport/#androidx.core.util.Consumer[pro.streem.sdk.Streem.FeatureSupportResult]#kotlin.Array[pro.streem.sdk.Streem.Feature]/PointingToDeclaration/"></a><br><br>the callback called with the [FeatureSupportResult](-feature-support-result/index.md)<br><br>|
-| <a name="pro.streem.sdk/Streem/checkSupport/#androidx.core.util.Consumer[pro.streem.sdk.Streem.FeatureSupportResult]#kotlin.Array[pro.streem.sdk.Streem.Feature]/PointingToDeclaration/"></a>feature| <a name="pro.streem.sdk/Streem/checkSupport/#androidx.core.util.Consumer[pro.streem.sdk.Streem.FeatureSupportResult]#kotlin.Array[pro.streem.sdk.Streem.Feature]/PointingToDeclaration/"></a><br><br>a list of features to check for support<br><br>|
-  
-  
+| resultCallback | the callback called with the [FeatureSupportResult](-feature-support-result/index.html) |
+| feature | a list of features to check for support |
+
 
 
 

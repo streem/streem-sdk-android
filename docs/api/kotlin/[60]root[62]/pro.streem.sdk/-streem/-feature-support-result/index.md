@@ -1,28 +1,35 @@
 ---
-title: FeatureSupportResult -
+title: FeatureSupportResult
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[FeatureSupportResult](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[FeatureSupportResult](index.html)
 
 
 
-# FeatureSupportResult  
- [androidJvm] sealed class [FeatureSupportResult](index.md)   
+# FeatureSupportResult
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [FeatureSupportResult](index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.FeatureSupportResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [Error](-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.FeatureSupportResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.IsSupported///PointingToDeclaration/"></a>[IsSupported](-is-supported/index.md)| <a name="pro.streem.sdk/Streem.FeatureSupportResult.IsSupported///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [IsSupported](-is-supported/index.md) : [Streem.FeatureSupportResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.NotSupported///PointingToDeclaration/"></a>[NotSupported](-not-supported/index.md)| <a name="pro.streem.sdk/Streem.FeatureSupportResult.NotSupported///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [NotSupported](-not-supported/index.md) : [Streem.FeatureSupportResult](index.md)  <br><br><br>|
+| [Error](-error/index.html) | [androidJvm]<br>data class [Error](-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.FeatureSupportResult](index.html) |
+| [IsSupported](-is-supported/index.html) | [androidJvm]<br>object [IsSupported](-is-supported/index.html) : [Streem.FeatureSupportResult](index.html) |
+| [NotSupported](-not-supported/index.html) | [androidJvm]<br>object [NotSupported](-not-supported/index.html) : [Streem.FeatureSupportResult](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.IsSupported///PointingToDeclaration/"></a>[Streem.FeatureSupportResult](-is-supported/index.md)|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.NotSupported///PointingToDeclaration/"></a>[Streem.FeatureSupportResult](-not-supported/index.md)|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.Error///PointingToDeclaration/"></a>[Streem.FeatureSupportResult](-error/index.md)|
+| [Streem.FeatureSupportResult](-is-supported/index.html) |
+| [Streem.FeatureSupportResult](-not-supported/index.html) |
+| [Streem.FeatureSupportResult](-error/index.html) |
 

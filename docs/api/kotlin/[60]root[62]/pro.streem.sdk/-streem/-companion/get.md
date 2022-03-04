@@ -1,22 +1,29 @@
 ---
-title: get -
+title: get
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Companion](index.md)/[get](get.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Companion](index.html)/[get](get.html)
 
 
 
-# get  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [get](get.md)(): [Streem](../index.md)  
-More info  
+# get
 
 
-Returns the shared [Streem](../index.md) instance. [Streem.initialize](initialize.md)*MUST* have been called before calling this method.
 
-  
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [get](get.html)(): [Streem](../index.html)
+
+
+
+Returns the shared [Streem](../index.html) instance. [Streem.initialize](initialize.html)*MUST* have been called before calling this method.
+
 
 
 

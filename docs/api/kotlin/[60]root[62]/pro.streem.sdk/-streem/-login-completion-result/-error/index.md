@@ -1,26 +1,33 @@
 ---
-title: Error -
+title: Error
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginCompletionResult](../index.md)/[Error](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginCompletionResult](../index.html)/[Error](index.html)
 
 
 
-# Error  
- [androidJvm] sealed class [Error](index.md) : [Streem.LoginCompletionResult](../index.md)   
+# Error
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [Error](index.html) : [Streem.LoginCompletionResult](../index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[ClientVersionTooOld](-client-version-too-old/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [ClientVersionTooOld](-client-version-too-old/index.md) : [Streem.LoginCompletionResult.Error](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError///PointingToDeclaration/"></a>[UnexpectedError](-unexpected-error/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [UnexpectedError](-unexpected-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](index.md)  <br><br><br>|
+| [ClientVersionTooOld](-client-version-too-old/index.html) | [androidJvm]<br>object [ClientVersionTooOld](-client-version-too-old/index.html) : [Streem.LoginCompletionResult.Error](index.html) |
+| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.ClientVersionTooOld///PointingToDeclaration/"></a>[Streem.LoginCompletionResult.Error](-client-version-too-old/index.md)|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError///PointingToDeclaration/"></a>[Streem.LoginCompletionResult.Error](-unexpected-error/index.md)|
+| [Streem.LoginCompletionResult.Error](-client-version-too-old/index.html) |
+| [Streem.LoginCompletionResult.Error](-unexpected-error/index.html) |
 

@@ -1,27 +1,34 @@
 ---
-title: LoginCompletionResult -
+title: LoginCompletionResult
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[LoginCompletionResult](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[LoginCompletionResult](index.html)
 
 
 
-# LoginCompletionResult  
- [androidJvm] sealed class [LoginCompletionResult](index.md)   
+# LoginCompletionResult
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [LoginCompletionResult](index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>sealed class [Error](-error/index.md) : [Streem.LoginCompletionResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/"></a>[LoggedIn](-logged-in/index.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [LoggedIn](-logged-in/index.md) : [Streem.LoginCompletionResult](index.md)  <br><br><br>|
+| [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
+| [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [Streem.LoginCompletionResult](index.html) |
+| [LoggedIn](-logged-in/index.html) | [androidJvm]<br>object [LoggedIn](-logged-in/index.html) : [Streem.LoginCompletionResult](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.LoggedIn///PointingToDeclaration/"></a>[Streem.LoginCompletionResult](-logged-in/index.md)|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error///PointingToDeclaration/"></a>[Streem.LoginCompletionResult](-error/index.md)|
+| [Streem.LoginCompletionResult](-logged-in/index.html) |
+| [Streem.LoginCompletionResult](-error/index.html) |
 

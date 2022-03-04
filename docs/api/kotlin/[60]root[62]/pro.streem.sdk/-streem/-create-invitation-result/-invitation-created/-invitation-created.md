@@ -1,14 +1,17 @@
 ---
-title: InvitationCreated -
+title: InvitationCreated
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[CreateInvitationResult](../index.md)/[InvitationCreated](index.md)/[InvitationCreated](-invitation-created.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[CreateInvitationResult](../index.html)/[InvitationCreated](index.html)/[InvitationCreated](-invitation-created.html)
 
 
 
-# InvitationCreated  
-[androidJvm]  
-Content  
-fun [InvitationCreated](-invitation-created.md)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.md))  
+# InvitationCreated
+
+
+
+[androidJvm]\
+fun [InvitationCreated](-invitation-created.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html))
+
 
 
 

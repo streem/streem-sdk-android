@@ -1,14 +1,17 @@
 ---
-title: sessionConfig -
+title: sessionConfig
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[ParticipantRequest](index.md)/[sessionConfig](session-config.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[ParticipantRequest](index.html)/[sessionConfig](session-config.html)
 
 
 
-# sessionConfig  
-[androidJvm]  
-Content  
-val [sessionConfig](session-config.md): [Streem.SessionConfig](../-session-config/index.md)  
+# sessionConfig
+
+
+
+[androidJvm]\
+val [sessionConfig](session-config.html): [Streem.SessionConfig](../-session-config/index.html)
+
 
 
 

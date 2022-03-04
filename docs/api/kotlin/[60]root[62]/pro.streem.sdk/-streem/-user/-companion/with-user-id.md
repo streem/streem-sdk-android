@@ -1,16 +1,25 @@
 ---
-title: withUserId -
+title: withUserId
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[User](../index.md)/[Companion](index.md)/[withUserId](with-user-id.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[User](../index.html)/[Companion](index.html)/[withUserId](with-user-id.html)
 
 
 
-# withUserId  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [withUserId](with-user-id.md)(userId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  
+# withUserId
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [withUserId](with-user-id.html)(userId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html)
+
 
 
 

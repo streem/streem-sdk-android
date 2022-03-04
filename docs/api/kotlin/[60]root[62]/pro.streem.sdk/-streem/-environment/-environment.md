@@ -1,14 +1,17 @@
 ---
-title: Environment -
+title: Environment
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Environment](index.md)/[Environment](-environment.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Environment](index.html)/[Environment](-environment.html)
 
 
 
-# Environment  
-[androidJvm]  
-Content  
-fun [Environment](-environment.md)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  
+# Environment
+
+
+
+[androidJvm]\
+fun [Environment](-environment.html)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+
 
 
 

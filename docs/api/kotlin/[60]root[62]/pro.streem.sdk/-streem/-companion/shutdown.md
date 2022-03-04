@@ -1,22 +1,29 @@
 ---
-title: shutdown -
+title: shutdown
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Companion](index.md)/[shutdown](shutdown.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Companion](index.html)/[shutdown](shutdown.html)
 
 
 
-# shutdown  
-[androidJvm]  
-Content  
-@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  
-  
-fun [shutdown](shutdown.md)()  
-More info  
+# shutdown
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)
+
+
+
+fun [shutdown](shutdown.html)()
+
 
 
 Shuts down the Streem SDK.
 
-  
 
 
 

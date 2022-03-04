@@ -1,14 +1,17 @@
 ---
-title: VignetteActivity -
+title: VignetteActivity
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[VignetteActivity](index.md)/[VignetteActivity](-vignette-activity.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[VignetteActivity](index.html)/[VignetteActivity](-vignette-activity.html)
 
 
 
-# VignetteActivity  
-[androidJvm]  
-Content  
-fun [VignetteActivity](-vignette-activity.md)()  
+# VignetteActivity
+
+
+
+[androidJvm]\
+fun [VignetteActivity](-vignette-activity.html)()
+
 
 
 

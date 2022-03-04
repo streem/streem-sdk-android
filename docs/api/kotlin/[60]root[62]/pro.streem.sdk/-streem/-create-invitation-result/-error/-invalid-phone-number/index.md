@@ -1,10 +1,15 @@
 ---
-title: InvalidPhoneNumber -
+title: InvalidPhoneNumber
 ---
-//[<root>](../../../../../../index.md)/[pro.streem.sdk](../../../../index.md)/[Streem](../../../index.md)/[CreateInvitationResult](../../index.md)/[Error](../index.md)/[InvalidPhoneNumber](index.md)
+//[<root>](../../../../../../index.html)/[pro.streem.sdk](../../../../index.html)/[Streem](../../../index.html)/[CreateInvitationResult](../../index.html)/[Error](../index.html)/[InvalidPhoneNumber](index.html)
 
 
 
-# InvalidPhoneNumber  
- [androidJvm] object [InvalidPhoneNumber](index.md) : [Streem.CreateInvitationResult.Error](../index.md)   
+# InvalidPhoneNumber
+
+
+
+[androidJvm]\
+object [InvalidPhoneNumber](index.html) : [Streem.CreateInvitationResult.Error](../index.html)
+
 

@@ -1,16 +1,25 @@
 ---
-title: REMOTE_PRO -
+title: REMOTE_PRO
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[SessionConfig](../index.md)/[Companion](index.md)/[REMOTE_PRO](-r-e-m-o-t-e_-p-r-o.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[SessionConfig](../index.html)/[Companion](index.html)/[REMOTE_PRO](-r-e-m-o-t-e_-p-r-o.html)
 
 
 
-# REMOTE_PRO  
-[androidJvm]  
-Content  
-@[JvmField](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-field/index.html)()  
-  
-val [REMOTE_PRO](-r-e-m-o-t-e_-p-r-o.md): [Streem.SessionConfig](../index.md)  
+# REMOTE_PRO
+
+
+
+[androidJvm]\
+
+
+
+
+@[JvmField](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-field/index.html)
+
+
+
+val [REMOTE_PRO](-r-e-m-o-t-e_-p-r-o.html): [Streem.SessionConfig](../index.html)
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: InviteDeclined -
+title: InviteDeclined
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[InvitationDialogResult](../index.md)/[InviteDeclined](index.md)/[InviteDeclined](-invite-declined.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[InvitationDialogResult](../index.html)/[InviteDeclined](index.html)/[InviteDeclined](-invite-declined.html)
 
 
 
-# InviteDeclined  
-[androidJvm]  
-Content  
-fun [InviteDeclined](-invite-declined.md)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))  
+# InviteDeclined
+
+
+
+[androidJvm]\
+fun [InviteDeclined](-invite-declined.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+
 
 
 

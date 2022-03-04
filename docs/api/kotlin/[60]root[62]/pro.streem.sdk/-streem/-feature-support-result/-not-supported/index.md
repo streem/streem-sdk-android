@@ -1,10 +1,15 @@
 ---
-title: NotSupported -
+title: NotSupported
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[FeatureSupportResult](../index.md)/[NotSupported](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[FeatureSupportResult](../index.html)/[NotSupported](index.html)
 
 
 
-# NotSupported  
- [androidJvm] object [NotSupported](index.md) : [Streem.FeatureSupportResult](../index.md)   
+# NotSupported
+
+
+
+[androidJvm]\
+object [NotSupported](index.html) : [Streem.FeatureSupportResult](../index.html)
+
 

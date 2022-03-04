@@ -1,32 +1,39 @@
 ---
-title: StreemClientVersionTooOldException -
+title: StreemClientVersionTooOldException
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[StreemClientVersionTooOldException](index.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[StreemClientVersionTooOldException](index.html)
 
 
 
-# StreemClientVersionTooOldException  
- [androidJvm] class [StreemClientVersionTooOldException](index.md) : [Exception](https://developer.android.com/reference/kotlin/java/lang/Exception.html)   
+# StreemClientVersionTooOldException
 
 
-## Functions  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+class [StreemClientVersionTooOldException](index.html) : [Exception](https://developer.android.com/reference/kotlin/java/lang/Exception.html)
+
+
+
+## Functions
+
+
+| Name | Summary |
 |---|---|
-| <a name="kotlin/Throwable/addSuppressed/#kotlin.Throwable/PointingToDeclaration/"></a>[addSuppressed](index.md#%5Bkotlin%2FThrowable%2FaddSuppressed%2F%23kotlin.Throwable%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/addSuppressed/#kotlin.Throwable/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>fun [addSuppressed](index.md#%5Bkotlin%2FThrowable%2FaddSuppressed%2F%23kotlin.Throwable%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(p0: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html))  <br><br><br>|
-| <a name="kotlin/Throwable/fillInStackTrace/#/PointingToDeclaration/"></a>[fillInStackTrace](index.md#%5Bkotlin%2FThrowable%2FfillInStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/fillInStackTrace/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [fillInStackTrace](index.md#%5Bkotlin%2FThrowable%2FfillInStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)  <br><br><br>|
-| <a name="kotlin/Throwable/getLocalizedMessage/#/PointingToDeclaration/"></a>[getLocalizedMessage](index.md#%5Bkotlin%2FThrowable%2FgetLocalizedMessage%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/getLocalizedMessage/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [getLocalizedMessage](index.md#%5Bkotlin%2FThrowable%2FgetLocalizedMessage%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  <br><br><br>|
-| <a name="kotlin/Throwable/getStackTrace/#/PointingToDeclaration/"></a>[getStackTrace](index.md#%5Bkotlin%2FThrowable%2FgetStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/getStackTrace/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [getStackTrace](index.md#%5Bkotlin%2FThrowable%2FgetStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)<[StackTraceElement](https://developer.android.com/reference/kotlin/java/lang/StackTraceElement.html)>  <br><br><br>|
-| <a name="kotlin/Throwable/getSuppressed/#/PointingToDeclaration/"></a>[getSuppressed](index.md#%5Bkotlin%2FThrowable%2FgetSuppressed%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/getSuppressed/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>fun [getSuppressed](index.md#%5Bkotlin%2FThrowable%2FgetSuppressed%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)<[Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)>  <br><br><br>|
-| <a name="kotlin/Throwable/initCause/#kotlin.Throwable/PointingToDeclaration/"></a>[initCause](index.md#%5Bkotlin%2FThrowable%2FinitCause%2F%23kotlin.Throwable%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/initCause/#kotlin.Throwable/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [initCause](index.md#%5Bkotlin%2FThrowable%2FinitCause%2F%23kotlin.Throwable%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(p0: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)  <br><br><br>|
-| <a name="kotlin/Throwable/printStackTrace/#/PointingToDeclaration/"></a>[printStackTrace](index.md#%5Bkotlin%2FThrowable%2FprintStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/printStackTrace/#/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [printStackTrace](index.md#%5Bkotlin%2FThrowable%2FprintStackTrace%2F%23%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)()  <br>open fun [printStackTrace](index.md#%5Bkotlin%2FThrowable%2FprintStackTrace%2F%23java.io.PrintStream%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(p0: [PrintStream](https://developer.android.com/reference/kotlin/java/io/PrintStream.html))  <br>open fun [printStackTrace](index.md#%5Bkotlin%2FThrowable%2FprintStackTrace%2F%23java.io.PrintWriter%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(p0: [PrintWriter](https://developer.android.com/reference/kotlin/java/io/PrintWriter.html))  <br><br><br>|
-| <a name="kotlin/Throwable/setStackTrace/#kotlin.Array[java.lang.StackTraceElement]/PointingToDeclaration/"></a>[setStackTrace](index.md#%5Bkotlin%2FThrowable%2FsetStackTrace%2F%23kotlin.Array%5Bjava.lang.StackTraceElement%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)| <a name="kotlin/Throwable/setStackTrace/#kotlin.Array[java.lang.StackTraceElement]/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>open fun [setStackTrace](index.md#%5Bkotlin%2FThrowable%2FsetStackTrace%2F%23kotlin.Array%5Bjava.lang.StackTraceElement%5D%2FPointingToDeclaration%2F%5D%2FFunctions%2F1695331185)(p0: [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)<[StackTraceElement](https://developer.android.com/reference/kotlin/java/lang/StackTraceElement.html)>)  <br><br><br>|
+| [addSuppressed](index.html#282858770%2FFunctions%2F1719228252) | [androidJvm]<br>fun [addSuppressed](index.html#282858770%2FFunctions%2F1719228252)(p0: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) |
+| [fillInStackTrace](index.html#-1102069925%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [fillInStackTrace](index.html#-1102069925%2FFunctions%2F1719228252)(): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |
+| [getLocalizedMessage](index.html#1043865560%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [getLocalizedMessage](index.html#1043865560%2FFunctions%2F1719228252)(): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [getStackTrace](index.html#2050903719%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [getStackTrace](index.html#2050903719%2FFunctions%2F1719228252)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)&lt;[StackTraceElement](https://developer.android.com/reference/kotlin/java/lang/StackTraceElement.html)&gt; |
+| [getSuppressed](index.html#672492560%2FFunctions%2F1719228252) | [androidJvm]<br>fun [getSuppressed](index.html#672492560%2FFunctions%2F1719228252)(): [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)&lt;[Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)&gt; |
+| [initCause](index.html#-418225042%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [initCause](index.html#-418225042%2FFunctions%2F1719228252)(p0: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |
+| [printStackTrace](index.html#-1769529168%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [printStackTrace](index.html#-1769529168%2FFunctions%2F1719228252)()<br>open fun [printStackTrace](index.html#1841853697%2FFunctions%2F1719228252)(p0: [PrintStream](https://developer.android.com/reference/kotlin/java/io/PrintStream.html))<br>open fun [printStackTrace](index.html#1175535278%2FFunctions%2F1719228252)(p0: [PrintWriter](https://developer.android.com/reference/kotlin/java/io/PrintWriter.html)) |
+| [setStackTrace](index.html#2135801318%2FFunctions%2F1719228252) | [androidJvm]<br>open fun [setStackTrace](index.html#2135801318%2FFunctions%2F1719228252)(p0: [Array](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/index.html)&lt;[StackTraceElement](https://developer.android.com/reference/kotlin/java/lang/StackTraceElement.html)&gt;) |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/StreemClientVersionTooOldException/cause/#/PointingToDeclaration/"></a>[cause](index.md#%5Bpro.streem.sdk%2FStreemClientVersionTooOldException%2Fcause%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/StreemClientVersionTooOldException/cause/#/PointingToDeclaration/"></a> [androidJvm] open val [cause](index.md#%5Bpro.streem.sdk%2FStreemClientVersionTooOldException%2Fcause%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)?   <br>|
-| <a name="pro.streem.sdk/StreemClientVersionTooOldException/message/#/PointingToDeclaration/"></a>[message](index.md#%5Bpro.streem.sdk%2FStreemClientVersionTooOldException%2Fmessage%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/StreemClientVersionTooOldException/message/#/PointingToDeclaration/"></a> [androidJvm] open val [message](index.md#%5Bpro.streem.sdk%2FStreemClientVersionTooOldException%2Fmessage%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?   <br>|
+| [cause](index.html#-654012527%2FProperties%2F1719228252) | [androidJvm]<br>open val [cause](index.html#-654012527%2FProperties%2F1719228252): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)? |
+| [message](index.html#1824300659%2FProperties%2F1719228252) | [androidJvm]<br>open val [message](index.html#1824300659%2FProperties%2F1719228252): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? |
 

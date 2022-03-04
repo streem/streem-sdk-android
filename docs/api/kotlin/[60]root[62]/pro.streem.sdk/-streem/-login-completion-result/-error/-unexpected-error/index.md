@@ -1,17 +1,23 @@
 ---
-title: UnexpectedError -
+title: UnexpectedError
 ---
-//[<root>](../../../../../../index.md)/[pro.streem.sdk](../../../../index.md)/[Streem](../../../index.md)/[LoginCompletionResult](../../index.md)/[Error](../index.md)/[UnexpectedError](index.md)
+//[<root>](../../../../../../index.html)/[pro.streem.sdk](../../../../index.html)/[Streem](../../../index.html)/[LoginCompletionResult](../../index.html)/[Error](../index.html)/[UnexpectedError](index.html)
 
 
 
-# UnexpectedError  
- [androidJvm] data class [UnexpectedError](index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](../index.md)   
+# UnexpectedError
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [UnexpectedError](index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError/error/#/PointingToDeclaration/"></a>[error](error.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Error.UnexpectedError/error/#/PointingToDeclaration/"></a> [androidJvm] val [error](error.md): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)   <br>|
+| [error](error.html) | [androidJvm]<br>val [error](error.html): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |
 

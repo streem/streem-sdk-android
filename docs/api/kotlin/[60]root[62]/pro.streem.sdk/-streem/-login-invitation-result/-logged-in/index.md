@@ -1,17 +1,23 @@
 ---
-title: LoggedIn -
+title: LoggedIn
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginInvitationResult](../index.md)/[LoggedIn](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginInvitationResult](../index.html)/[LoggedIn](index.html)
 
 
 
-# LoggedIn  
- [androidJvm] data class [LoggedIn](index.md)(**invitation**: [Streem.StreemInvitation](../../-streem-invitation/index.md)) : [Streem.LoginInvitationResult](../index.md)   
+# LoggedIn
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [LoggedIn](index.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) : [Streem.LoginInvitationResult](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginInvitationResult.LoggedIn/invitation/#/PointingToDeclaration/"></a>[invitation](invitation.md)| <a name="pro.streem.sdk/Streem.LoginInvitationResult.LoggedIn/invitation/#/PointingToDeclaration/"></a> [androidJvm] val [invitation](invitation.md): [Streem.StreemInvitation](../../-streem-invitation/index.md)   <br>|
+| [invitation](invitation.html) | [androidJvm]<br>val [invitation](invitation.html): [Streem.StreemInvitation](../../-streem-invitation/index.html) |
 

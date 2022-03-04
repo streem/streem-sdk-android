@@ -1,14 +1,17 @@
 ---
-title: StreemBeta -
+title: StreemBeta
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[StreemBeta](index.md)/[StreemBeta](-streem-beta.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[StreemBeta](index.html)/[StreemBeta](-streem-beta.html)
 
 
 
-# StreemBeta  
-[androidJvm]  
-Content  
-fun [StreemBeta](-streem-beta.md)()  
+# StreemBeta
+
+
+
+[androidJvm]\
+fun [StreemBeta](-streem-beta.html)()
+
 
 
 

@@ -1,10 +1,15 @@
 ---
-title: InvitationConsumed -
+title: InvitationConsumed
 ---
-//[<root>](../../../../../../index.md)/[pro.streem.sdk](../../../../index.md)/[Streem](../../../index.md)/[LoginInvitationResult](../../index.md)/[Error](../index.md)/[InvitationConsumed](index.md)
+//[<root>](../../../../../../index.html)/[pro.streem.sdk](../../../../index.html)/[Streem](../../../index.html)/[LoginInvitationResult](../../index.html)/[Error](../index.html)/[InvitationConsumed](index.html)
 
 
 
-# InvitationConsumed  
- [androidJvm] object [InvitationConsumed](index.md) : [Streem.LoginInvitationResult.Error](../index.md)   
+# InvitationConsumed
+
+
+
+[androidJvm]\
+object [InvitationConsumed](index.html) : [Streem.LoginInvitationResult.Error](../index.html)
+
 

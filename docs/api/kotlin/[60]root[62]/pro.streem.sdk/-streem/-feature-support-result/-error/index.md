@@ -1,17 +1,23 @@
 ---
-title: Error -
+title: Error
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[FeatureSupportResult](../index.md)/[Error](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[FeatureSupportResult](../index.html)/[Error](index.html)
 
 
 
-# Error  
- [androidJvm] data class [Error](index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.FeatureSupportResult](../index.md)   
+# Error
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [Error](index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.FeatureSupportResult](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.FeatureSupportResult.Error/error/#/PointingToDeclaration/"></a>[error](error.md)| <a name="pro.streem.sdk/Streem.FeatureSupportResult.Error/error/#/PointingToDeclaration/"></a> [androidJvm] val [error](error.md): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)   <br>|
+| [error](error.html) | [androidJvm]<br>val [error](error.html): [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) |
 

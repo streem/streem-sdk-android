@@ -1,28 +1,35 @@
 ---
-title: InvitationDialogResult -
+title: InvitationDialogResult
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[InvitationDialogResult](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[InvitationDialogResult](index.html)
 
 
 
-# InvitationDialogResult  
- [androidJvm] sealed class [InvitationDialogResult](index.md)   
+# InvitationDialogResult
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [InvitationDialogResult](index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.InvitationDialogResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [Error](-error/index.md)(**error**: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteAccepted///PointingToDeclaration/"></a>[InviteAccepted](-invite-accepted/index.md)| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteAccepted///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>class [InviteAccepted](-invite-accepted/index.md)(**invitationCode**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined///PointingToDeclaration/"></a>[InviteDeclined](-invite-declined/index.md)| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>class [InviteDeclined](-invite-declined/index.md)(**invitationCode**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.md)  <br><br><br>|
+| [Error](-error/index.html) | [androidJvm]<br>data class [Error](-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](index.html) |
+| [InviteAccepted](-invite-accepted/index.html) | [androidJvm]<br>class [InviteAccepted](-invite-accepted/index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
+| [InviteDeclined](-invite-declined/index.html) | [androidJvm]<br>class [InviteDeclined](-invite-declined/index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteAccepted///PointingToDeclaration/"></a>[Streem.InvitationDialogResult](-invite-accepted/index.md)|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.InviteDeclined///PointingToDeclaration/"></a>[Streem.InvitationDialogResult](-invite-declined/index.md)|
-| <a name="pro.streem.sdk/Streem.InvitationDialogResult.Error///PointingToDeclaration/"></a>[Streem.InvitationDialogResult](-error/index.md)|
+| [Streem.InvitationDialogResult](-invite-accepted/index.html) |
+| [Streem.InvitationDialogResult](-invite-declined/index.html) |
+| [Streem.InvitationDialogResult](-error/index.html) |
 

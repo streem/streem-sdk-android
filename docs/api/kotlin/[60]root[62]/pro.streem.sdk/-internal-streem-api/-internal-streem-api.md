@@ -1,14 +1,17 @@
 ---
-title: InternalStreemApi -
+title: InternalStreemApi
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[InternalStreemApi](index.md)/[InternalStreemApi](-internal-streem-api.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[InternalStreemApi](index.html)/[InternalStreemApi](-internal-streem-api.html)
 
 
 
-# InternalStreemApi  
-[androidJvm]  
-Content  
-fun [InternalStreemApi](-internal-streem-api.md)()  
+# InternalStreemApi
+
+
+
+[androidJvm]\
+fun [InternalStreemApi](-internal-streem-api.html)()
+
 
 
 

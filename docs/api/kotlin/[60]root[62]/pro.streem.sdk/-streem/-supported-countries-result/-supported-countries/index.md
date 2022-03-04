@@ -1,17 +1,23 @@
 ---
-title: SupportedCountries -
+title: SupportedCountries
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[SupportedCountriesResult](../index.md)/[SupportedCountries](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[SupportedCountriesResult](../index.html)/[SupportedCountries](index.html)
 
 
 
-# SupportedCountries  
- [androidJvm] data class [SupportedCountries](index.md)(**countries**: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Streem.Country](../../-country/index.md)>) : [Streem.SupportedCountriesResult](../index.md)   
+# SupportedCountries
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [SupportedCountries](index.html)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;) : [Streem.SupportedCountriesResult](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries/countries/#/PointingToDeclaration/"></a>[countries](countries.md)| <a name="pro.streem.sdk/Streem.SupportedCountriesResult.SupportedCountries/countries/#/PointingToDeclaration/"></a> [androidJvm] val [countries](countries.md): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Streem.Country](../../-country/index.md)>   <br>|
+| [countries](countries.html) | [androidJvm]<br>val [countries](countries.html): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt; |
 

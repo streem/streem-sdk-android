@@ -1,17 +1,23 @@
 ---
-title: Companion -
+title: Companion
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginCompletionResult](../index.md)/[Companion](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginCompletionResult](../index.html)/[Companion](index.html)
 
 
 
-# Companion  
- [androidJvm] object [Companion](index.md)   
+# Companion
 
 
-## Functions  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+object [Companion](index.html)
+
+
+
+## Functions
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion/fromThrowable/#kotlin.Throwable/PointingToDeclaration/"></a>[fromThrowable](from-throwable.md)| <a name="pro.streem.sdk/Streem.LoginCompletionResult.Companion/fromThrowable/#kotlin.Throwable/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>fun [fromThrowable](from-throwable.md)(e: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Streem.LoginCompletionResult.Error](../-error/index.md)  <br><br><br>|
+| [fromThrowable](from-throwable.html) | [androidJvm]<br>fun [fromThrowable](from-throwable.html)(e: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Streem.LoginCompletionResult.Error](../-error/index.html) |
 

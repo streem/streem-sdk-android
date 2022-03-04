@@ -1,20 +1,26 @@
 ---
-title: Companion -
+title: Companion
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[User](../index.md)/[Companion](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[User](../index.html)/[Companion](index.html)
 
 
 
-# Companion  
- [androidJvm] object [Companion](index.md)   
+# Companion
 
 
-## Functions  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+object [Companion](index.html)
+
+
+
+## Functions
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.User.Companion/withIdToken/#kotlin.String/PointingToDeclaration/"></a>[withIdToken](with-id-token.md)| <a name="pro.streem.sdk/Streem.User.Companion/withIdToken/#kotlin.String/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  <br>  <br>fun [withIdToken](with-id-token.md)(idToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.User.Companion/withInvitationCode/#kotlin.String/PointingToDeclaration/"></a>[withInvitationCode](with-invitation-code.md)| <a name="pro.streem.sdk/Streem.User.Companion/withInvitationCode/#kotlin.String/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  <br>  <br>fun [withInvitationCode](with-invitation-code.md)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.User.Companion/withSdkToken/#kotlin.String/PointingToDeclaration/"></a>[withSdkToken](with-sdk-token.md)| <a name="pro.streem.sdk/Streem.User.Companion/withSdkToken/#kotlin.String/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  <br>  <br>fun [withSdkToken](with-sdk-token.md)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.User.Companion/withUserId/#kotlin.String/PointingToDeclaration/"></a>[withUserId](with-user-id.md)| <a name="pro.streem.sdk/Streem.User.Companion/withUserId/#kotlin.String/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)()  <br>  <br>fun [withUserId](with-user-id.md)(userId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.md)  <br><br><br>|
+| [withIdToken](with-id-token.html) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [withIdToken](with-id-token.html)(idToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html) |
+| [withInvitationCode](with-invitation-code.html) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [withInvitationCode](with-invitation-code.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html) |
+| [withSdkToken](with-sdk-token.html) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [withSdkToken](with-sdk-token.html)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html) |
+| [withUserId](with-user-id.html) | [androidJvm]<br>@[JvmStatic](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.jvm/-jvm-static/index.html)<br>fun [withUserId](with-user-id.html)(userId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html) |
 

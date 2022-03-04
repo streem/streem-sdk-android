@@ -1,17 +1,23 @@
 ---
-title: StartStreemFromInvitationRequest -
+title: StartStreemFromInvitationRequest
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[StartStreemFromInvitationRequest](index.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[StartStreemFromInvitationRequest](index.html)
 
 
 
-# StartStreemFromInvitationRequest  
- [androidJvm] data class [StartStreemFromInvitationRequest](index.md)(**invitation**: [Streem.StreemInvitation](../-streem/-streem-invitation/index.md))   
+# StartStreemFromInvitationRequest
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [StartStreemFromInvitationRequest](index.html)(invitation: [Streem.StreemInvitation](../-streem/-streem-invitation/index.html))
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/StartStreemFromInvitationRequest/invitation/#/PointingToDeclaration/"></a>[invitation](invitation.md)| <a name="pro.streem.sdk/StartStreemFromInvitationRequest/invitation/#/PointingToDeclaration/"></a> [androidJvm] val [invitation](invitation.md): [Streem.StreemInvitation](../-streem/-streem-invitation/index.md)   <br>|
+| [invitation](invitation.html) | [androidJvm]<br>val [invitation](invitation.html): [Streem.StreemInvitation](../-streem/-streem-invitation/index.html) |
 

@@ -1,14 +1,17 @@
 ---
-title: toName -
+title: toName
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[toName](to-name.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[toName](to-name.html)
 
 
 
-# toName  
-[androidJvm]  
-Content  
-val [toName](to-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# toName
+
+
+
+[androidJvm]\
+val [toName](to-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

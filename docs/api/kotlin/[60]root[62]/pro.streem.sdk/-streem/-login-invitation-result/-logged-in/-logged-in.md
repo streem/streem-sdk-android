@@ -1,14 +1,17 @@
 ---
-title: LoggedIn -
+title: LoggedIn
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginInvitationResult](../index.md)/[LoggedIn](index.md)/[LoggedIn](-logged-in.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginInvitationResult](../index.html)/[LoggedIn](index.html)/[LoggedIn](-logged-in.html)
 
 
 
-# LoggedIn  
-[androidJvm]  
-Content  
-fun [LoggedIn](-logged-in.md)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.md))  
+# LoggedIn
+
+
+
+[androidJvm]\
+fun [LoggedIn](-logged-in.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html))
+
 
 
 

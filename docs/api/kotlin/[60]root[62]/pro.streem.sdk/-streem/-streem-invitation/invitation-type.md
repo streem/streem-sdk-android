@@ -1,14 +1,17 @@
 ---
-title: invitationType -
+title: invitationType
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[invitationType](invitation-type.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[invitationType](invitation-type.html)
 
 
 
-# invitationType  
-[androidJvm]  
-Content  
-val [invitationType](invitation-type.md): [Streem.InvitationType](../-invitation-type/index.md)? = null  
+# invitationType
+
+
+
+[androidJvm]\
+val [invitationType](invitation-type.html): [Streem.InvitationType](../-invitation-type/index.html)? = null
+
 
 
 

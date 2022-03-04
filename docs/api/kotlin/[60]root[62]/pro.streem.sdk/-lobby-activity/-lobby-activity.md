@@ -1,14 +1,17 @@
 ---
-title: LobbyActivity -
+title: LobbyActivity
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[LobbyActivity](index.md)/[LobbyActivity](-lobby-activity.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[LobbyActivity](index.html)/[LobbyActivity](-lobby-activity.html)
 
 
 
-# LobbyActivity  
-[androidJvm]  
-Content  
-fun [LobbyActivity](-lobby-activity.md)()  
+# LobbyActivity
+
+
+
+[androidJvm]\
+fun [LobbyActivity](-lobby-activity.html)()
+
 
 
 

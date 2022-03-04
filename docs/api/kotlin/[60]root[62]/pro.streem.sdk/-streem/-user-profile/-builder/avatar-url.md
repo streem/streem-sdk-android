@@ -1,15 +1,19 @@
 ---
-title: avatarUrl -
+title: avatarUrl
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[UserProfile](../index.md)/[Builder](index.md)/[avatarUrl](avatar-url.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[UserProfile](../index.html)/[Builder](index.html)/[avatarUrl](avatar-url.html)
 
 
 
-# avatarUrl  
-[androidJvm]  
-Content  
-fun [avatarUrl](avatar-url.md)(avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?): [Streem.UserProfile.Builder](index.md)  
-var [avatarUrl](avatar-url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null  
+# avatarUrl
+
+
+
+[androidJvm]\
+fun [avatarUrl](avatar-url.html)(avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?): [Streem.UserProfile.Builder](index.html)
+
+var [avatarUrl](avatar-url.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null
+
 
 
 

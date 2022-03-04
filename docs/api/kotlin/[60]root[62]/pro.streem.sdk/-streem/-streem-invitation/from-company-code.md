@@ -1,14 +1,17 @@
 ---
-title: fromCompanyCode -
+title: fromCompanyCode
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[fromCompanyCode](from-company-code.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[fromCompanyCode](from-company-code.html)
 
 
 
-# fromCompanyCode  
-[androidJvm]  
-Content  
-val [fromCompanyCode](from-company-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null  
+# fromCompanyCode
+
+
+
+[androidJvm]\
+val [fromCompanyCode](from-company-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null
+
 
 
 

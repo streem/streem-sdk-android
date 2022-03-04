@@ -1,27 +1,29 @@
 ---
-title: parseUri -
+title: parseUri
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[Streem](index.md)/[parseUri](parse-uri.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[Streem](index.html)/[parseUri](parse-uri.html)
 
 
 
-# parseUri  
-[androidJvm]  
-Content  
-abstract fun [parseUri](parse-uri.md)(uri: [Uri](https://developer.android.com/reference/kotlin/android/net/Uri.html)?): [Streem.LinkType](-link-type/index.md)?  
-More info  
-
-
-Determines if a [uri](parse-uri.md) targets Streem and returns the relevant [LinkType](-link-type/index.md).
+# parseUri
 
 
 
-#### Return  
+[androidJvm]\
+abstract fun [parseUri](parse-uri.html)(uri: [Uri](https://developer.android.com/reference/kotlin/android/net/Uri.html)?): [Streem.LinkType](-link-type/index.html)?
+
+
+
+Determines if a [uri](parse-uri.html) targets Streem and returns the relevant [LinkType](-link-type/index.html).
+
+
+
+#### Return
+
 
 
 linkType of uri passed in. null if Uri is null or Uri does not target Streem.
 
-  
 
 
 

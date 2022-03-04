@@ -1,30 +1,32 @@
 ---
-title: EXTRA_EXIT_CODE -
+title: EXTRA_EXIT_CODE
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Companion](index.md)/[EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Companion](index.html)/[EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.html)
 
 
 
-# EXTRA_EXIT_CODE  
-[androidJvm]  
-Content  
-const val [EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
-More info  
+# EXTRA_EXIT_CODE
+
+
+
+[androidJvm]\
+const val [EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 Exit code (as a string) from the Streem experience.
 
 
 
-## See also  
-  
-androidJvm  
-  
+## See also
+
+
+androidJvm
+
 | | |
 |---|---|
-| <a name="pro.streem.sdk/Streem.Companion/EXTRA_EXIT_CODE/#/PointingToDeclaration/"></a>[pro.streem.sdk.Streem](../get-exit-code.md)| <a name="pro.streem.sdk/Streem.Companion/EXTRA_EXIT_CODE/#/PointingToDeclaration/"></a>|
-  
-  
+| [pro.streem.sdk.Streem](../get-exit-code.html) |  |
+
 
 
 

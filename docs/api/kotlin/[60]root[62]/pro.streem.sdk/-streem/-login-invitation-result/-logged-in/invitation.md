@@ -1,14 +1,17 @@
 ---
-title: invitation -
+title: invitation
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginInvitationResult](../index.md)/[LoggedIn](index.md)/[invitation](invitation.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginInvitationResult](../index.html)/[LoggedIn](index.html)/[invitation](invitation.html)
 
 
 
-# invitation  
-[androidJvm]  
-Content  
-val [invitation](invitation.md): [Streem.StreemInvitation](../../-streem-invitation/index.md)  
+# invitation
+
+
+
+[androidJvm]\
+val [invitation](invitation.html): [Streem.StreemInvitation](../../-streem-invitation/index.html)
+
 
 
 

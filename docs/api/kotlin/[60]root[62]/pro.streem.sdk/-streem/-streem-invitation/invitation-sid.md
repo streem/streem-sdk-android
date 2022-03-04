@@ -1,14 +1,17 @@
 ---
-title: invitationSid -
+title: invitationSid
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[invitationSid](invitation-sid.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[invitationSid](invitation-sid.html)
 
 
 
-# invitationSid  
-[androidJvm]  
-Content  
-val [invitationSid](invitation-sid.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# invitationSid
+
+
+
+[androidJvm]\
+val [invitationSid](invitation-sid.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

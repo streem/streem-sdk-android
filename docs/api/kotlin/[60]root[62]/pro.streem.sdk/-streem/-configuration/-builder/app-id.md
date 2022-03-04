@@ -1,14 +1,17 @@
 ---
-title: appId -
+title: appId
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[Configuration](../index.md)/[Builder](index.md)/[appId](app-id.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[Configuration](../index.html)/[Builder](index.html)/[appId](app-id.html)
 
 
 
-# appId  
-[androidJvm]  
-Content  
-val [appId](app-id.md): [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)  
+# appId
+
+
+
+[androidJvm]\
+val [appId](app-id.html): [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)
+
 
 
 

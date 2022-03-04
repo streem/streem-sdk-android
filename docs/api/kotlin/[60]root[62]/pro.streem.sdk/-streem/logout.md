@@ -1,20 +1,21 @@
 ---
-title: logout -
+title: logout
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[Streem](index.md)/[logout](logout.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[Streem](index.html)/[logout](logout.html)
 
 
 
-# logout  
-[androidJvm]  
-Content  
-abstract fun [logout](logout.md)()  
-More info  
+# logout
 
 
-Logs out the user that was last logged in via [login](login.md). This should be used whenever the user logs out from the app.
 
-  
+[androidJvm]\
+abstract fun [logout](logout.html)()
+
+
+
+Logs out the user that was last logged in via [login](login.html). This should be used whenever the user logs out from the app.
+
 
 
 

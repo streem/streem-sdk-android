@@ -1,14 +1,17 @@
 ---
-title: joinedCallTime -
+title: joinedCallTime
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[StartStreemFromInvitationResult](../../index.md)/[Error](../index.md)/[UnexpectedError](index.md)/[joinedCallTime](joined-call-time.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[StartStreemFromInvitationResult](../../index.html)/[Error](../index.html)/[UnexpectedError](index.html)/[joinedCallTime](joined-call-time.html)
 
 
 
-# joinedCallTime  
-[androidJvm]  
-Content  
-val [joinedCallTime](joined-call-time.md): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?  
+# joinedCallTime
+
+
+
+[androidJvm]\
+val [joinedCallTime](joined-call-time.html): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?
+
 
 
 

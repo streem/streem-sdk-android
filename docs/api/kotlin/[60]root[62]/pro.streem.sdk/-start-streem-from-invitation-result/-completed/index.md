@@ -1,17 +1,23 @@
 ---
-title: Completed -
+title: Completed
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[StartStreemFromInvitationResult](../index.md)/[Completed](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[StartStreemFromInvitationResult](../index.html)/[Completed](index.html)
 
 
 
-# Completed  
- [androidJvm] class [Completed](index.md)(**joinedCallTime**: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](../index.md)   
+# Completed
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+class [Completed](index.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](../index.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Completed/joinedCallTime/#/PointingToDeclaration/"></a>[joinedCallTime](joined-call-time.md)| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Completed/joinedCallTime/#/PointingToDeclaration/"></a> [androidJvm] val [joinedCallTime](joined-call-time.md): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?   <br>|
+| [joinedCallTime](joined-call-time.html) | [androidJvm]<br>val [joinedCallTime](joined-call-time.html): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)? |
 

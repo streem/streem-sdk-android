@@ -1,15 +1,19 @@
 ---
-title: email -
+title: email
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[UserProfile](../index.md)/[Builder](index.md)/[email](email.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[UserProfile](../index.html)/[Builder](index.html)/[email](email.html)
 
 
 
-# email  
-[androidJvm]  
-Content  
-fun [email](email.md)(email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?): [Streem.UserProfile.Builder](index.md)  
-var [email](email.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null  
+# email
+
+
+
+[androidJvm]\
+fun [email](email.html)(email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?): [Streem.UserProfile.Builder](index.html)
+
+var [email](email.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null
+
 
 
 

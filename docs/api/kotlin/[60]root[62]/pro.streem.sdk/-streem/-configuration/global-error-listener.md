@@ -1,14 +1,17 @@
 ---
-title: globalErrorListener -
+title: globalErrorListener
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Configuration](index.md)/[globalErrorListener](global-error-listener.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Configuration](index.html)/[globalErrorListener](global-error-listener.html)
 
 
 
-# globalErrorListener  
-[androidJvm]  
-Content  
-~~var~~ [~~globalErrorListener~~](global-error-listener.md)~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -> [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? ~~= null~~  
+# globalErrorListener
+
+
+
+[androidJvm]\
+~~var~~ [~~globalErrorListener~~](global-error-listener.html)~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? ~~= null~~
+
 
 
 

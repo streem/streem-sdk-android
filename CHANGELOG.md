@@ -1,3 +1,10 @@
+### v0.19.0 - March 3, 2022
+
+-   Fix bug related to refreshing SDK token
+-   Updated protobuf handling of API error responses
+-   Updated animation for entering a Streem call in face-to-face mode
+-   Upgraded to Java 11 (see [ReadMe](./README.md#installation))
+
 ### v0.18.0 - February 2, 2022
 
 -   Add ability to login using Streem SDK token

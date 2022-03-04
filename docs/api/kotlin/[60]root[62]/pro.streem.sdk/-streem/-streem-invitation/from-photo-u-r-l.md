@@ -1,14 +1,17 @@
 ---
-title: fromPhotoURL -
+title: fromPhotoURL
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)/[fromPhotoURL](from-photo-u-r-l.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)/[fromPhotoURL](from-photo-u-r-l.html)
 
 
 
-# fromPhotoURL  
-[androidJvm]  
-Content  
-val [fromPhotoURL](from-photo-u-r-l.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null  
+# fromPhotoURL
+
+
+
+[androidJvm]\
+val [fromPhotoURL](from-photo-u-r-l.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null
+
 
 
 

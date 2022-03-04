@@ -1,27 +1,34 @@
 ---
-title: CreateInvitationResult -
+title: CreateInvitationResult
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[CreateInvitationResult](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[CreateInvitationResult](index.html)
 
 
 
-# CreateInvitationResult  
- [androidJvm] sealed class [CreateInvitationResult](index.md)   
+# CreateInvitationResult
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [CreateInvitationResult](index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Companion///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>sealed class [Error](-error/index.md) : [Streem.CreateInvitationResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.InvitationCreated///PointingToDeclaration/"></a>[InvitationCreated](-invitation-created/index.md)| <a name="pro.streem.sdk/Streem.CreateInvitationResult.InvitationCreated///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>data class [InvitationCreated](-invitation-created/index.md)(**invitation**: [Streem.StreemInvitation](../-streem-invitation/index.md)) : [Streem.CreateInvitationResult](index.md)  <br><br><br>|
+| [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
+| [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [Streem.CreateInvitationResult](index.html) |
+| [InvitationCreated](-invitation-created/index.html) | [androidJvm]<br>data class [InvitationCreated](-invitation-created/index.html)(invitation: [Streem.StreemInvitation](../-streem-invitation/index.html)) : [Streem.CreateInvitationResult](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.InvitationCreated///PointingToDeclaration/"></a>[Streem.CreateInvitationResult](-invitation-created/index.md)|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Error///PointingToDeclaration/"></a>[Streem.CreateInvitationResult](-error/index.md)|
+| [Streem.CreateInvitationResult](-invitation-created/index.html) |
+| [Streem.CreateInvitationResult](-error/index.html) |
 

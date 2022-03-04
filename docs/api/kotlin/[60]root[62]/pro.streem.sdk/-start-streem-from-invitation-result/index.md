@@ -1,26 +1,33 @@
 ---
-title: StartStreemFromInvitationResult -
+title: StartStreemFromInvitationResult
 ---
-//[<root>](../../../index.md)/[pro.streem.sdk](../index.md)/[StartStreemFromInvitationResult](index.md)
+//[<root>](../../../index.html)/[pro.streem.sdk](../index.html)/[StartStreemFromInvitationResult](index.html)
 
 
 
-# StartStreemFromInvitationResult  
- [androidJvm] sealed class [StartStreemFromInvitationResult](index.md)   
+# StartStreemFromInvitationResult
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+sealed class [StartStreemFromInvitationResult](index.html)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Completed///PointingToDeclaration/"></a>[Completed](-completed/index.md)| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Completed///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>class [Completed](-completed/index.md)(**joinedCallTime**: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/"></a>[Error](-error/index.md)| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>sealed class [Error](-error/index.md) : [StartStreemFromInvitationResult](index.md)  <br><br><br>|
+| [Completed](-completed/index.html) | [androidJvm]<br>class [Completed](-completed/index.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](index.html) |
+| [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [StartStreemFromInvitationResult](index.html) |
 
 
-## Inheritors  
-  
-|  Name | 
+## Inheritors
+
+
+| Name |
 |---|
-| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Completed///PointingToDeclaration/"></a>[StartStreemFromInvitationResult](-completed/index.md)|
-| <a name="pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/"></a>[StartStreemFromInvitationResult](-error/index.md)|
+| [StartStreemFromInvitationResult](-completed/index.html) |
+| [StartStreemFromInvitationResult](-error/index.html) |
 

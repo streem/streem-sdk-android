@@ -1,26 +1,33 @@
 ---
-title: Feature -
+title: Feature
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Feature](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Feature](index.html)
 
 
 
-# Feature  
- [androidJvm] enum [Feature](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)<[Streem.Feature](index.md)>    
+# Feature
 
 
-## Entries  
-  
+
+[androidJvm]\
+enum [Feature](index.html) : [Enum](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-enum/index.html)&lt;[Streem.Feature](index.html)&gt;
+
+
+
+## Entries
+
+
 | | |
 |---|---|
-| <a name="pro.streem.sdk/Streem.Feature.AR///PointingToDeclaration/"></a>[AR](-a-r/index.md)| <a name="pro.streem.sdk/Streem.Feature.AR///PointingToDeclaration/"></a> [androidJvm] [AR](-a-r/index.md)()  <br>   <br>|
-| <a name="pro.streem.sdk/Streem.Feature.TUTORIAL///PointingToDeclaration/"></a>[TUTORIAL](-t-u-t-o-r-i-a-l/index.md)| <a name="pro.streem.sdk/Streem.Feature.TUTORIAL///PointingToDeclaration/"></a> [androidJvm] [TUTORIAL](-t-u-t-o-r-i-a-l/index.md)()  <br>Support for displaying AR tutorials.   <br>|
+| [TUTORIAL](-t-u-t-o-r-i-a-l/index.html) | [androidJvm]<br>[TUTORIAL](-t-u-t-o-r-i-a-l/index.html)()<br>Support for displaying AR tutorials. Implies the AR feature. |
+| [AR](-a-r/index.html) | [androidJvm]<br>[AR](-a-r/index.html)() |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.Feature/name/#/PointingToDeclaration/"></a>[name](index.md#%5Bpro.streem.sdk%2FStreem.Feature%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/Streem.Feature/name/#/PointingToDeclaration/"></a> [androidJvm] val [name](index.md#%5Bpro.streem.sdk%2FStreem.Feature%2Fname%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.Feature/ordinal/#/PointingToDeclaration/"></a>[ordinal](index.md#%5Bpro.streem.sdk%2FStreem.Feature%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185)| <a name="pro.streem.sdk/Streem.Feature/ordinal/#/PointingToDeclaration/"></a> [androidJvm] val [ordinal](index.md#%5Bpro.streem.sdk%2FStreem.Feature%2Fordinal%2F%23%2FPointingToDeclaration%2F%5D%2FProperties%2F1695331185): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html)   <br>|
+| [name](../-invitation-type/-l-i-n-k/index.html#-372974862%2FProperties%2F1719228252) | [androidJvm]<br>val [name](../-invitation-type/-l-i-n-k/index.html#-372974862%2FProperties%2F1719228252): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../-invitation-type/-l-i-n-k/index.html#-739389684%2FProperties%2F1719228252) | [androidJvm]<br>val [ordinal](../-invitation-type/-l-i-n-k/index.html#-739389684%2FProperties%2F1719228252): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

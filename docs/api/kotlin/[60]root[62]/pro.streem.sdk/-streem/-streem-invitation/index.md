@@ -1,29 +1,35 @@
 ---
-title: StreemInvitation -
+title: StreemInvitation
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[StreemInvitation](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[StreemInvitation](index.html)
 
 
 
-# StreemInvitation  
- [androidJvm] data class [StreemInvitation](index.md)(**invitationSid**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **invitationCode**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **url**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **fromName**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **fromRemoteId**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **fromPhotoURL**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **fromCompanyCode**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **fromCompanyName**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **fromCompanyLogoURL**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **toName**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), **toPhone**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **expiresAt**: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?, **invitationType**: [Streem.InvitationType](../-invitation-type/index.md)?) : [Serializable](https://developer.android.com/reference/kotlin/java/io/Serializable.html)   
+# StreemInvitation
 
 
-## Properties  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [StreemInvitation](index.html)(invitationSid: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), url: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), fromName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), fromRemoteId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, fromPhotoURL: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, fromCompanyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, fromCompanyName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, fromCompanyLogoURL: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, toName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), toPhone: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, expiresAt: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?, invitationType: [Streem.InvitationType](../-invitation-type/index.html)?) : [Serializable](https://developer.android.com/reference/kotlin/java/io/Serializable.html)
+
+
+
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/expiresAt/#/PointingToDeclaration/"></a>[expiresAt](expires-at.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/expiresAt/#/PointingToDeclaration/"></a> [androidJvm] val [expiresAt](expires-at.md): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyCode/#/PointingToDeclaration/"></a>[fromCompanyCode](from-company-code.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyCode/#/PointingToDeclaration/"></a> [androidJvm] val [fromCompanyCode](from-company-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyLogoURL/#/PointingToDeclaration/"></a>[fromCompanyLogoURL](from-company-logo-u-r-l.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyLogoURL/#/PointingToDeclaration/"></a> [androidJvm] val [fromCompanyLogoURL](from-company-logo-u-r-l.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyName/#/PointingToDeclaration/"></a>[fromCompanyName](from-company-name.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromCompanyName/#/PointingToDeclaration/"></a> [androidJvm] val [fromCompanyName](from-company-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromName/#/PointingToDeclaration/"></a>[fromName](from-name.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromName/#/PointingToDeclaration/"></a> [androidJvm] val [fromName](from-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromPhotoURL/#/PointingToDeclaration/"></a>[fromPhotoURL](from-photo-u-r-l.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromPhotoURL/#/PointingToDeclaration/"></a> [androidJvm] val [fromPhotoURL](from-photo-u-r-l.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/fromRemoteId/#/PointingToDeclaration/"></a>[fromRemoteId](from-remote-id.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/fromRemoteId/#/PointingToDeclaration/"></a> [androidJvm] val [fromRemoteId](from-remote-id.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationCode/#/PointingToDeclaration/"></a>[invitationCode](invitation-code.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationCode/#/PointingToDeclaration/"></a> [androidJvm] val [invitationCode](invitation-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationSid/#/PointingToDeclaration/"></a>[invitationSid](invitation-sid.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationSid/#/PointingToDeclaration/"></a> [androidJvm] val [invitationSid](invitation-sid.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationType/#/PointingToDeclaration/"></a>[invitationType](invitation-type.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/invitationType/#/PointingToDeclaration/"></a> [androidJvm] val [invitationType](invitation-type.md): [Streem.InvitationType](../-invitation-type/index.md)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/toName/#/PointingToDeclaration/"></a>[toName](to-name.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/toName/#/PointingToDeclaration/"></a> [androidJvm] val [toName](to-name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/toPhone/#/PointingToDeclaration/"></a>[toPhone](to-phone.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/toPhone/#/PointingToDeclaration/"></a> [androidJvm] val [toPhone](to-phone.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.StreemInvitation/url/#/PointingToDeclaration/"></a>[url](url.md)| <a name="pro.streem.sdk/Streem.StreemInvitation/url/#/PointingToDeclaration/"></a> [androidJvm] val [url](url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)   <br>|
+| [expiresAt](expires-at.html) | [androidJvm]<br>val [expiresAt](expires-at.html): [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)? |
+| [fromCompanyCode](from-company-code.html) | [androidJvm]<br>val [fromCompanyCode](from-company-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [fromCompanyLogoURL](from-company-logo-u-r-l.html) | [androidJvm]<br>val [fromCompanyLogoURL](from-company-logo-u-r-l.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [fromCompanyName](from-company-name.html) | [androidJvm]<br>val [fromCompanyName](from-company-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [fromName](from-name.html) | [androidJvm]<br>val [fromName](from-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [fromPhotoURL](from-photo-u-r-l.html) | [androidJvm]<br>val [fromPhotoURL](from-photo-u-r-l.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [fromRemoteId](from-remote-id.html) | [androidJvm]<br>val [fromRemoteId](from-remote-id.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [invitationCode](invitation-code.html) | [androidJvm]<br>val [invitationCode](invitation-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [invitationSid](invitation-sid.html) | [androidJvm]<br>val [invitationSid](invitation-sid.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [invitationType](invitation-type.html) | [androidJvm]<br>val [invitationType](invitation-type.html): [Streem.InvitationType](../-invitation-type/index.html)? = null |
+| [toName](to-name.html) | [androidJvm]<br>val [toName](to-name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [toPhone](to-phone.html) | [androidJvm]<br>val [toPhone](to-phone.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [url](url.html) | [androidJvm]<br>val [url](url.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
 

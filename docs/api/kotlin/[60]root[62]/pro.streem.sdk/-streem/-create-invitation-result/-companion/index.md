@@ -1,17 +1,23 @@
 ---
-title: Companion -
+title: Companion
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[CreateInvitationResult](../index.md)/[Companion](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[CreateInvitationResult](../index.html)/[Companion](index.html)
 
 
 
-# Companion  
- [androidJvm] object [Companion](index.md)   
+# Companion
 
 
-## Functions  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+object [Companion](index.html)
+
+
+
+## Functions
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Companion/fromThrowable/#kotlin.Throwable/PointingToDeclaration/"></a>[fromThrowable](from-throwable.md)| <a name="pro.streem.sdk/Streem.CreateInvitationResult.Companion/fromThrowable/#kotlin.Throwable/PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>fun [fromThrowable](from-throwable.md)(e: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Streem.CreateInvitationResult.Error](../-error/index.md)  <br><br><br>|
+| [fromThrowable](from-throwable.html) | [androidJvm]<br>fun [fromThrowable](from-throwable.html)(e: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)): [Streem.CreateInvitationResult.Error](../-error/index.html) |
 

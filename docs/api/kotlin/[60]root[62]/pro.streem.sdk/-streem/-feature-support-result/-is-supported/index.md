@@ -1,10 +1,15 @@
 ---
-title: IsSupported -
+title: IsSupported
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[FeatureSupportResult](../index.md)/[IsSupported](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[FeatureSupportResult](../index.html)/[IsSupported](index.html)
 
 
 
-# IsSupported  
- [androidJvm] object [IsSupported](index.md) : [Streem.FeatureSupportResult](../index.md)   
+# IsSupported
+
+
+
+[androidJvm]\
+object [IsSupported](index.html) : [Streem.FeatureSupportResult](../index.html)
+
 

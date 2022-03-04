@@ -1,14 +1,17 @@
 ---
-title: Error -
+title: Error
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[InvitationDialogResult](../index.md)/[Error](index.md)/[Error](-error.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[InvitationDialogResult](../index.html)/[Error](index.html)/[Error](-error.html)
 
 
 
-# Error  
-[androidJvm]  
-Content  
-fun [Error](-error.md)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html))  
+# Error
+
+
+
+[androidJvm]\
+fun [Error](-error.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html))
+
 
 
 

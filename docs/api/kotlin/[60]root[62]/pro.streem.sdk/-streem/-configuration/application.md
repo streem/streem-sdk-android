@@ -1,26 +1,17 @@
 ---
-title: application -
+title: application
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[Configuration](index.md)/[application](application.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[Configuration](index.html)/[application](application.html)
 
 
 
-# application  
-[androidJvm]  
-Content  
-val [application](application.md): [Application](https://developer.android.com/reference/kotlin/android/app/Application.html)  
-More info  
+# application
 
 
-## Parameters  
-  
-androidJvm  
-  
-| | |
-|---|---|
-| <a name="pro.streem.sdk/Streem.Configuration/application/#/PointingToDeclaration/"></a>application| <a name="pro.streem.sdk/Streem.Configuration/application/#/PointingToDeclaration/"></a><br><br>the calling application<br><br>|
-  
-  
+
+[androidJvm]\
+val [application](application.html): [Application](https://developer.android.com/reference/kotlin/android/app/Application.html)
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: build -
+title: build
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[Configuration](../index.md)/[Builder](index.md)/[build](build.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[Configuration](../index.html)/[Builder](index.html)/[build](build.html)
 
 
 
-# build  
-[androidJvm]  
-Content  
-fun [build](build.md)(): [Streem.Configuration](../index.md)  
+# build
+
+
+
+[androidJvm]\
+fun [build](build.html)(): [Streem.Configuration](../index.html)
+
 
 
 

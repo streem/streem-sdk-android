@@ -1,14 +1,17 @@
 ---
-title: SupportedCountries -
+title: SupportedCountries
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[SupportedCountriesResult](../index.md)/[SupportedCountries](index.md)/[SupportedCountries](-supported-countries.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[SupportedCountriesResult](../index.html)/[SupportedCountries](index.html)/[SupportedCountries](-supported-countries.html)
 
 
 
-# SupportedCountries  
-[androidJvm]  
-Content  
-fun [SupportedCountries](-supported-countries.md)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)<[Streem.Country](../../-country/index.md)>)  
+# SupportedCountries
+
+
+
+[androidJvm]\
+fun [SupportedCountries](-supported-countries.html)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;)
+
 
 
 

@@ -1,14 +1,17 @@
 ---
-title: invitationCode -
+title: invitationCode
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LinkType](../index.md)/[Invitation](index.md)/[invitationCode](invitation-code.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LinkType](../index.html)/[Invitation](index.html)/[invitationCode](invitation-code.html)
 
 
 
-# invitationCode  
-[androidJvm]  
-Content  
-val [invitationCode](invitation-code.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)  
+# invitationCode
+
+
+
+[androidJvm]\
+val [invitationCode](invitation-code.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)
+
 
 
 

@@ -1,30 +1,37 @@
 ---
-title: UserProfile -
+title: UserProfile
 ---
-//[<root>](../../../../index.md)/[pro.streem.sdk](../../index.md)/[Streem](../index.md)/[UserProfile](index.md)
+//[<root>](../../../../index.html)/[pro.streem.sdk](../../index.html)/[Streem](../index.html)/[UserProfile](index.html)
 
 
 
-# UserProfile  
- [androidJvm] data class [UserProfile](index.md)(**user**: [Streem.User](../-user/index.md), **expert**: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html), **name**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **avatarUrl**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **email**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, **phone**: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?)   
+# UserProfile
 
 
-## Types  
-  
-|  Name |  Summary | 
+
+[androidJvm]\
+data class [UserProfile](index.html)(user: [Streem.User](../-user/index.html), expert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html), name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, phone: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?)
+
+
+
+## Types
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.UserProfile.Builder///PointingToDeclaration/"></a>[Builder](-builder/index.md)| <a name="pro.streem.sdk/Streem.UserProfile.Builder///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>class [Builder](-builder/index.md)  <br><br><br>|
-| <a name="pro.streem.sdk/Streem.UserProfile.Companion///PointingToDeclaration/"></a>[Companion](-companion/index.md)| <a name="pro.streem.sdk/Streem.UserProfile.Companion///PointingToDeclaration/"></a>[androidJvm]  <br>Content  <br>object [Companion](-companion/index.md)  <br><br><br>|
+| [Builder](-builder/index.html) | [androidJvm]<br>class [Builder](-builder/index.html) |
+| [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
 
 
-## Properties  
-  
-|  Name |  Summary | 
+## Properties
+
+
+| Name | Summary |
 |---|---|
-| <a name="pro.streem.sdk/Streem.UserProfile/avatarUrl/#/PointingToDeclaration/"></a>[avatarUrl](avatar-url.md)| <a name="pro.streem.sdk/Streem.UserProfile/avatarUrl/#/PointingToDeclaration/"></a> [androidJvm] val [avatarUrl](avatar-url.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.UserProfile/email/#/PointingToDeclaration/"></a>[email](email.md)| <a name="pro.streem.sdk/Streem.UserProfile/email/#/PointingToDeclaration/"></a> [androidJvm] val [email](email.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.UserProfile/expert/#/PointingToDeclaration/"></a>[expert](expert.md)| <a name="pro.streem.sdk/Streem.UserProfile/expert/#/PointingToDeclaration/"></a> [androidJvm] val [expert](expert.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)   <br>|
-| <a name="pro.streem.sdk/Streem.UserProfile/name/#/PointingToDeclaration/"></a>[name](name.md)| <a name="pro.streem.sdk/Streem.UserProfile/name/#/PointingToDeclaration/"></a> [androidJvm] val [name](name.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.UserProfile/phone/#/PointingToDeclaration/"></a>[phone](phone.md)| <a name="pro.streem.sdk/Streem.UserProfile/phone/#/PointingToDeclaration/"></a> [androidJvm] val [phone](phone.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null   <br>|
-| <a name="pro.streem.sdk/Streem.UserProfile/user/#/PointingToDeclaration/"></a>[user](user.md)| <a name="pro.streem.sdk/Streem.UserProfile/user/#/PointingToDeclaration/"></a> [androidJvm] val [user](user.md): [Streem.User](../-user/index.md)   <br>|
+| [avatarUrl](avatar-url.html) | [androidJvm]<br>val [avatarUrl](avatar-url.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [email](email.html) | [androidJvm]<br>val [email](email.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [expert](expert.html) | [androidJvm]<br>val [expert](expert.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
+| [name](name.html) | [androidJvm]<br>val [name](name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [phone](phone.html) | [androidJvm]<br>val [phone](phone.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
+| [user](user.html) | [androidJvm]<br>val [user](user.html): [Streem.User](../-user/index.html) |
 

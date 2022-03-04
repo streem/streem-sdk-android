@@ -1,10 +1,15 @@
 ---
-title: LoggedIn -
+title: LoggedIn
 ---
-//[<root>](../../../../../index.md)/[pro.streem.sdk](../../../index.md)/[Streem](../../index.md)/[LoginCompletionResult](../index.md)/[LoggedIn](index.md)
+//[<root>](../../../../../index.html)/[pro.streem.sdk](../../../index.html)/[Streem](../../index.html)/[LoginCompletionResult](../index.html)/[LoggedIn](index.html)
 
 
 
-# LoggedIn  
- [androidJvm] object [LoggedIn](index.md) : [Streem.LoginCompletionResult](../index.md)   
+# LoggedIn
+
+
+
+[androidJvm]\
+object [LoggedIn](index.html) : [Streem.LoginCompletionResult](../index.html)
+
 
