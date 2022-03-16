@@ -7,6 +7,10 @@ $dokka.location:pro.streem.sdk/InternalStreemApi/InternalStreemApi/#/PointingToD
 $dokka.location:pro.streem.sdk/LobbyActivity///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-lobby-activity/index.html
 $dokka.location:pro.streem.sdk/LobbyActivity/LobbyActivity/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-lobby-activity/-lobby-activity.html
 $dokka.location:pro.streem.sdk/LobbyActivity/onBackPressed/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-lobby-activity/on-back-pressed.html
+$dokka.location:pro.streem.sdk/ProductDetailsCallback///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-product-details-callback/index.html
+$dokka.location:pro.streem.sdk/ProductDetailsCallback/ProductDetailsCallback/#androidx.fragment.app.Fragment/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-product-details-callback/-product-details-callback.html
+$dokka.location:pro.streem.sdk/ProductDetailsCallback/selectFinish/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-product-details-callback/select-finish.html
+$dokka.location:pro.streem.sdk/ProductDetailsCallback/setBackgroundResource/#kotlin.Int/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-product-details-callback/set-background-resource.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitation///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-start-streem-from-invitation/index.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitation/StartStreemFromInvitation/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-start-streem-from-invitation/-start-streem-from-invitation.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitation/createIntent/#android.content.Context#pro.streem.sdk.StartStreemFromInvitationRequest/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-start-streem-from-invitation/create-intent.html
@@ -234,7 +238,7 @@ $dokka.location:pro.streem.sdk/StreemClientVersionTooOldException///PointingToDe
 $dokka.location:pro.streem.sdk/StreemClientVersionTooOldException/StreemClientVersionTooOldException/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-client-version-too-old-exception/-streem-client-version-too-old-exception.html
 $dokka.location:pro.streem.sdk/VignetteActivity///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/index.html
 $dokka.location:pro.streem.sdk/VignetteActivity/VignetteActivity/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/-vignette-activity.html
-$dokka.location:pro.streem.sdk/VignetteActivity/getProductDetailsContent/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/get-product-details-content.html
+$dokka.location:pro.streem.sdk/VignetteActivity/getProductDetailsContent/#kotlin.String#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/get-product-details-content.html
 $dokka.location:pro.streem.sdk/VignetteActivity/launchExpertScheduling/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/launch-expert-scheduling.html
 $dokka.location:pro.streem.sdk/VignetteActivity/showCart/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-vignette-activity/show-cart.html
 pro.streem.sdk

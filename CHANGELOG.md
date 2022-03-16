@@ -1,9 +1,16 @@
+### v0.20.0 - March 16, 2022
+
+-   Fix bug relating to rear camera introduced with lobby animations
+-   Fix bug relating to issues when Picture-in-picture is turned off at app level
+-   Updates to fragment transitions to fix multiple cameras in use issue
+-   Remove deprecated references to ArSource
+
 ### v0.19.0 - March 3, 2022
 
 -   Fix bug related to refreshing SDK token
 -   Updated protobuf handling of API error responses
 -   Updated animation for entering a Streem call in face-to-face mode
--   Upgraded to Java 11 (see [ReadMe](./README.md#installation))
+-   Upgraded to Java 11 (see [ReadMe](./docs/integrating.md#installation))
 
 ### v0.18.0 - February 2, 2022
 
@@ -26,7 +33,7 @@
 -   Minor face-to-face mode UI updates including microphone icon for pro video and prompt for users when in system PiP and camera swap request comes through
 -   Improvement to system PiP experience when view is in landscape
 -   API endpoint migration for environments to support multi-region work
--   Additional API methods to parse Streem URL on app's behalf (see API and [ReadMe](./README.md#logging-in) for more info)
+-   Additional API methods to parse Streem URL on app's behalf (see API and [ReadMe](./docs/authenticating.md#logging-in) for more info)
 -   Minor bug fixes including the bug where user name and mic status were not previously appearing on expert web side
 
 ### v0.15.0 - September 29, 2021
@@ -39,7 +46,7 @@
 ### v0.14.0 - September 1, 2021
 
 -   Added lobby experience with camera preview to classic Streem and face-to-face experiences
--   Deprecated `startStreemActivity` API calls in favor of the [Activity Results API](https://developer.android.com/training/basics/intents/result) launch (see API and [ReadMe](./README.md#remote-streems) for more info)
+-   Deprecated `startStreemActivity` API calls in favor of the [Activity Results API](https://developer.android.com/training/basics/intents/result) launch (see API and [ReadMe](./docs/remote.md#remote-streems) for more info)
 -   Added analytics events surrounding usage of two way video
 -   Bug fixes including smoother handling of system picture-in-picture mode and animation improvements
 
