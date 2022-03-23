@@ -1,3 +1,7 @@
+### v0.20.1 - March 23, 2022
+
+-   Hotfix to downgrade source and target Java version back to Java 8
+
 ### v0.20.0 - March 16, 2022
 
 -   Fix bug relating to rear camera introduced with lobby animations

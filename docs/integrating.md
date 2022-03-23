@@ -23,19 +23,19 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.20.0"
+    implementation "pro.streem:streem-sdk:0.20.1"
     ...
 }
 ```
 
-Check your module `build.gradle` file to make sure your app is configured for Java 11 (see [Android Developer Docs](https://developer.android.com/about/versions/11/migration) for more details):
+Check your module `build.gradle` file to make sure your app is configured for Java 8 (see [Android Developer Docs](https://developer.android.com/studio/write/java8-support) for more details):
 
 ```gradle
 android {
     ...
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 ```
