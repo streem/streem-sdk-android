@@ -17,7 +17,7 @@ If login is successful, the result will be of type `Streem.LoginInvitationResult
 
 If there is an error during login, it will be returned as one of the `Streem.LoginInvitationResult.Error` types (shown below).
 
-Java:
+Java, login with invitation code:
 
 ```java
 Streem.get().login("yourInviteCode", false, result -> {
@@ -75,7 +75,7 @@ if (Streem.get().parseUri(uri) instanceof Streem.LinkType.Invitation) {
 }
 ```
 
-Kotlin:
+Kotlin, login with invitation code:
 
 ```kotlin
 Streem.get().login(
@@ -120,7 +120,7 @@ if (Streem.get().parseUri(uri) is Streem.LinkType.Invitation) {
 
 If you are embedding the Streem SDK inside an app that already implements user authentication, then along with your normal authentication flow your server will use one of our Server Side SDK's to obtain a Streem Token.
 
-Then, you can login using Streem.User.withSdkToken(sdkToken) as in the examples below.
+Then, you can login using `Streem.User.withSdkToken(sdkToken)` as in the examples below.
 
 If login is successful, the result will be of type `Streem.LoginCompletionResult.LoggedIn`.
 
@@ -139,7 +139,7 @@ Streem.get().login(Streem.UserProfile.builder(Streem.User.withSdkToken(sdkToken)
         TODO("Show error for UnexpectedError.");
     }
     return Unit.INSTANCE;
-    });
+});
 ```
 
 Kotlin:
@@ -160,6 +160,49 @@ Streem.get()
             }
         }
     }
+```
+
+If using Streem Token login, you should also provide a `TokenRefresher` to your `Streem.Configuration` when [initializing Streem in your application class](integrating.md#initialization).
+
+```kotlin
+class MyApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+
+        val tokenRefresher = object : TokenRefresher {
+            override fun refreshToken(): RefreshedSdkToken {
+                // synchronously retrieve your Streem Token, refreshToken() is called on a background thread
+                val sdkToken = SdkTokenManager.getSdkTokenSynchronous(this@SampleAppApplication)
+
+                return if (sdkToken == null) {
+                    // If getting an sdk token is not possible because the user is not logged
+                    // or because of an error, return a RefreshedSdkToken.Error
+                    Log.d(TAG, "token not refreshed")
+                    StreemAuthManager.isLoggedIn = false
+                    RefreshedSdkToken.Error
+                } else {
+                    // If the Streem Token is refreshed, return the token wrapped in a RefreshedSdkToken.Token
+                    Log.d(TAG, "token refreshed")
+                    StreemAuthManager.isLoggedIn = true
+                    RefreshedSdkToken.Token(sdkToken)
+                }
+            }
+        }
+
+        val configuration = Streem.Configuration(
+            application = this,
+            appId = MY_APP_ID,
+            environment = Streem.Environment.PROD_US,
+            tokenRefresher = tokenRefresher
+        )
+        Streem.initialize(configuration)
+    }
+
+    companion object {
+        private val TAG = MyApplication::class.java.simpleName
+        private const val MY_APP_ID = "APP_ID"
+    }
+}
 ```
 
 &nbsp;
