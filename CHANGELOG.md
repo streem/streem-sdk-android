@@ -1,3 +1,7 @@
+### v0.20.5 - April 27, 2022
+
+-   Patch for bug fixes relating to a beta feature
+
 ### v0.20.4 - April 26, 2022
 
 -   Patch for bug fixes relating to a beta feature
