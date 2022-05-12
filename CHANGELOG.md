@@ -1,4 +1,4 @@
-### v0.21.0 - May 11, 2022
+### v0.21.0 - May 12, 2022
 
 -   Increased stability for Pixel 3 users
 -   Update to timing for heartbeats verifying a user is in a Streem room
