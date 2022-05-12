@@ -1,3 +1,13 @@
+### v0.21.0 - May 11, 2022
+
+-   Increased stability for Pixel 3 users
+-   Update to timing for heartbeats verifying a user is in a Streem room
+-   Fix bug where Streem logo animation was persisting during call
+-   Update lobby to ensure buttons are set/disabled when join call is initiated
+-   Update to backend API endpoint for settings
+-   Fix bug relating to AR element tracking
+-   Various updates to unreleased Beta features
+
 ### v0.20.5 - April 27, 2022
 
 -   Patch for bug fixes relating to a beta feature
