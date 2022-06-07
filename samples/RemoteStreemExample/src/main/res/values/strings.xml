@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RemoteStreemExample</string>
+    <string name="invitation_code_hint_text">Invitation Code</string>
+    <string name="start_streem_button_text">Start Streem</string>
+    <string name="dialog_permission_not_granted_title">Error</string>
+    <string name="dialog_permission_not_granted_message">You must allow Camera and Microphone permissions to use this application</string>
+    <string name="dialog_permission_not_granted_button">Okay</string>
+    <string name="streem_completed">Streem completed</string>
+    <string name="streem_declined">Streem declined</string>
+    <string name="streem_activity_exited_unexpectedly">Streem activity exited unexpectedly</string>
+    <string name="invitation_code_validation_snackbar">Please check your invitation code to ensure it is 9 digits</string>
+</resources>
