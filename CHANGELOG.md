@@ -1,3 +1,13 @@
+### v0.22.0 - June 8, 2022
+
+-   Fix crash due to race condition
+-   Update log level for a few logs to provide better debug logging
+-   Fix calling issue present on some OnePlus devices
+-   Update to strategy for restoring Streem calls
+-   Fix crash occurring in lobby for some older devices
+-   Fix crash relating to ARCore losing tracking
+-   Updates to certain pro-side functionality (in beta, not yet available)
+
 ### v0.21.0 - May 12, 2022
 
 -   Increased stability for Pixel 3 users
