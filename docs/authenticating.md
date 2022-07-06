@@ -170,8 +170,9 @@ class MyApplication : Application() {
         super.onCreate()
 
         val tokenRefresher = object : TokenRefresher {
-            override fun refreshToken(): RefreshedSdkToken {
-                // synchronously retrieve your Streem Token, refreshToken() is called on a background thread
+            override fun refreshToken(tokenCallback: ((RefreshedSdkToken) -> Unit)) {
+                // retrieve your Streem Token - either synchronously or asynchronously
+                // refreshToken() is called on a background thread
                 val sdkToken = SdkTokenManager.getSdkTokenSynchronous(this@SampleAppApplication)
 
                 return if (sdkToken == null) {
@@ -179,12 +180,12 @@ class MyApplication : Application() {
                     // or because of an error, return a RefreshedSdkToken.Error
                     Log.d(TAG, "token not refreshed")
                     StreemAuthManager.isLoggedIn = false
-                    RefreshedSdkToken.Error
+                    tokenCallback.invoke(RefreshedSdkToken.Error)
                 } else {
                     // If the Streem Token is refreshed, return the token wrapped in a RefreshedSdkToken.Token
                     Log.d(TAG, "token refreshed")
                     StreemAuthManager.isLoggedIn = true
-                    RefreshedSdkToken.Token(sdkToken)
+                    tokenCallback.invoke(RefreshedSdkToken.Token(sdkToken))
                 }
             }
         }

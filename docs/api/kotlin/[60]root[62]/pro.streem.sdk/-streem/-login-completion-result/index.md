@@ -21,7 +21,7 @@ sealed class [LoginCompletionResult](index.html)
 |---|---|
 | [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
 | [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [Streem.LoginCompletionResult](index.html) |
-| [LoggedIn](-logged-in/index.html) | [androidJvm]<br>object [LoggedIn](-logged-in/index.html) : [Streem.LoginCompletionResult](index.html) |
+| [LoggedIn](-logged-in/index.html) | [androidJvm]<br>data class [LoggedIn](-logged-in/index.html)(user: [Streem.StreemIdentity](../-streem-identity/index.html)) : [Streem.LoginCompletionResult](index.html) |
 
 
 ## Inheritors

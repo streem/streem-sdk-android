@@ -20,24 +20,20 @@ class MainActivity : AppCompatActivity() {
             is StartStreemFromInvitationResult.Completed ->
                 Snackbar.make(container, R.string.streem_completed, Snackbar.LENGTH_SHORT).show()
             is StartStreemFromInvitationResult.Error.InvitationDeclined ->
-                Snackbar.make(
-                    container, R.string.streem_declined, Snackbar.LENGTH_SHORT
-                ).show()
+                logErrorAndShowSnackbar("Invitation was declined")
+            is StartStreemFromInvitationResult.Error.ClientVersionTooOld ->
+                logErrorAndShowSnackbar("This version of Streem is no longer supported. Please update.")
             is StartStreemFromInvitationResult.Error.UnexpectedError ->
-                Snackbar.make(
-                    container,
-                    R.string.streem_activity_exited_unexpectedly,
-                    Snackbar.LENGTH_SHORT
+                logErrorAndShowSnackbar(
+                    "There was an unexpected error while trying to Streem.",
+                    result.error
                 )
-                    .show()
         }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
         startStreemButton.setOnClickListener {
             checkPermissionsBeforeStartingStreem()
         }
@@ -76,6 +72,9 @@ class MainActivity : AppCompatActivity() {
                     }
                     is Streem.LoginInvitationResult.Error.InvitationInvalid -> {
                         logErrorAndShowSnackbar("The invitation you entered is invalid. Please reach out to your expert to get a new code.")
+                    }
+                    is Streem.LoginInvitationResult.Error.ClientVersionTooOld -> {
+                        logErrorAndShowSnackbar("This version of Streem is no longer supported. Please update.")
                     }
                     is Streem.LoginInvitationResult.Error.UnexpectedError -> {
                         logErrorAndShowSnackbar(

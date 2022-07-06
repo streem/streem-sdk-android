@@ -1,3 +1,11 @@
+### v0.23.0 - July 6, 2022
+
+-   Breaking Change: Upgraded to Kotlin 1.5.32 to support updating to Twilio v7 (see compatibility guide [here](https://kotlinlang.org/docs/compatibility-guide-15.html))
+-   Update target SDK to 31 (see compatibility guide [here](https://developer.android.com/google/play/requirements/target-sdk#pre12))
+-   Updated location permission requests to request fine and coarse location required by update to target SDK 31
+-   Add feature flag for expert-side features
+-   Updates to expert-side login/logout (behind feature flag, not yet available)
+
 ### v0.22.0 - June 8, 2022
 
 -   Fix crash due to race condition
@@ -6,7 +14,7 @@
 -   Update to strategy for restoring Streem calls
 -   Fix crash occurring in lobby for some older devices
 -   Fix crash relating to ARCore losing tracking
--   Updates to certain pro-side functionality (in beta, not yet available)
+-   Updates to certain expert-side functionality (in beta, not yet available)
 
 ### v0.21.0 - May 12, 2022
 

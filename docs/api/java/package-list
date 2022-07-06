@@ -49,6 +49,7 @@ $dokka.location:pro.streem.sdk/Streem.LoginInvitationResult///PointingToDeclarat
 $dokka.location:pro.streem.sdk/Streem.ParticipantRequest///PointingToDeclaration/pro/streem/sdk/Streem.ParticipantRequest.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig.Companion///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.Companion.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig///PointingToDeclaration/pro/streem/sdk/Streem.SessionConfig.html
+$dokka.location:pro.streem.sdk/Streem.StreemIdentity///PointingToDeclaration/pro/streem/sdk/Streem.StreemIdentity.html
 $dokka.location:pro.streem.sdk/Streem.StreemInvitation///PointingToDeclaration/pro/streem/sdk/Streem.StreemInvitation.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Companion///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Companion.html
 $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.SupportedCountriesResult.Error.ClientVersionTooOld.html
