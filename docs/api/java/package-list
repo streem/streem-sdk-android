@@ -14,6 +14,8 @@ $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Companion///Pointin
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.ClientVersionTooOld///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.ClientVersionTooOld.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.InvalidPhoneNumber///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.InvalidPhoneNumber.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.InvalidUserName///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.InvalidUserName.html
+$dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.LandlinePhoneNumber///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.LandlinePhoneNumber.html
+$dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.SmsDeliveryFailure///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.SmsDeliveryFailure.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error.UnexpectedError///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.UnexpectedError.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.Error///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.Error.html
 $dokka.location:pro.streem.sdk/Streem.CreateInvitationResult.InvitationCreated///PointingToDeclaration/pro/streem/sdk/Streem.CreateInvitationResult.InvitationCreated.html

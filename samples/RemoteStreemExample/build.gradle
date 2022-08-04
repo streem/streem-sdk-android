@@ -5,14 +5,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 32
     buildToolsVersion "30.0.3"
 
     defaultConfig {
         // Update to your Android application ID
         applicationId "com.streem.android.remotestreemexample"
         minSdkVersion 23
-        targetSdkVersion 31
+        targetSdkVersion 32
         versionCode 1
         versionName "1.0"
 
@@ -33,16 +33,19 @@ android {
         jvmTarget = '1.8'
     }
     packagingOptions {
-        exclude 'META-INF/DEPENDENCIES'
-        pickFirst 'META-INF/kotlinx-serialization-runtime.kotlin_module'
+        resources {
+            excludes += ['META-INF/DEPENDENCIES']
+            pickFirsts += ['META-INF/kotlinx-serialization-runtime.kotlin_module']
+        }
     }
+    namespace 'com.streem.android.remotestreemexample'
 }
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation "pro.streem:streem-sdk:0.23.0"
+    implementation "pro.streem:streem-sdk:0.24.0"
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'

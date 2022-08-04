@@ -1,3 +1,9 @@
+### v0.24.0 - August 3, 2022
+
+-   Small UI updates for more consistency in call controls
+-   Updated Gradle Plugin version to 7.2.1 to support use on new M1 macbook
+-   Increased stability when handling incoming calls
+
 ### v0.23.0 - July 6, 2022
 
 -   Breaking Change: Upgraded to Kotlin 1.5.32 to support updating to Twilio v7 (see compatibility guide [here](https://kotlinlang.org/docs/compatibility-guide-15.html))
