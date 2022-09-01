@@ -18,7 +18,7 @@ title: withSdkToken
 
 
 
-fun [withSdkToken](with-sdk-token.html)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)): [Streem.User](../index.html)
+fun [withSdkToken](with-sdk-token.html)(sdkToken: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null): [Streem.User](../index.html)
 
 
 

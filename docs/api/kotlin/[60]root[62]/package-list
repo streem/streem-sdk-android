@@ -156,8 +156,9 @@ $dokka.location:pro.streem.sdk/Streem.SessionConfig/equals/#kotlin.Any?/Pointing
 $dokka.location:pro.streem.sdk/Streem.SessionConfig/hashCode/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/hash-code.html
 $dokka.location:pro.streem.sdk/Streem.SessionConfig/toString/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-session-config/to-string.html
 $dokka.location:pro.streem.sdk/Streem.StreemIdentity///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/index.html
-$dokka.location:pro.streem.sdk/Streem.StreemIdentity/StreemIdentity/#kotlin.String#kotlin.String#kotlin.String#kotlin.Boolean/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/-streem-identity.html
+$dokka.location:pro.streem.sdk/Streem.StreemIdentity/StreemIdentity/#kotlin.String#kotlin.String#kotlin.String?#kotlin.String#kotlin.Boolean/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/-streem-identity.html
 $dokka.location:pro.streem.sdk/Streem.StreemIdentity/avatarUrl/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/avatar-url.html
+$dokka.location:pro.streem.sdk/Streem.StreemIdentity/companyName/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/company-name.html
 $dokka.location:pro.streem.sdk/Streem.StreemIdentity/companySid/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/company-sid.html
 $dokka.location:pro.streem.sdk/Streem.StreemIdentity/isExpert/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/is-expert.html
 $dokka.location:pro.streem.sdk/Streem.StreemIdentity/name/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-streem-identity/name.html
@@ -190,7 +191,7 @@ $dokka.location:pro.streem.sdk/Streem.SupportedCountriesResult///PointingToDecla
 $dokka.location:pro.streem.sdk/Streem.User.Companion///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/index.html
 $dokka.location:pro.streem.sdk/Streem.User.Companion/withIdToken/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/with-id-token.html
 $dokka.location:pro.streem.sdk/Streem.User.Companion/withInvitationCode/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/with-invitation-code.html
-$dokka.location:pro.streem.sdk/Streem.User.Companion/withSdkToken/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/with-sdk-token.html
+$dokka.location:pro.streem.sdk/Streem.User.Companion/withSdkToken/#kotlin.String#kotlin.String?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/with-sdk-token.html
 $dokka.location:pro.streem.sdk/Streem.User.Companion/withUserId/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/-companion/with-user-id.html
 $dokka.location:pro.streem.sdk/Streem.User///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user/index.html
 $dokka.location:pro.streem.sdk/Streem.UserProfile.Builder///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-user-profile/-builder/index.html

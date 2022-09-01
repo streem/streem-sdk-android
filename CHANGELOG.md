@@ -1,3 +1,11 @@
+### v0.25.0 - September 1, 2022
+
+-   Replaced Glide dependency with Streem's own Slide dependency
+-   Analytics and logging added for login/logout processes
+-   Updates to onsite Streems including flashlight, removing tools and AR, and bypassing creating a video room
+-   Updated login response to include company name
+-   Updated API to support upcoming expert features
+
 ### v0.24.0 - August 3, 2022
 
 -   Small UI updates for more consistency in call controls
