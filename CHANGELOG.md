@@ -1,3 +1,8 @@
+### v0.25.1 - October 18, 2022
+
+-   Added method startStreemToRemoteUser that starts a Streem to a UserId and takes you to the Lobby
+-   Updated internal API calls to fix 403 with createRoomInvitationAndUser method
+
 ### v0.25.0 - September 1, 2022
 
 -   Replaced Glide dependency with Streem's own Slide dependency

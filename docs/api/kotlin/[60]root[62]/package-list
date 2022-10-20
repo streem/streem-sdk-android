@@ -242,6 +242,7 @@ $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.StreemInvitation#pro.streem.sdk.Streem.SessionConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#android.app.Activity#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.html
+$dokka.location:pro.streem.sdk/Streem/startStreemToRemoteUser/#android.app.Activity#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-to-remote-user.html
 $dokka.location:pro.streem.sdk/Streem/startVignette/#android.app.Activity#pro.streem.sdk.internal.vignette.VignetteConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-vignette.html
 $dokka.location:pro.streem.sdk/StreemBeta///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/index.html
 $dokka.location:pro.streem.sdk/StreemBeta/StreemBeta/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/-streem-beta.html
