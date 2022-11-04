@@ -1,3 +1,9 @@
+### v0.25.2 - November 4, 2022
+
+-   Updated lobby to access user information given an external user id
+-   Updated startStreemToRemoteUser to take in optional reference id
+-   Updated exit codes to include EXIT_CODE_CALL_REJECTED and EXIT_CODE_NOT_ANSWERED and exposed the error extra for better error handling
+
 ### v0.25.1 - October 18, 2022
 
 -   Added method startStreemToRemoteUser that starts a Streem to a UserId and takes you to the Lobby

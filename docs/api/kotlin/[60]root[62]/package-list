@@ -30,9 +30,12 @@ $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error.UnexpectedE
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult.Error///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-start-streem-from-invitation-result/-error/index.html
 $dokka.location:pro.streem.sdk/StartStreemFromInvitationResult///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-start-streem-from-invitation-result/index.html
 $dokka.location:pro.streem.sdk/Streem.Companion///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/index.html
+$dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_CALL_REJECTED/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-c-a-l-l_-r-e-j-e-c-t-e-d.html
 $dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_ERROR/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-e-r-r-o-r.html
 $dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_EXIT/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-e-x-i-t.html
 $dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_HELP/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-h-e-l-p.html
+$dokka.location:pro.streem.sdk/Streem.Companion/EXIT_CODE_NOT_ANSWERED/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-i-t_-c-o-d-e_-n-o-t_-a-n-s-w-e-r-e-d.html
+$dokka.location:pro.streem.sdk/Streem.Companion/EXTRA_ERROR/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-t-r-a_-e-r-r-o-r.html
 $dokka.location:pro.streem.sdk/Streem.Companion/EXTRA_EXIT_CODE/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-t-r-a_-e-x-i-t_-c-o-d-e.html
 $dokka.location:pro.streem.sdk/Streem.Companion/EXTRA_JOINED_CALL_TIME/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/-e-x-t-r-a_-j-o-i-n-e-d_-c-a-l-l_-t-i-m-e.html
 $dokka.location:pro.streem.sdk/Streem.Companion/get/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-companion/get.html
@@ -234,7 +237,7 @@ $dokka.location:pro.streem.sdk/Streem/openTutorial/#androidx.fragment.app.Fragme
 $dokka.location:pro.streem.sdk/Streem/openTutorial/#androidx.fragment.app.Fragment#kotlin.IntArray#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/open-tutorial.html
 $dokka.location:pro.streem.sdk/Streem/openTutorial/#androidx.fragment.app.Fragment#kotlin.collections.List[kotlin.ByteArray]#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/open-tutorial.html
 $dokka.location:pro.streem.sdk/Streem/parseUri/#android.net.Uri?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/parse-uri.html
-$dokka.location:pro.streem.sdk/Streem/startStreemActivity/#android.app.Activity#pro.streem.sdk.Streem.SessionConfig#pro.streem.sdk.Streem.ParticipantRequest?#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
+$dokka.location:pro.streem.sdk/Streem/startStreemActivity/#android.app.Activity#pro.streem.sdk.Streem.SessionConfig#pro.streem.sdk.Streem.ParticipantRequest?#kotlin.String?#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#android.app.Activity#pro.streem.sdk.Streem.SessionConfig#pro.streem.sdk.Streem.ParticipantRequest?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#android.app.Activity#pro.streem.sdk.Streem.StreemInvitation#pro.streem.sdk.Streem.SessionConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.SessionConfig#pro.streem.sdk.Streem.ParticipantRequest?#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
@@ -242,7 +245,7 @@ $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app
 $dokka.location:pro.streem.sdk/Streem/startStreemActivity/#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.StreemInvitation#pro.streem.sdk.Streem.SessionConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#android.app.Activity#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.html
 $dokka.location:pro.streem.sdk/Streem/startStreemActivityForInvitation/#kotlin.String#androidx.fragment.app.Fragment#pro.streem.sdk.Streem.SessionConfig/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-activity-for-invitation.html
-$dokka.location:pro.streem.sdk/Streem/startStreemToRemoteUser/#android.app.Activity#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-to-remote-user.html
+$dokka.location:pro.streem.sdk/Streem/startStreemToRemoteUser/#android.app.Activity#kotlin.String#kotlin.String#kotlin.String?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-streem-to-remote-user.html
 $dokka.location:pro.streem.sdk/Streem/startVignette/#android.app.Activity#pro.streem.sdk.internal.vignette.VignetteConfig#kotlin.Function1[kotlin.Throwable,kotlin.Unit]?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/start-vignette.html
 $dokka.location:pro.streem.sdk/StreemBeta///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/index.html
 $dokka.location:pro.streem.sdk/StreemBeta/StreemBeta/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem-beta/-streem-beta.html

@@ -49,7 +49,7 @@ androidJvm
 
 
 
-abstract fun [startStreemActivity](start-streem-activity.html)(currentActivity: [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html), localParticipantSessionConfig: [Streem.SessionConfig](-session-config/index.html), remoteParticipant: [Streem.ParticipantRequest](-participant-request/index.html)? = null, errorCallback: ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null)
+abstract fun [startStreemActivity](start-streem-activity.html)(currentActivity: [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html), localParticipantSessionConfig: [Streem.SessionConfig](-session-config/index.html), remoteParticipant: [Streem.ParticipantRequest](-participant-request/index.html)? = null, referenceId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, errorCallback: ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null)
 
 
 
@@ -67,6 +67,7 @@ androidJvm
 | currentActivity | this Activity's onActivityResult method will be called with the room's exit code. |
 | localParticipantSessionConfig | the SessionConfig of the local user. |
 | remoteParticipant | the remote participant to invite to the room. |
+| referenceId | the reference ID to use for the room, or null if none. |
 | errorCallback | a function that is called with a [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html) when an error occurs. |
 
 

@@ -29,9 +29,12 @@ object [Companion](index.html)
 
 | Name | Summary |
 |---|---|
+| [EXIT_CODE_CALL_REJECTED](-e-x-i-t_-c-o-d-e_-c-a-l-l_-r-e-j-e-c-t-e-d.html) | [androidJvm]<br>const val [EXIT_CODE_CALL_REJECTED](-e-x-i-t_-c-o-d-e_-c-a-l-l_-r-e-j-e-c-t-e-d.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The call did not connect because it was rejected by the remote user. |
 | [EXIT_CODE_ERROR](-e-x-i-t_-c-o-d-e_-e-r-r-o-r.html) | [androidJvm]<br>const val [EXIT_CODE_ERROR](-e-x-i-t_-c-o-d-e_-e-r-r-o-r.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>There was an unexpected error. |
 | [EXIT_CODE_EXIT](-e-x-i-t_-c-o-d-e_-e-x-i-t.html) | [androidJvm]<br>const val [EXIT_CODE_EXIT](-e-x-i-t_-c-o-d-e_-e-x-i-t.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The user exited the Streem experience using the "Exit" button. |
 | [EXIT_CODE_HELP](-e-x-i-t_-c-o-d-e_-h-e-l-p.html) | [androidJvm]<br>const val [EXIT_CODE_HELP](-e-x-i-t_-c-o-d-e_-h-e-l-p.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The user exited the Streem experience using the "Help" button. |
+| [EXIT_CODE_NOT_ANSWERED](-e-x-i-t_-c-o-d-e_-n-o-t_-a-n-s-w-e-r-e-d.html) | [androidJvm]<br>const val [EXIT_CODE_NOT_ANSWERED](-e-x-i-t_-c-o-d-e_-n-o-t_-a-n-s-w-e-r-e-d.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The call was not answered within the timeout period. |
+| [EXTRA_ERROR](-e-x-t-r-a_-e-r-r-o-r.html) | [androidJvm]<br>const val [EXTRA_ERROR](-e-x-t-r-a_-e-r-r-o-r.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>A Serialized Throwable that may be returned if there is an error after starting the Streem experience. |
 | [EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.html) | [androidJvm]<br>const val [EXTRA_EXIT_CODE](-e-x-t-r-a_-e-x-i-t_-c-o-d-e.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>Exit code (as a string) from the Streem experience. |
 | [EXTRA_JOINED_CALL_TIME](-e-x-t-r-a_-j-o-i-n-e-d_-c-a-l-l_-t-i-m-e.html) | [androidJvm]<br>const val [EXTRA_JOINED_CALL_TIME](-e-x-t-r-a_-j-o-i-n-e-d_-c-a-l-l_-t-i-m-e.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The time that the user taps the Join Now button in the Lobby |
 

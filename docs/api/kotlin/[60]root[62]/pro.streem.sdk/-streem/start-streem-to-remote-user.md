@@ -18,7 +18,7 @@ title: startStreemToRemoteUser
 
 
 
-abstract fun [startStreemToRemoteUser](start-streem-to-remote-user.html)(currentActivity: [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html), remoteUserId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+abstract fun [startStreemToRemoteUser](start-streem-to-remote-user.html)(currentActivity: [Activity](https://developer.android.com/reference/kotlin/android/app/Activity.html), remoteUserId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), referenceId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null)
 
 
 
@@ -35,6 +35,8 @@ androidJvm
 |---|---|
 | currentActivity | this Activity's onActivityResult method will be called with the room's exit code. |
 | remoteUserId | the ID of the remote participant to invite to the room. |
+| companyCode | the company code that the remoteUserId belongs to. |
+| referenceId | the reference ID to use for the room, or null if none. |
 
 
 
