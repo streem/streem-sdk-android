@@ -18,14 +18,14 @@ The call did not connect because it was rejected by the remote user.
 
 
 
-## See also
+#### See also
 
 
 androidJvm
 
-| | |
-|---|---|
-| [pro.streem.sdk.Streem](../get-exit-code.html) |  |
+| |
+|---|
+| [Streem.getExitCode](../get-exit-code.html) |
 
 
 

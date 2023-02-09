@@ -10,8 +10,16 @@ title: UserProfile
 
 
 [androidJvm]\
-data class [UserProfile](index.html)(user: [Streem.User](../-user/index.html), expert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html), name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, email: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, phone: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?)
+data class [UserProfile](index.html)(val user: [Streem.User](../-user/index.html), val expert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html))
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [UserProfile](-user-profile.html) | [androidJvm]<br>fun [UserProfile](-user-profile.html)(user: [Streem.User](../-user/index.html), expert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)) |
 
 
 ## Types
@@ -28,10 +36,6 @@ data class [UserProfile](index.html)(user: [Streem.User](../-user/index.html), e
 
 | Name | Summary |
 |---|---|
-| [avatarUrl](avatar-url.html) | [androidJvm]<br>val [avatarUrl](avatar-url.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
-| [email](email.html) | [androidJvm]<br>val [email](email.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
 | [expert](expert.html) | [androidJvm]<br>val [expert](expert.html): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html) |
-| [name](name.html) | [androidJvm]<br>val [name](name.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
-| [phone](phone.html) | [androidJvm]<br>val [phone](phone.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null |
 | [user](user.html) | [androidJvm]<br>val [user](user.html): [Streem.User](../-user/index.html) |
 

@@ -10,8 +10,16 @@ title: SupportedCountries
 
 
 [androidJvm]\
-data class [SupportedCountries](index.html)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;) : [Streem.SupportedCountriesResult](../index.html)
+data class [SupportedCountries](index.html)(val countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;) : [Streem.SupportedCountriesResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [SupportedCountries](-supported-countries.html) | [androidJvm]<br>fun [SupportedCountries](-supported-countries.html)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../../-country/index.html)&gt;) |
 
 
 ## Properties

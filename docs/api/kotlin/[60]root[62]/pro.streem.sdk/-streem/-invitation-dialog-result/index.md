@@ -19,9 +19,9 @@ sealed class [InvitationDialogResult](index.html)
 
 | Name | Summary |
 |---|---|
-| [Error](-error/index.html) | [androidJvm]<br>data class [Error](-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](index.html) |
-| [InviteAccepted](-invite-accepted/index.html) | [androidJvm]<br>class [InviteAccepted](-invite-accepted/index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
-| [InviteDeclined](-invite-declined/index.html) | [androidJvm]<br>class [InviteDeclined](-invite-declined/index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
+| [Error](-error/index.html) | [androidJvm]<br>data class [Error](-error/index.html)(val error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](index.html) |
+| [InviteAccepted](-invite-accepted/index.html) | [androidJvm]<br>class [InviteAccepted](-invite-accepted/index.html)(val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
+| [InviteDeclined](-invite-declined/index.html) | [androidJvm]<br>class [InviteDeclined](-invite-declined/index.html)(val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](index.html) |
 
 
 ## Inheritors
@@ -29,7 +29,7 @@ sealed class [InvitationDialogResult](index.html)
 
 | Name |
 |---|
-| [Streem.InvitationDialogResult](-invite-accepted/index.html) |
-| [Streem.InvitationDialogResult](-invite-declined/index.html) |
-| [Streem.InvitationDialogResult](-error/index.html) |
+| [InviteAccepted](-invite-accepted/index.html) |
+| [InviteDeclined](-invite-declined/index.html) |
+| [Error](-error/index.html) |
 

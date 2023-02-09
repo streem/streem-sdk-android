@@ -21,7 +21,7 @@ sealed class [SupportedCountriesResult](index.html)
 |---|---|
 | [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
 | [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [Streem.SupportedCountriesResult](index.html) |
-| [SupportedCountries](-supported-countries/index.html) | [androidJvm]<br>data class [SupportedCountries](-supported-countries/index.html)(countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../-country/index.html)&gt;) : [Streem.SupportedCountriesResult](index.html) |
+| [SupportedCountries](-supported-countries/index.html) | [androidJvm]<br>data class [SupportedCountries](-supported-countries/index.html)(val countries: [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html)&lt;[Streem.Country](../-country/index.html)&gt;) : [Streem.SupportedCountriesResult](index.html) |
 
 
 ## Inheritors
@@ -29,6 +29,6 @@ sealed class [SupportedCountriesResult](index.html)
 
 | Name |
 |---|
-| [Streem.SupportedCountriesResult](-supported-countries/index.html) |
-| [Streem.SupportedCountriesResult](-error/index.html) |
+| [SupportedCountries](-supported-countries/index.html) |
+| [Error](-error/index.html) |
 

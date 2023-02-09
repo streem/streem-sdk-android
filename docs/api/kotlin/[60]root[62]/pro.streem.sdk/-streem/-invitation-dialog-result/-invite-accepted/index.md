@@ -10,8 +10,16 @@ title: InviteAccepted
 
 
 [androidJvm]\
-class [InviteAccepted](index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.html)
+class [InviteAccepted](index.html)(val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [InviteAccepted](-invite-accepted.html) | [androidJvm]<br>fun [InviteAccepted](-invite-accepted.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 
 
 ## Properties

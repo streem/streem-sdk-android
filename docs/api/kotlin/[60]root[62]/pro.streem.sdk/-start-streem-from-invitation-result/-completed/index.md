@@ -10,8 +10,16 @@ title: Completed
 
 
 [androidJvm]\
-class [Completed](index.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](../index.html)
+class [Completed](index.html)(val joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) : [StartStreemFromInvitationResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [Completed](-completed.html) | [androidJvm]<br>fun [Completed](-completed.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?) |
 
 
 ## Properties

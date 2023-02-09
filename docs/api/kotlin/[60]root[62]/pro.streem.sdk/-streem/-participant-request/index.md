@@ -10,8 +10,16 @@ title: ParticipantRequest
 
 
 [androidJvm]\
-data class [ParticipantRequest](index.html)(remoteUserId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), sessionConfig: [Streem.SessionConfig](../-session-config/index.html)) : [Parcelable](https://developer.android.com/reference/kotlin/android/os/Parcelable.html)
+data class [ParticipantRequest](index.html)(val remoteUserId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val sessionConfig: [Streem.SessionConfig](../-session-config/index.html)) : [Parcelable](https://developer.android.com/reference/kotlin/android/os/Parcelable.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [ParticipantRequest](-participant-request.html) | [androidJvm]<br>fun [ParticipantRequest](-participant-request.html)(remoteUserId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), sessionConfig: [Streem.SessionConfig](../-session-config/index.html)) |
 
 
 ## Functions

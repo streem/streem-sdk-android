@@ -21,7 +21,7 @@ sealed class [LoginInvitationResult](index.html)
 |---|---|
 | [Companion](-companion/index.html) | [androidJvm]<br>object [Companion](-companion/index.html) |
 | [Error](-error/index.html) | [androidJvm]<br>sealed class [Error](-error/index.html) : [Streem.LoginInvitationResult](index.html) |
-| [LoggedIn](-logged-in/index.html) | [androidJvm]<br>data class [LoggedIn](-logged-in/index.html)(invitation: [Streem.StreemInvitation](../-streem-invitation/index.html)) : [Streem.LoginInvitationResult](index.html) |
+| [LoggedIn](-logged-in/index.html) | [androidJvm]<br>data class [LoggedIn](-logged-in/index.html)(val invitation: [Streem.StreemInvitation](../-streem-invitation/index.html)) : [Streem.LoginInvitationResult](index.html) |
 
 
 ## Inheritors
@@ -29,6 +29,6 @@ sealed class [LoginInvitationResult](index.html)
 
 | Name |
 |---|
-| [Streem.LoginInvitationResult](-logged-in/index.html) |
-| [Streem.LoginInvitationResult](-error/index.html) |
+| [LoggedIn](-logged-in/index.html) |
+| [Error](-error/index.html) |
 

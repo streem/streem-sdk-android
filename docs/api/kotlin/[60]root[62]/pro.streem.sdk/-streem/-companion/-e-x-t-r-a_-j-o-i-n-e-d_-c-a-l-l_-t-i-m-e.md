@@ -18,14 +18,14 @@ The time that the user taps the Join Now button in the Lobby
 
 
 
-## See also
+#### See also
 
 
 androidJvm
 
-| | |
-|---|---|
-| [pro.streem.sdk.StartStreemFromInvitationResult](../../-start-streem-from-invitation-result/index.html) |  |
+| |
+|---|
+| [StartStreemFromInvitationResult](../../-start-streem-from-invitation-result/index.html) |
 
 
 

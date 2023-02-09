@@ -10,11 +10,11 @@ title: Configuration
 
 
 [androidJvm]\
-data class [Configuration](index.html)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html), appSecret: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)?, environment: [Streem.Environment](../-environment/index.html)?, tokenRefresher: TokenRefresher?)
+data class [Configuration](index.html)(val application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), val appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html), val environment: [Streem.Environment](../-environment/index.html)? = null, val tokenRefresher: TokenRefresher? = null)
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm
@@ -31,8 +31,8 @@ androidJvm
 
 | | |
 |---|---|
-| [Configuration](-configuration.html) | [androidJvm]<br>~~fun~~ [~~Configuration~~](-configuration.html)~~(~~~~application~~~~:~~ [Application](https://developer.android.com/reference/kotlin/android/app/Application.html)~~,~~ ~~appId~~~~:~~ [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)~~,~~ ~~appSecret~~~~:~~ [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)? ~~= null~~~~,~~ ~~environment~~~~:~~ [Streem.Environment](../-environment/index.html)? ~~= null~~~~,~~ ~~errorListener~~~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)?~~)~~ |
-| [Configuration](-configuration.html) | [androidJvm]<br>fun [Configuration](-configuration.html)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html), appSecret: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)? = null, environment: [Streem.Environment](../-environment/index.html)? = null, tokenRefresher: TokenRefresher? = null) |
+| [Configuration](-configuration.html) | [androidJvm]<br>fun [~~Configuration~~](-configuration.html)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html), environment: [Streem.Environment](../-environment/index.html)? = null, errorListener: ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)?) |
+| [Configuration](-configuration.html) | [androidJvm]<br>fun [Configuration](-configuration.html)(application: [Application](https://developer.android.com/reference/kotlin/android/app/Application.html), appId: [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html), environment: [Streem.Environment](../-environment/index.html)? = null, tokenRefresher: TokenRefresher? = null) |
 
 
 ## Types
@@ -51,8 +51,7 @@ androidJvm
 |---|---|
 | [appId](app-id.html) | [androidJvm]<br>val [appId](app-id.html): [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html) |
 | [application](application.html) | [androidJvm]<br>val [application](application.html): [Application](https://developer.android.com/reference/kotlin/android/app/Application.html) |
-| [appSecret](app-secret.html) | [androidJvm]<br>val [appSecret](app-secret.html): [CharSequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-char-sequence/index.html)? = null |
 | [environment](environment.html) | [androidJvm]<br>val [environment](environment.html): [Streem.Environment](../-environment/index.html)? = null |
-| [globalErrorListener](global-error-listener.html) | [androidJvm]<br>~~var~~ [~~globalErrorListener~~](global-error-listener.html)~~:~~ ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? ~~= null~~ |
+| [globalErrorListener](global-error-listener.html) | [androidJvm]<br>var [~~globalErrorListener~~](global-error-listener.html): ([Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) -&gt; [Unit](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)? = null |
 | [tokenRefresher](token-refresher.html) | [androidJvm]<br>val [tokenRefresher](token-refresher.html): TokenRefresher? = null |
 

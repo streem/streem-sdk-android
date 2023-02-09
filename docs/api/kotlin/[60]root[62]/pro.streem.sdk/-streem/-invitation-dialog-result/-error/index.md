@@ -10,8 +10,16 @@ title: Error
 
 
 [androidJvm]\
-data class [Error](index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](../index.html)
+data class [Error](index.html)(val error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.InvitationDialogResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [Error](-error.html) | [androidJvm]<br>fun [Error](-error.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) |
 
 
 ## Properties

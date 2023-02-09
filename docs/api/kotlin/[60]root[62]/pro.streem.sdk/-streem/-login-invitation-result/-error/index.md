@@ -22,7 +22,7 @@ sealed class [Error](index.html) : [Streem.LoginInvitationResult](../index.html)
 | [ClientVersionTooOld](-client-version-too-old/index.html) | [androidJvm]<br>object [ClientVersionTooOld](-client-version-too-old/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
 | [InvitationConsumed](-invitation-consumed/index.html) | [androidJvm]<br>object [InvitationConsumed](-invitation-consumed/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
 | [InvitationInvalid](-invitation-invalid/index.html) | [androidJvm]<br>object [InvitationInvalid](-invitation-invalid/index.html) : [Streem.LoginInvitationResult.Error](index.html) |
-| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginInvitationResult.Error](index.html) |
+| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(val error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginInvitationResult.Error](index.html) |
 
 
 ## Inheritors
@@ -30,8 +30,8 @@ sealed class [Error](index.html) : [Streem.LoginInvitationResult](../index.html)
 
 | Name |
 |---|
-| [Streem.LoginInvitationResult.Error](-invitation-consumed/index.html) |
-| [Streem.LoginInvitationResult.Error](-invitation-invalid/index.html) |
-| [Streem.LoginInvitationResult.Error](-client-version-too-old/index.html) |
-| [Streem.LoginInvitationResult.Error](-unexpected-error/index.html) |
+| [InvitationConsumed](-invitation-consumed/index.html) |
+| [InvitationInvalid](-invitation-invalid/index.html) |
+| [ClientVersionTooOld](-client-version-too-old/index.html) |
+| [UnexpectedError](-unexpected-error/index.html) |
 

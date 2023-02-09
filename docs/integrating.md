@@ -23,7 +23,7 @@ Add `streem-sdk` to your dependencies in your module `build.gradle` file:
 ```gradle
 dependencies {
     ...
-    implementation "pro.streem:streem-sdk:0.25.2"
+    implementation "pro.streem:streem-sdk:0.26.0"
     ...
 }
 ```
@@ -98,6 +98,27 @@ class MyApplication : Application() {
         private const val MY_APP_ID = "APP_ID"
     }
 }
+```
+
+### Setting your app theme (optional)
+
+With the 0.26.0 release of our SDK you can now specify your app's theme with an AppTheme object.
+To do so, ensure that you have already initialized Streem and then set your app theme as you see in the examples here.
+Currently, the AppTheme object has a `primaryColor` parameter which should be set as a string version of the hex value
+of your primary color (including '#') (see examples below)
+
+Java:
+
+```java
+    AppTheme myAppTheme = new Streem.AppTheme("#F44336");
+    Streem.get().appTheme = myAppTheme;
+```
+
+Kotlin:
+
+```kotlin
+    val myAppTheme = Streem.AppTheme(primaryColor = "#F44336")
+    Streem.get().appTheme = myAppTheme
 ```
 
 ### Permissions

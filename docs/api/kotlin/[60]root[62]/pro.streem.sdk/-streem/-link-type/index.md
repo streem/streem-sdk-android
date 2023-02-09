@@ -19,7 +19,7 @@ sealed class [LinkType](index.html)
 
 | Name | Summary |
 |---|---|
-| [Invitation](-invitation/index.html) | [androidJvm]<br>data class [Invitation](-invitation/index.html)(companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.LinkType](index.html) |
+| [Invitation](-invitation/index.html) | [androidJvm]<br>data class [Invitation](-invitation/index.html)(val companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.LinkType](index.html) |
 
 
 ## Inheritors
@@ -27,5 +27,5 @@ sealed class [LinkType](index.html)
 
 | Name |
 |---|
-| [Streem.LinkType](-invitation/index.html) |
+| [Invitation](-invitation/index.html) |
 

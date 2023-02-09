@@ -18,14 +18,14 @@ The call was not answered within the timeout period.
 
 
 
-## See also
+#### See also
 
 
 androidJvm
 
-| | |
-|---|---|
-| [pro.streem.sdk.Streem](../get-exit-code.html) |  |
+| |
+|---|
+| [Streem.getExitCode](../get-exit-code.html) |
 
 
 

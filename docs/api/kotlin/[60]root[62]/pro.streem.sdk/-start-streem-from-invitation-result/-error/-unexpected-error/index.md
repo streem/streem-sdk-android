@@ -10,8 +10,16 @@ title: UnexpectedError
 
 
 [androidJvm]\
-class [UnexpectedError](index.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?, error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)?) : [StartStreemFromInvitationResult.Error](../index.html)
+class [UnexpectedError](index.html)(val joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?, val error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)?) : [StartStreemFromInvitationResult.Error](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [UnexpectedError](-unexpected-error.html) | [androidJvm]<br>fun [UnexpectedError](-unexpected-error.html)(joinedCallTime: [Date](https://developer.android.com/reference/kotlin/java/util/Date.html)?, error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)?) |
 
 
 ## Properties

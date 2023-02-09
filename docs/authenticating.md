@@ -116,7 +116,7 @@ if (Streem.get().parseUri(uri) is Streem.LinkType.Invitation) {
 }
 ```
 
-### Logging in with a Streem Token
+### Logging in with an SDK Token
 
 If you are embedding the Streem SDK inside an app that already implements user authentication, then along with your normal authentication flow your server will use one of our Server Side SDK's to obtain a Streem Token.
 

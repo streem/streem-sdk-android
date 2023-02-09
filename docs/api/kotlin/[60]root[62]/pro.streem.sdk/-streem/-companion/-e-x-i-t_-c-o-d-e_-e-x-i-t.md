@@ -14,18 +14,18 @@ const val [EXIT_CODE_EXIT](-e-x-i-t_-c-o-d-e_-e-x-i-t.html): [String](https://ko
 
 
 
-The user exited the Streem experience using the "Exit" button.
+The user exited the Streem experience using the &quot;Exit&quot; button.
 
 
 
-## See also
+#### See also
 
 
 androidJvm
 
-| | |
-|---|---|
-| [pro.streem.sdk.Streem](../get-exit-code.html) |  |
+| |
+|---|
+| [Streem.getExitCode](../get-exit-code.html) |
 
 
 

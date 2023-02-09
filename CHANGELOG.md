@@ -1,3 +1,13 @@
+### v0.26.0 - February 7, 2023
+
+-   You will need to update your application's compileSdkVersion to at least 32, because of update to androidx.appcompat version 1.5.1.
+-   Added the ability to set an app theme (see [ReadMe](./docs/integrating.md#setting-your-app-theme-optional))
+-   Added support for expert bios in the lobby
+-   Removed support for AR, including ARCore, Sceneform, and all transitive dependencies
+-   Added support for integrationId for any call
+-   Updated Lottie version from 3.6.0 to 5.1.1
+-   Various stability upgrades and bug fixes
+
 ### v0.25.2 - November 4, 2022
 
 -   Updated lobby to access user information given an external user id

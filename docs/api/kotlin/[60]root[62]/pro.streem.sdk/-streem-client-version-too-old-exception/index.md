@@ -14,6 +14,14 @@ class [StreemClientVersionTooOldException](index.html) : [Exception](https://dev
 
 
 
+## Constructors
+
+
+| | |
+|---|---|
+| [StreemClientVersionTooOldException](-streem-client-version-too-old-exception.html) | [androidJvm]<br>fun [StreemClientVersionTooOldException](-streem-client-version-too-old-exception.html)() |
+
+
 ## Functions
 
 

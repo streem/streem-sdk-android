@@ -18,14 +18,14 @@ Exit code (as a string) from the Streem experience.
 
 
 
-## See also
+#### See also
 
 
 androidJvm
 
-| | |
-|---|---|
-| [pro.streem.sdk.Streem](../get-exit-code.html) |  |
+| |
+|---|
+| [Streem.getExitCode](../get-exit-code.html) |
 
 
 

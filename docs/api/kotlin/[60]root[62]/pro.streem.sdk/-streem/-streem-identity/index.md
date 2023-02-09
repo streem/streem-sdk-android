@@ -10,8 +10,16 @@ title: StreemIdentity
 
 
 [androidJvm]\
-data class [StreemIdentity](index.html)(name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companySid: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companyName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), isExpert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html))
+data class [StreemIdentity](index.html)(val name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val companySid: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val companyName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, val avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val isExpert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html))
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [StreemIdentity](-streem-identity.html) | [androidJvm]<br>fun [StreemIdentity](-streem-identity.html)(name: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companySid: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), companyName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?, avatarUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), isExpert: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)) |
 
 
 ## Properties

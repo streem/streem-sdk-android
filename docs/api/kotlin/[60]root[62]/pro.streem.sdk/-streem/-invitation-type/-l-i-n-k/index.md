@@ -10,7 +10,7 @@ title: LINK
 
 
 [androidJvm]\
-[LINK](index.html)()
+[LINK](index.html)
 
 
 
@@ -19,6 +19,6 @@ title: LINK
 
 | Name | Summary |
 |---|---|
-| [name](index.html#-372974862%2FProperties%2F1719228252) | [androidJvm]<br>val [name](index.html#-372974862%2FProperties%2F1719228252): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
-| [ordinal](index.html#-739389684%2FProperties%2F1719228252) | [androidJvm]<br>val [ordinal](index.html#-739389684%2FProperties%2F1719228252): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
+| [name](../-p-h-o-n-e/index.html#-372974862%2FProperties%2F1719228252) | [androidJvm]<br>val [name](../-p-h-o-n-e/index.html#-372974862%2FProperties%2F1719228252): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html) |
+| [ordinal](../-p-h-o-n-e/index.html#-739389684%2FProperties%2F1719228252) | [androidJvm]<br>val [ordinal](../-p-h-o-n-e/index.html#-739389684%2FProperties%2F1719228252): [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html) |
 

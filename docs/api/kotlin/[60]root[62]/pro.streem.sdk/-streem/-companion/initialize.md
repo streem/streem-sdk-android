@@ -22,7 +22,7 @@ fun [initialize](initialize.html)(configuration: [Streem.Configuration](../-conf
 
 
 
-Initializes the Streem SDK. Should be called in the Application's onCreate method.
+Initializes the Streem SDK. Should be called in the Application's `onCreate` method.
 
 
 

@@ -14,4 +14,15 @@ val [appId](app-id.html): [CharSequence](https://kotlinlang.org/api/latest/jvm/s
 
 
 
+#### Parameters
+
+
+androidJvm
+
+| | |
+|---|---|
+| appId | application's ID provided by Streem. |
+
+
+
 

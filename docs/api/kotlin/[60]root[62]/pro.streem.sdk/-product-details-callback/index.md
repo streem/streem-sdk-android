@@ -14,6 +14,14 @@ class [ProductDetailsCallback](index.html)(productDetailsFragment: [Fragment](ht
 
 
 
+## Constructors
+
+
+| | |
+|---|---|
+| [ProductDetailsCallback](-product-details-callback.html) | [androidJvm]<br>fun [ProductDetailsCallback](-product-details-callback.html)(productDetailsFragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html)) |
+
+
 ## Functions
 
 

@@ -14,11 +14,11 @@ abstract fun [getSupportedCountries](get-supported-countries.html)(resultCallbac
 
 
 
-Returns a list of countries supported by the Streem service. Typically this is used before calling [createInvitation](create-invitation.html) when submitting a phone param, which must include a country code. First call [getSupportedCountries](get-supported-countries.html), then use the countries list to populate a form field for country code, and/or validate user-entered phone numbers before submitting them phone number to [createInvitation](create-invitation.html).
+Returns a list of countries supported by the Streem service. Typically this is used before calling [createInvitation](create-invitation.html) when submitting a `phone` param, which must include a country code. First call [getSupportedCountries](get-supported-countries.html), then use the countries list to populate a form field for country code, and/or validate user-entered phone numbers before submitting them phone number to [createInvitation](create-invitation.html).
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm

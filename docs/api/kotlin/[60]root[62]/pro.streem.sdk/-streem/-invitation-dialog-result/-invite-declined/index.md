@@ -10,8 +10,16 @@ title: InviteDeclined
 
 
 [androidJvm]\
-class [InviteDeclined](index.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.html)
+class [InviteDeclined](index.html)(val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.InvitationDialogResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [InviteDeclined](-invite-declined.html) | [androidJvm]<br>fun [InviteDeclined](-invite-declined.html)(invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 
 
 ## Properties

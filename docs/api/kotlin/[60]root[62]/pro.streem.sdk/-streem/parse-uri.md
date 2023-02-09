@@ -22,7 +22,7 @@ Determines if a [uri](parse-uri.html) targets Streem and returns the relevant [L
 
 
 
-linkType of uri passed in. null if Uri is null or Uri does not target Streem.
+linkType of uri passed in. `null` if Uri is `null` or Uri does not target Streem.
 
 
 

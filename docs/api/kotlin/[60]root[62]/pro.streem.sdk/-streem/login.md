@@ -18,7 +18,7 @@ Logs in the current user to the Streem SDK. New users are automatically provisio
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm
@@ -41,7 +41,7 @@ Logs in the user invited via the invitation Uri and passes back invitation detai
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm
@@ -65,7 +65,7 @@ Logs in the user invited via the invitation code and passes back invitation deta
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm

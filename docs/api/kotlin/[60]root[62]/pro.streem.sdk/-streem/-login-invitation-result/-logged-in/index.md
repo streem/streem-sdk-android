@@ -10,8 +10,16 @@ title: LoggedIn
 
 
 [androidJvm]\
-data class [LoggedIn](index.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) : [Streem.LoginInvitationResult](../index.html)
+data class [LoggedIn](index.html)(val invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) : [Streem.LoginInvitationResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [LoggedIn](-logged-in.html) | [androidJvm]<br>fun [LoggedIn](-logged-in.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) |
 
 
 ## Properties

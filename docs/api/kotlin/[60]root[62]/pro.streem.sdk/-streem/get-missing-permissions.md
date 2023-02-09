@@ -18,7 +18,7 @@ Returns a list of the permissions required to use the Streem SDK that are not pr
 
 
 
-## Parameters
+#### Parameters
 
 
 androidJvm

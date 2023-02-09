@@ -20,7 +20,7 @@ sealed class [Error](index.html) : [Streem.LoginCompletionResult](../index.html)
 | Name | Summary |
 |---|---|
 | [ClientVersionTooOld](-client-version-too-old/index.html) | [androidJvm]<br>object [ClientVersionTooOld](-client-version-too-old/index.html) : [Streem.LoginCompletionResult.Error](index.html) |
-| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](index.html) |
+| [UnexpectedError](-unexpected-error/index.html) | [androidJvm]<br>data class [UnexpectedError](-unexpected-error/index.html)(val error: [Throwable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-throwable/index.html)) : [Streem.LoginCompletionResult.Error](index.html) |
 
 
 ## Inheritors
@@ -28,6 +28,6 @@ sealed class [Error](index.html) : [Streem.LoginCompletionResult](../index.html)
 
 | Name |
 |---|
-| [Streem.LoginCompletionResult.Error](-client-version-too-old/index.html) |
-| [Streem.LoginCompletionResult.Error](-unexpected-error/index.html) |
+| [ClientVersionTooOld](-client-version-too-old/index.html) |
+| [UnexpectedError](-unexpected-error/index.html) |
 

@@ -10,8 +10,16 @@ title: Invitation
 
 
 [androidJvm]\
-data class [Invitation](index.html)(companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.LinkType](../index.html)
+data class [Invitation](index.html)(val companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) : [Streem.LinkType](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [Invitation](-invitation.html) | [androidJvm]<br>fun [Invitation](-invitation.html)(companyCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), invitationCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 
 
 ## Properties

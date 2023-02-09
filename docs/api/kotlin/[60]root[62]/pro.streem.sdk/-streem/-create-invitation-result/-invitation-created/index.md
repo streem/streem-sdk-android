@@ -10,8 +10,16 @@ title: InvitationCreated
 
 
 [androidJvm]\
-data class [InvitationCreated](index.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) : [Streem.CreateInvitationResult](../index.html)
+data class [InvitationCreated](index.html)(val invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) : [Streem.CreateInvitationResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [InvitationCreated](-invitation-created.html) | [androidJvm]<br>fun [InvitationCreated](-invitation-created.html)(invitation: [Streem.StreemInvitation](../../-streem-invitation/index.html)) |
 
 
 ## Properties

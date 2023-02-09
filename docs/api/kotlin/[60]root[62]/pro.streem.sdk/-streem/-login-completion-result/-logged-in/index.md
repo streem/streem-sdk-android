@@ -10,8 +10,16 @@ title: LoggedIn
 
 
 [androidJvm]\
-data class [LoggedIn](index.html)(user: [Streem.StreemIdentity](../../-streem-identity/index.html)) : [Streem.LoginCompletionResult](../index.html)
+data class [LoggedIn](index.html)(val user: [Streem.StreemIdentity](../../-streem-identity/index.html)) : [Streem.LoginCompletionResult](../index.html)
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [LoggedIn](-logged-in.html) | [androidJvm]<br>fun [LoggedIn](-logged-in.html)(user: [Streem.StreemIdentity](../../-streem-identity/index.html)) |
 
 
 ## Properties

@@ -10,8 +10,16 @@ title: Country
 
 
 [androidJvm]\
-data class [Country](index.html)(callingCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), isoCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), countryName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
+data class [Country](index.html)(val callingCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val isoCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), val countryName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
 
+
+
+## Constructors
+
+
+| | |
+|---|---|
+| [Country](-country.html) | [androidJvm]<br>fun [Country](-country.html)(callingCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), isoCode: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), countryName: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
 
 
 ## Properties
