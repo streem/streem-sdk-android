@@ -30,6 +30,7 @@ object [Companion](index.html)
 | Name | Summary |
 |---|---|
 | [EXIT_CODE_CALL_REJECTED](-e-x-i-t_-c-o-d-e_-c-a-l-l_-r-e-j-e-c-t-e-d.html) | [androidJvm]<br>const val [EXIT_CODE_CALL_REJECTED](-e-x-i-t_-c-o-d-e_-c-a-l-l_-r-e-j-e-c-t-e-d.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The call did not connect because it was rejected by the remote user. |
+| [EXIT_CODE_CANCELED](-e-x-i-t_-c-o-d-e_-c-a-n-c-e-l-e-d.html) | [androidJvm]<br>const val [EXIT_CODE_CANCELED](-e-x-i-t_-c-o-d-e_-c-a-n-c-e-l-e-d.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The call was ended by the local user before the remote user answered. |
 | [EXIT_CODE_ERROR](-e-x-i-t_-c-o-d-e_-e-r-r-o-r.html) | [androidJvm]<br>const val [EXIT_CODE_ERROR](-e-x-i-t_-c-o-d-e_-e-r-r-o-r.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>There was an unexpected error. |
 | [EXIT_CODE_EXIT](-e-x-i-t_-c-o-d-e_-e-x-i-t.html) | [androidJvm]<br>const val [EXIT_CODE_EXIT](-e-x-i-t_-c-o-d-e_-e-x-i-t.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The user exited the Streem experience using the &quot;Exit&quot; button. |
 | [EXIT_CODE_HELP](-e-x-i-t_-c-o-d-e_-h-e-l-p.html) | [androidJvm]<br>const val [EXIT_CODE_HELP](-e-x-i-t_-c-o-d-e_-h-e-l-p.html): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)<br>The user exited the Streem experience using the &quot;Help&quot; button. |

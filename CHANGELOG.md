@@ -1,3 +1,10 @@
+### v0.26.1 - March 13, 2023
+
+-   Addition of EXIT_CODE_CANCELED to capture the situation when a user cancels the call before an expert answers
+-   Added logs for call quality statistics
+-   Update Twilio Video SDK version to 7.3.1
+-   Various stability upgrades and bug fixes
+
 ### v0.26.0 - February 7, 2023
 
 -   You will need to update your application's compileSdkVersion to at least 32, because of update to androidx.appcompat version 1.5.1.
