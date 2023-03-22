@@ -1,3 +1,9 @@
+### v0.26.2 - March 22, 2023
+
+-   Fixed bug where Android user could not exit call if network connection was lost
+-   Fixed race condition occurring when starting a call
+-   Updated logs
+
 ### v0.26.1 - March 13, 2023
 
 -   Addition of EXIT_CODE_CANCELED to capture the situation when a user cancels the call before an expert answers
