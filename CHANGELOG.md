@@ -1,3 +1,7 @@
+### v0.26.3 - March 31, 2023
+
+-   Hotfix to fix end of call crash with lobby camera setup
+
 ### v0.26.2 - March 22, 2023
 
 -   Fixed bug where Android user could not exit call if network connection was lost
