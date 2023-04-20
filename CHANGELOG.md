@@ -1,3 +1,8 @@
+### v0.27.0 - April 20, 2023
+
+-   Update logs to properly log call end reason and log roomId correctly in context
+-   Add support for flashlight when world facing camera is active
+
 ### v0.26.3 - March 31, 2023
 
 -   Hotfix to fix end of call crash with lobby camera setup
