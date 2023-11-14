@@ -88,8 +88,10 @@ $dokka.location:pro.streem.sdk/Streem.Environment.Companion/DEV/#/PointingToDecl
 $dokka.location:pro.streem.sdk/Streem.Environment.Companion/PROD_CA/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-companion/-p-r-o-d_-c-a.html
 $dokka.location:pro.streem.sdk/Streem.Environment.Companion/PROD_US/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-companion/-p-r-o-d_-u-s.html
 $dokka.location:pro.streem.sdk/Streem.Environment.Companion/SANDBOX/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-companion/-s-a-n-d-b-o-x.html
+$dokka.location:pro.streem.sdk/Streem.Environment.Companion/SPECIAL_PROJECTS/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-companion/-s-p-e-c-i-a-l_-p-r-o-j-e-c-t-s.html
 $dokka.location:pro.streem.sdk/Streem.Environment.Companion/STAGING/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-companion/-s-t-a-g-i-n-g.html
 $dokka.location:pro.streem.sdk/Streem.Environment///PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/index.html
+$dokka.location:pro.streem.sdk/Streem.Environment/Environment/#kotlin.String#kotlin.String?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-environment.html
 $dokka.location:pro.streem.sdk/Streem.Environment/Environment/#kotlin.String/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/-environment.html
 $dokka.location:pro.streem.sdk/Streem.Environment/equals/#kotlin.Any?/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/equals.html
 $dokka.location:pro.streem.sdk/Streem.Environment/hashCode/#/PointingToDeclaration/[60]root[62]/pro.streem.sdk/-streem/-environment/hash-code.html

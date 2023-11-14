@@ -20,6 +20,7 @@ class [Environment](index.html)
 | | |
 |---|---|
 | [Environment](-environment.html) | [androidJvm]<br>fun [Environment](-environment.html)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)) |
+| [Environment](-environment.html) | [androidJvm]<br>fun [Environment](-environment.html)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), altDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?) |
 
 
 ## Types

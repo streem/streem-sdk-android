@@ -1,3 +1,12 @@
+### v0.28.0 - November 14, 2023
+
+-   Added more robust logs for any button taps
+-   Added wall items to support sharing call connectivity type, battery level, and device type
+
+### v0.27.1 - May 1, 2023
+
+-   Updated URL for accessing Streem REST API
+
 ### v0.27.0 - April 20, 2023
 
 -   Update logs to properly log call end reason and log roomId correctly in context

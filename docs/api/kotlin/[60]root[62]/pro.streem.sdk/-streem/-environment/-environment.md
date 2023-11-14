@@ -12,6 +12,8 @@ title: Environment
 [androidJvm]\
 fun [Environment](-environment.html)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
 
+fun [Environment](-environment.html)(domain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), altDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)?)
+
 
 
 
